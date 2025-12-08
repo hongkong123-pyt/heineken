@@ -30024,16 +30024,6 @@
       "answer": "3 minutes."
     },
     {
-      "question": "Using the Basic Fuel/Energy Procedure with Variations, what is the minimum reduced contingency fuel that should be uplifted using the RCF 2 procedure? Cruise fuel consumption = 2400 kg/hr Hold fuel consumption = 1800 kg/hr Flight time = 4 hours",
-      "choices": [
-        "288 kg",
-        "1088 kg",
-        "150 kg",
-        "800 kg"
-      ],
-      "answer": "800 kg"
-    },
-    {
       "question": "What does the abbreviation MOPSC refer to?",
       "choices": [
         "Maximum operational passenger seating configuration",
@@ -31001,7 +30991,7 @@
         "4",
         "2"
       ],
-      "answer": ""
+      "answer": "1"
     },
     {
       "question": "A pilot working for a CAT operator has performed 105 duty hours in the last 13 consecutive days. On the 14th day, the operator's crewing department calls, asking the pilot to operate a flight with a total duty of 8 hours later that same day. According to the EU-OPS regulations, what is the correct decision?",
@@ -35487,6 +35477,16 @@
         "355 lbs"
       ],
       "answer": "255 lbs"
+    },
+    {
+      "question": "Using the Basic Fuel/Energy Procedure with Variations, what is the minimum reduced contingency fuel that should be uplifted using the RCF 2 procedure? Cruise fuel consumption = 2400 kg/hr Hold fuel consumption = 1800 kg/hr Flight time = 4 hours",
+      "choices": [
+        "288 kg",
+        "1088 kg",
+        "150 kg",
+        "800 kg"
+      ],
+      "answer": "800 kg"
     },
     {
       "question": "Refer to figure or CAP 697 Figure 4.5.3.2 for Pressure Altitude 35 000. What will be the change in air range available from 1000 kg of fuel for the following situation if the OAT increases from -55\u00b0 to -45\u00b0C? Aircraft mass at start of cruise leg: 50 000 kg, Cruise level: FL350, Cruise speed: Mach 0.74, Forecast OAT at FL350: -55\u00b0C, Wind component at FL350: -25 kt",
