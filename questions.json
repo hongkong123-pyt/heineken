@@ -31617,6 +31617,328 @@
       "answer": "1.05"
     }
   ],
+  "PER ST2": [
+    {
+      "question": "The screen height, for a class A aircraft, for take-off from a dry runway is __________ ft.",
+      "choices": [
+        "50",
+        "15",
+        "35",
+        "100"
+      ],
+      "answer": "35"
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.28. Determine the runway length limiting landing mass at an aerodrome with a pressure altitude of 2000 ft, with 7250 ft runway length available, wind calm, runway wet and flaps 40\u00b0, anti-skid operative.",
+      "choices": [
+        "53 600 kg.",
+        "63 600 kg.",
+        "61 500 kg.",
+        "67 000 kg."
+      ],
+      "answer": "63 600 kg."
+    },
+    {
+      "question": "The landing distance available is best described as:",
+      "choices": [
+        "The distance between the point of touch down on the runway and the point on the runway where the aeroplane has come to a complete stop.",
+        "The length of the runway from threshold to threshold.",
+        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point...",
+        "The runway plus the clearway."
+      ],
+      "answer": "The length of the runway from threshold to threshold."
+    },
+    {
+      "question": "For a turbojet engine, SFC is lowest (best) when:",
+      "choices": [
+        "The aircraft is flying at VMD.",
+        "The engine is running at its design RPM (approximately 90 to 95% maximum).",
+        "The engine is running at VMP.",
+        "The air temperature is high."
+      ],
+      "answer": "The engine is running at its design RPM (approximately 90 to 95% maximum)."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.9. For a multi-engine piston aeroplane, calculate the maximum landing mass given the following conditions: Temperature: 10\u00b0C Pressure altitude: 2000 ft LDA: 2600 ft Headwind: 14 kt",
+      "choices": [
+        "2750 lb",
+        "3600 lb",
+        "3350 lb",
+        "3000 lb"
+      ],
+      "answer": "3350 lb"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.7. Why is wind omitted from the graph?",
+      "choices": [
+        "Wind is automatically incorporated into the graph.",
+        "Wind is only considered when climbing in certain directions.",
+        "The data is measured with reference to the air.",
+        "The data is measured with reference to the ground."
+      ],
+      "answer": "The data is measured with reference to the air."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.31. Using the environmental data below and the attached figure, calculate whether a brake cooling period is required following a rejected take-off: Takeoff mass: 61 300 kg Elevation: 2000 ft OAT: +34\u00b0C Wind: calm Abort speed: 80 kt",
+      "choices": [
+        "Cooling is required and it will require approximately 45 min to achieve this.",
+        "Cooling is required and it will require approximately 30 min to achieve this.",
+        "Cooling is not required, reverse thrust is considered to have been used for rejected takeoff purposes.",
+        "Cooling is required, it will require approximately 25 min to achieve this."
+      ],
+      "answer": "Cooling is required and it will require approximately 45 min to achieve this."
+    },
+    {
+      "question": "With regard to the effect of altitude on the speed for maximum endurance for a propeller-driven aeroplane, as altitude increases, the speed for maximum endurance will:",
+      "choices": [
+        "decrease, because the power required decreases with altitude.",
+        "increase, because the power required increases with altitude.",
+        "decrease, because aeroplane drag decreases with altitude.",
+        "increase, because aeroplane drag increases with altitude."
+      ],
+      "answer": "increase, because the power required increases with altitude."
+    },
+    {
+      "question": "Which statement about the clearway is correct?",
+      "choices": [
+        "Minimum semi-width is 90m.",
+        "Minimum clearway gradient is 1.5%",
+        "The clearway is part of ASDA.",
+        "The airport authority has control over the clearway."
+      ],
+      "answer": "The airport authority has control over the clearway."
+    },
+    {
+      "question": "When carrying out the increased V2 take-off procedure what is the effect on the screen height?",
+      "choices": [
+        "The screen height varies proportionally with the increase in V2.",
+        "Remains constant.",
+        "Decreases to 35ft.",
+        "Increases to 50ft."
+     ],
+     "answer": "Remains constant."
+    },  
+    {
+      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: ...",
+      "choices": [
+        "2, 3, 6 , 9.",
+        "1, 4, 6, 9.",
+        "1, 5, 8, 10.",
+        "1, 4, 5, 10."
+      ],
+      "answer": "1, 4, 6, 9."
+    },
+    {
+      "question": "The intersections of the thrust available and the drag curve are the operating points of the aeroplane:",
+      "choices": [
+        "In unaccelerated level flight.",
+        "In accelerated level flight.",
+        "In descent with constant IAS.",
+        "In unaccelerated climb."
+      ],
+      "answer": "In unaccelerated level flight."
+    },
+    {
+      "question": "When descending after an engine failure in the cruise, the correct speed is?",
+      "choices": [
+        "Best ROC speed and add flap.",
+        "VMD and add flap.",
+        "Maximum L/D ratio and jettison fuel.",
+        "Stall speed and jettison fuel."
+      ],
+      "answer": "Maximum L/D ratio and jettison fuel."
+    },
+    {
+      "question": "What is the maximum semi-width of the obstacle domain for an aircraft of wingspan 52 m that can maintain navigational accuracy and is not required to turn more than 15\u00b0 after take-off. The obstacle is 2200 m from the end of TODA.",
+      "choices": [
+        "365 m",
+        "361 m",
+        "600 m",
+        "300 m"
+      ],
+      "answer": "300 m"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.2. Given: OAT: 20\u00b0C Pressure Altitude: 2000 ft RWY: 24L Wind: 120\u00b0/8 kts Take-off Mass: 4500 lbs Heavy Duty Brakes: installed Other conditions as associated in the header of the chart. What is the Accelerate and Stop Distance under the conditions given?",
+      "choices": [
+        "3400 ft",
+        "3600 ft",
+        "4200 ft",
+        "4500 ft"
+      ],
+      "answer": "4200 ft"
+    },
+    {
+      "question": "Which factor must be applied, if not stated differently in AFM, for a Performance Class B aeroplane when taking-off on a runway with 1% upslope?",
+      "choices": [
+        "1",
+        "1.1",
+        "0.95",
+        "1.05"
+      ],
+      "answer": "1.05"
+    },
+    {
+      "question": "For a Performance Class B, multi-engined aeroplane, in order to eliminate any problems associated with a critical engine failure:",
+      "choices": [
+        "engines are mounted away from the aeroplane's centreline.",
+        "propellers with a minimum of three blades are used.",
+        "counter rotating propellers are installed.",
+        "all propellers turn ln the same direction."
+      ],
+      "answer": "counter rotating propellers are installed."
+    },
+    {
+      "question": "The maximum operating Mach number is known as __________.",
+      "choices": [
+        "VMO",
+        "MMO",
+        "VNE",
+        "VFE"
+      ],
+      "answer": "MMO"
+    },
+    {
+      "question": "Endurance is maximised when the fuel flow is __________.",
+      "choices": [
+        "maximised",
+        "minimised",
+        "constant",
+        "variable"
+      ],
+      "answer": "minimised"
+    },
+    {
+      "question": "In the cruise, optimum range and endurance is most likely to be achieved when the CG position is slightly __________.",
+      "choices": [
+        "forward",
+        "aft",
+        "neutral",
+        "at the limit"
+      ],
+      "answer": "aft"
+    },
+    {
+      "question": "Take-off on a runway with standing water, with a depth of 0.5 cm, compared to a dry runway, field length limited mass will:",
+      "choices": [
+        "Increase, with a reduced V1.",
+        "Remain the same, with a reduced V1.",
+        "Decrease, with a decreased V1.",
+        "Decrease, with an increased V1."
+      ],
+      "answer": "Increase, with a reduced V1."
+    },
+    {
+      "question": "A measured surface friction value of __________ equates to 'good'. Any value less than __________ equates to 'poor'.",
+      "choices": [
+        "0.4; 0.5",
+        "0.5; 0.25",
+        "0.5; 0.5",
+        "0.4; 0.25"
+      ],
+      "answer": "0.4; 0.25"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.28. Given: Airport PA: 1800 ft Runway: dry Field length: 1600 m Headwind: 20 kt Flaps: 30\u00b0 Automatic spoilers and anti-skid: operative Find the field length limit mass:",
+      "choices": [
+        "47 000 kg",
+        "58 000 kg",
+        "52 000 kg",
+        "60 000 kg"
+      ],
+      "answer": "58 000 kg"
+    },
+    {
+      "question": "The speed at which the pilot starts to apply back pressure to initiate rotation on take-off is:",
+      "choices": [
+        "VR",
+        "VSR0",
+        "VREF",
+        "V1"
+      ],
+      "answer": "VR"
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the distance to a height of 50 ft given: OAT+38\u00b0C Pressure altitude: 4000 ft QNH 973 hPa Mass 3400 lbs Tailwind 5 kt Flaps at Approach Firm, dry grass runway.",
+      "choices": [
+        "1700 ft.",
+        "4050 ft.",
+        "3900 ft.",
+        "3250 ft."
+      ],
+      "answer": "3900 ft."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the distance to a height of 50 ft given: OAT-7\u00b0C Pressure altitude: 5800 ft QNH 973 hPa Mass 2950 lbs Headwind 5 kt Flaps up Runway dry.",
+      "choices": [
+        "1750 ft.",
+        "1000 ft.",
+        "2050 ft.",
+        "1900 ft."
+      ],
+      "answer": "1750 ft."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the required headwind given: OAT+20\u00b0C Pressure altitude: sea level QNH 973 hPa TODA 1700 ft Mass 3450 lbs Flaps approach Dry asphalt runway",
+      "choices": [
+        "20 ft.",
+        "26 kt.",
+        "10 ft.",
+        "14 ft."
+      ],
+      "answer": "26 kt."
+    },
+    {
+      "question": "The ratio of the vertical height lost divided by the horizontal distance flown over the ground is known as the _________ gradient.",
+      "choices": [
+        "air",
+        "ground",
+        "descent",
+        "flight path"
+      ],
+      "answer": "ground"
+    },
+    {
+      "question": "Due to a pilot mistake, if on a particular flight the value of V1 used on take-off exceeds the correct value of V1, and an engine fails at a speed immediately above the correct value of V1 then:",
+      "choices": [
+        "The one-engine-inoperative take-off distance may exceed the take-off distance available.",
+        "It may lead to over-rotation.",
+        "V2 may be too high so that climb performance decreases.",
+        "The accelerate-stop distance will exceed the accelerate-stop distance available."
+      ],
+      "answer": "The accelerate-stop distance will exceed the accelerate-stop distance available."
+    },
+    {
+      "question": "What is the difference between climb angle and climb gradient?",
+      "choices": [
+        "The variation of the angle is represented by the gradient.",
+        "The gradient is based on mass, the angle is not.",
+        "The value of the gradient is always higher than the value of the angle.",
+        "The gradient considers wind, the angle does not."
+      ],
+      "answer": "The value of the gradient is always higher than the value of the angle."
+    },
+    {
+      "question": "Wet and contaminated runways increase the take-off distance because of the twin influences of displacement drag and __________ drag.",
+      "choices": [
+        "induced",
+        "impingement",
+        "stiction",
+        "parasite"
+      ],
+      "answer": "impingement"
+    },
+    {
+      "question": "What is the factor for Class A aeroplanes, when determining the take-off distance and when considering a take-off from a dry runway with all engines operating?",
+      "choices": [
+        "1.15",
+        "1",
+        "1.35",
+        "0.7"
+      ],
+      "answer": "1.15"
+    }
+  ],
   "PER": [
     {
       "question": "With reference to CAP 698 Figure 3.7. Why is wind omitted from the graph?",
@@ -34794,12 +35116,12 @@
     {
       "question": "With reference to CAP 698 Figure 3.9. For a multi-engine piston aeroplane, calculate the maximum landing mass given the following conditions: Temperature: 10\u00b0C Pressure altitude: 2000 ft LDA: 2600 ft Headwind: 14 kt",
       "choices": [
-        "2750 Ib",
+        "2750 lb",
         "3600 lb",
-        "3350 Ib",
-        "3000 Ib"
+        "3350 lb",
+        "3000 lb"
       ],
-      "answer": "3350 Ib"
+      "answer": "3350 lb"
     },
     {
       "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. What is the FLL limited landing mass for a commercial MEP 1 flight given the following conditions: Pressure altitude sea level; OAT 0\u00b0C; LDA 2430 ft; 15 kt headwind on a dry runway.",
