@@ -26802,6 +26802,36 @@
       "answer": "1.28 m\u00b2"
     },
     {
+      "question": "What are the advantages of using the index method to determine moments? It:",
+      "choices": [
+        "Reduces the magnitude of moments, making it less time-consuming to compute.",
+        "Regroups different loading zones in single indexes, reducing the complexity of the load and trim sheet.",
+        "Is digitalised and can be automatically uploaded to the aircraft FMC to determine stabiliser trim.",
+        "Directly produces the position of the CG and the stabiliser trim setting."
+      ],
+      "answer": "Reduces the magnitude of moments, making it less time-consuming to compute."
+    },
+    {
+      "question": "An aircraft with a two wheel nose gear and four main wheels rests on the ground with a single nose wheel load of 7250 N and a single main wheel load of 60 000 N. The distance between the nose wheels and the main wheels is 10 metres. How far is the Centre of Gravity in front of the main wheels?",
+      "choices": [
+        "108 cm.",
+        "57 cm.",
+        "93 cm.",
+        "176 cm."
+      ],
+      "answer": "57 cm."
+    },
+    {
+      "question": "Determine the length of the MAC, given: Leading edge at wing root: STA 235; Trailing edge at wing root: STA 250; Leading edge at wing tip: STA 148; Trailing edge at wing tip: STA 212; Leading edge of MAC: STA 192; Trailing edge of MAC: STA 224. Note: Body stations are distances from the aircraft nose in 10^-1 m.",
+      "choices": [
+        "150 cm",
+        "640 cm",
+        "400 cm",
+        "320 cm"
+      ],
+      "answer": "320 cm"
+    },
+    {
       "question": "Determine the Take-off Mass for the following single engine aeroplane. Given : Basic Empty Mass 1799 lb, Pilot + Front seat passenger 300 lb, Cargo Mass 350 lb, Ramp Fuel = Block Fuel 60 Gal, Trip Fuel 35 Gal, Fuel density 6 lb/Gal, Taxi Fuel 10 lb",
       "choices": [
         "2449 lb",
@@ -28342,6 +28372,16 @@
         "17 kg"
       ],
       "answer": "13 kg"
+    },
+    {
+      "question": "In mass and balance calculations the 'index' is:",
+      "choices": [
+        "An imaginary vertical plane or line from which all measurements are taken.",
+        "A location in the aeroplane identified by a number.",
+        "A figure without unit of measurement which represents a moment.",
+        "The range of moments the centre of gravity (cg) can have without making the aeroplane unsafe to fly."
+      ],
+      "answer": "A figure without unit of measurement which represents a moment."
     },
     {
       "question": "What is the Dry Operating Index (DOI)?",
