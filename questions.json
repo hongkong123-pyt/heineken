@@ -28966,12 +28966,12 @@
     {
       "question": "The Maximum Zero Fuel Mass (MZFM): 1. Is a regulatory limitation. 2. Is calculated for a maximum load factor of +3.5 g. 3. Is based on the maximum permissible bending moment at the wing root. 4. Is defined under the assumption that fuel is consumed from the outer wing tanks first. 5. Is defined under the assumption that fuel is consumed from the inner wing tanks first. Which combination of statements is correct?",
       "choices": [
-        "2004-02-03 00:00:00",
-        "2005-01-03 00:00:00",
-        "2005-02-03 00:00:00",
-        "2003-01-02 00:00:00"
+        "1, 2, 3",
+        "1, 3, 5",
+        "2, 3, 5",
+        "2, 3, 4"
       ],
-      "answer": "2005-01-03 00:00:00"
+      "answer": "1, 3, 5"
     },
     {
       "question": "For the MEP1 in CAP 696 the CG forward and aft limits at a mass of 3600 lb are respectively:",
