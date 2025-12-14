@@ -28964,16 +28964,6 @@
       "answer": "Basic equipment and accumulated effects of modifications and repairs."
     },
     {
-      "question": "The Maximum Zero Fuel Mass (MZFM): 1. Is a regulatory limitation. 2. Is calculated for a maximum load factor of +3.5 g. 3. Is based on the maximum permissible bending moment at the wing root. 4. Is defined under the assumption that fuel is consumed from the outer wing tanks first. 5. Is defined under the assumption that fuel is consumed from the inner wing tanks first. Which combination of statements is correct?",
-      "choices": [
-        "1, 2, 3",
-        "1, 3, 5",
-        "2, 3, 5",
-        "2, 3, 4"
-      ],
-      "answer": "1, 3, 5"
-    },
-    {
       "question": "For the MEP1 in CAP 696 the CG forward and aft limits at a mass of 3600 lb are respectively:",
       "choices": [
         "82.0 in to 94.6 in.",
@@ -35948,16 +35938,6 @@
       "answer": "66"
     },
     {
-      "question": "Refer to Cap 697 Figure 4.6.1 Given a trip distance of 500 miles 50 kf tailwind, max cruising level of FL160, standard day and an estimated landing weight of 50 000 kg, what is the trip fuel and time for a gear-down ferry flight?",
-      "choices": [
-        "5250 kg - 1hr 36 min",
-        "5350 kg - 1hr 26 min",
-        "5900 kg - 1hr 26 min",
-        "8900 kg - 2hr 24 min"
-      ],
-      "answer": "5250 kg - 1hr 36 min"
-    },
-    {
       "question": "Refer to CAP 697 Figure 4.6.1. Given a trip distance of 500 miles, 50 kt tailwind, max cruising level of FL160, standard day and an estimated landing weight of 50 000 kg, what is the trip fuel and time for a gear-down ferry flight?",
       "choices": [
         "8900 kg - 2hr 24 min",
@@ -36066,16 +36046,6 @@
         "14 000 kg, 5 hrs 35 min."
       ],
       "answer": "14 000 kg, 5 hrs 35 min."
-    },
-    {
-      "question": "Flight Planning Manual MRJT 1 Figure 4.3.5. What is the Trip Fuel? Given: Temperature ISA +15\u00b0C Brake release mass 62 000 kg Trip time 5 hrs 20 min",
-      "choices": [
-        "13 200 kg",
-        "13 500 kg",
-        "13 000 kg",
-        "13 800 kg"
-      ],
-      "answer": "13 500 kg"
     },
     {
       "question": "For pre-flight planning purposes what is the block fuel required? Assume the Basic Fuel Scheme WITHOUT variations applies. Taxi fuel: 350 kg, Trip fuel: 85 000 kg, Contingency fuel: 5% of the Trip fuel, Final reserve fuel: 3000 kg, Alternate fuel: 5500 kg, Discretionary fuel: 1500 kg, Extra fuel: 0 kg",
@@ -36732,16 +36702,6 @@
       "answer": "Daily from 04:00 to 22:00."
     },
     {
-      "question": "Given the following information, calculate the drift angle: TAS: 179 kt, Wind: 330\u00b0(M)/25 kt, VAR: 20\u00b0W, Course: 210\u00b0(M)",
-      "choices": [
-        "12\u00b0 Left",
-        "8\u00b0 Left",
-        "10\u00b0 Left",
-        "18\u00b0 Left"
-      ],
-      "answer": "8\u00b0 Left"
-    },
-    {
       "question": "Use Flight planning Manual SEP 1 Figure 2.2 Table 2.2.3 Using the Power Setting Table, for the single engine aeroplane, determine the cruise TAS and fuel flow (lbs/hr) with full throttle and cruise lean mixture in the following conditions: Given: OAT: 13\u00b0C, Pressure altitude: 8000 ft, RPM: 2300",
       "choices": [
         "158 kt and 74.4 lbs/hr",
@@ -36780,6 +36740,1400 @@
         "At 4000 ft AMSL you would be in class G airspace."
       ],
       "answer": "At 4000 ft AMSL you would be in class C airspace."
+    }
+  ],
+  "FPM Charts": [
+    {
+      "question": "Refer to GSPRM Jeppesen Plate AMSTERDAM (Schipol) 10-2B. You recover via MOLIX, LUTEX and ROBVI and then hold for 20 mins. Expected fuel state at SUGOL after 20 mins holding? Usable Fuel at MOLIX 380 lbs, GS = 103 kts, Fuel flow at SUGOL 215 lbs/h, Holding fuel flow 140 lbs/h",
+      "choices": [
+        "255 lbs",
+        "225 lbs",
+        "455 lbs",
+        "355 lbs"
+      ],
+      "answer": "255 lbs"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E(LO)1. Which of the following is a correctly specified navaid from which you can get a bearing at KIRKWALL (EGPA, N58\u00b058' W002\u00b054')?",
+      "choices": [
+        "VOR/DME KWL, 118.3 MHz",
+        "NDB KW, 395 kHz",
+        "VOR channel 58 - 47",
+        "VOR KW, 108.6 MHz"
+      ],
+      "answer": "NDB KW, 395 kHz"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E(LO)1. Which of the following is a correctly specified navaid from which you can get a bearing at KIRKWALL (EGPA, N58\u00b058' W002\u00b054')?",
+      "choices": [
+        "VOR/DME KWL, 118.3 MHz",
+        "NDB KW, 395 kHz",
+        "VOR channel 58 - 47",
+        "VOR KW, 108.6 MHz"
+      ],
+      "answer": "NDB KW, 395 kHz"
+    },
+    {
+      "question": "Refer to GSPRM Chart E (LO)2. What is the DME Frequency of Lelystad DME?",
+      "choices": [
+        "121.0 MHz",
+        "111.40 MHz",
+        "109.25 MHz",
+        "124.50 MHz"
+      ],
+      "answer": "111.40 MHz"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen ALICANTE (LEAL) charts 11-1, 11-2, 13-1 and 13-2. An aircraft ls planned to fly to Alicante Elche aerodrome (LEAL) with the following entry ln the tech log \"ADF inoperative due broken frequency selector parts ordered\". How will this affect the availability of approaches to Runway 10 at Alicante?",
+      "choices": [
+        "All given approaches are available as none of them are based on the Al NOB.",
+        "Both the VOR approaches are available. The ILS and LOC approaches are unavailable.",
+        "Only the VOR Z approach is available.",
+        "All given ILS and VOR approaches are available. The LOC A and LOC B approaches are unavailable."
+      ],
+      "answer": "Both the VOR approaches are available. The ILS and LOC approaches are unavailable."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen ALICANTE - Charts 13-3, 13-4 and 13-5. There is a NOTAM stating that ALTET VOR DME (ALT) is unserviceable at the time of arrival at ALICANTE. What VOR approaches are available from MAGAL to runway 28?",
+      "choices": [
+        "VOR X only",
+        "VOR X and Y",
+        "None of them",
+        "VOR Z"
+      ],
+      "answer": "VOR X only"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Charts E(LO)1 & E(LO)2. You are flying on airway N560 from RIMOL (N57\u00b032' W004\u00b003') to when 24 nm before GOW you are on radial:",
+      "choices": [
+        "190\u00b0 GOW",
+        "299\u00b0 GOW",
+        "038\u00b0 GOW",
+        "010\u00b0 GOW"
+      ],
+      "answer": "010\u00b0 GOW"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen STUTTGART (EDDS) charts 11-1 and 11-lA. An aircraft of approach category 'C' and approach capability LNAV/VNAV and CAT IIIB, expects to perform one of the two ILS approach procedures given onto Rwy 07 at Stuttgart airport (EDDS). What is the lowest RVR or minimum meteorological visibility required to commence any of the two approaches given?",
+      "choices": [
+        "An RVR of 300 m",
+        "A meteorological visibility of 550 m",
+        "An RVR of 200 m",
+        "An RVR of 550 m"
+      ],
+      "answer": "An RVR of 200 m"
+    },
+    {
+      "question": "Refer to Chart GSPRM E(LO) 1. You are flying from KIRKWALL (N59\u00b0 W003\u00b0) to ABERDEEN (N57\u00b020' W002\u00b015') via the airways. Which is your routing and tracks?",
+      "choices": [
+        "N560 198 then Y904 164\u00b0",
+        "N560 192\u00b0 then Y904 158\u00b0",
+        "N560 195\u00b0 then Y904 161\u00b0",
+        "DCT 169\u00b0"
+      ],
+      "answer": "N560 195\u00b0 then Y904 161\u00b0"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Alicante charts 10-3A. Using SID CATON 2C. What is the correct procedure?",
+      "choices": [
+        "3500 feet at D9.5. ALT not above FL80 at VILNA. Level at FL110 NARGO. FL230 at CATON.",
+        "5000 feet at D9.5. ALT not above FL70 at VILNA. Level at FL110 NARGO. FL290 at CATON.",
+        "3100 feet or higher at D9.5. FL80 or higher at VILNA. FL110 or higher at NARGO. Not above FL 230 at CATON.",
+        "Runway heading to 4500 ft. Above FL80 at VILNA. Above FL110 at NARGO. Not above FL230 at CATON."
+      ],
+      "answer": "3100 feet or higher at D9.5. FL80 or higher at VILNA. FL110 or higher at NARGO. Not above FL 230 at CATON."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Alicante 10-3A. Your departure is via CATON 3A and you are cleared to FL80. Due to a restriction you have to remain at 2000 FT until passing VOR/DME ALT. QNH is 1040 hPa, ROC is 800 Ft/min and GS is 133 KT. When are you going to reach the top of climb (ToC)?",
+      "choices": [
+        "1 NM After VILNA",
+        "4 NM After VILNA",
+        "1 NM before VILNA",
+        "4 NM Before VILNA"
+      ],
+      "answer": "1 NM before VILNA"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Charts Amsterdam 10-2, 10-2A, 10-2B, 10-2C. Flying from Paris approaching Amsterdam from the South, which STARS are appropriate?",
+      "choices": [
+        "DENUT 1A, HELEN 1A, PESAR 2A, PUTTY 1A (10 2A)",
+        "EELDE 1A&B, NORKU 2A&B REKKEN 2A&B, (10-2)",
+        "TOPPA 2A (10-2C)",
+        "LAMSO 2A, MOLIX 2A, REDFA 1A (10 2B)"
+      ],
+      "answer": "DENUT 1A, HELEN 1A, PESAR 2A, PUTTY 1A (10 2A)"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Alicante 11-2. You are arriving to the airport, but when you are about to land, the tailwind changes above limits. What do you do?",
+      "choices": [
+        "Continue to land as normal.",
+        "Carry out missed approach and circle South of the airport.",
+        "Divert.",
+        "Land with no flap."
+      ],
+      "answer": "Carry out missed approach and circle South of the airport."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)14. You are flying from Izmir, Turkey and are approaching Santorini, Greece along ATS route J62. The wind is from the south. Find the appropriate plates and identify the bearing and range from KORAX to SNI.",
+      "choices": [
+        "155\u00b0M - 9 nm",
+        "335\u00b0T - 9 nm",
+        "155\u00b0M - 9 km",
+        "335\u00b0M - 9 nm"
+      ],
+      "answer": "155\u00b0M - 9 nm"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Charts Alicante 10-2A, 10-2B, 10-2C, 10-2D. You are preparing for a flight from MANCHESTER to ALICANTE. To choose a likely STAR to ALICANTE, which of the following charts will you consider when choosing an arrival route to decide which STAR to load into your FMS route.",
+      "choices": [
+        "10-2D",
+        "10-2B",
+        "10-2C",
+        "10-2A"
+      ],
+      "answer": "10-2A"
+    },
+    {
+      "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden ((EDSB) N48\u00b046' E008\u00b006', what station and frequency should you contact for a flight information service on leaving Schw\u00e4bish Hall Information?",
+      "choices": [
+        "Langen Information 128.95 MHz",
+        "Stuttgart Tower 119.05 MHz",
+        "V\u00f6lkleshofen Lichtenberg 130.12 MHz",
+        "Schw\u00e4bish Hall 108.05 MHz"
+      ],
+      "answer": "Langen Information 128.95 MHz"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. What is the distance between MUNICH 112.30 MUN and WALDA 112.8 WLD?",
+      "choices": [
+        "67 NM",
+        "32 km",
+        "39 NM",
+        "67 km"
+      ],
+      "answer": "67 km"
+    },
+    {
+      "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden (EDSB) N48\u00b046' E008\u00b006', what is the flight time between the line features formed by the A81 and A8 autobahns (motorways)?",
+      "choices": [
+        "19 min",
+        "7.5 min",
+        "9 min",
+        "38 min"
+      ],
+      "answer": "9 min"
+    },
+    {
+      "question": "GSPRM - Friedrichshafen VFR 19-1 Following a take-off on RWY 24, what is the track and maximum altitude for a departure via visual reporting point NOVEMBER ?",
+      "choices": [
+        "127\u00b0 - 4500 ft",
+        "269\u00b0 - 2400 ft",
+        "300\u00b0 - 2591 ft",
+        "315\u00b0 - 3000 ft"
+      ],
+      "answer": "315\u00b0 - 3000 ft"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen VFR Chart ED-4. Find the highest obstacle or elevation, within a 10 NM wide corridor and considering a 5 NM radius around the aerodromes, when flying directly from Griesau (N48\u00b057', E12\u00b025') to Arnbruck (N49\u00b07', E12\u00b059').",
+      "choices": [
+        "4777 ft",
+        "3717 ft",
+        "3438 ft",
+        "4055 ft"
+      ],
+      "answer": "4055 ft"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. ETSI INGOLSTADT MANCHING N48.42.9, E01132.0. You are in the CTR. Which Frequency would be the correct one to use?",
+      "choices": [
+        "125.25",
+        "109.5",
+        "115.05",
+        "118.2"
+      ],
+      "answer": "125.25"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. SONNEN (EDPS) to STRAUBING (EDMS). What is the highest obstacle within 5 nm? Tip - EDMS is North East of Munich region.",
+      "choices": [
+        "1674 ft",
+        "1900 ft",
+        "3754 ft",
+        "3333 ft"
+      ],
+      "answer": "3754 ft"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Plate AMSTERDAM (Schipol) 10-2B. You recover via MOLIX, LUTEX and ROBVI and then hold for 20 mins. TAS 250 kt Nil Wind Fuel flow in cruise 3000 kg /h Holding fuel flow 2400 kg / h How much fuel do you burn between MOLIX and leaving the hold to commence the procedure?",
+      "choices": [
+        "1160 kg",
+        "1650 kg",
+        "1250 kg",
+        "1760 kg"
+      ],
+      "answer": "1250 kg"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. Routing from London Gatwick Airport, England to Paris Charles de Gaulle Airport, France via, GWC and DVL along route UN859 at FL250, what frequency would you contact, in the vicinity of DVL?",
+      "choices": [
+        "129.005 MHz",
+        "134.410 MHz",
+        "132.185 MHz",
+        "128.870 MHz"
+      ],
+      "answer": "129.005 MHz"
+    },
+    {
+      "question": "Refer to Jeppesen GSPRM IFR Chart E(LO)2 and the image above. You are due to fly a VVIP flight from Doncaster Sheffield Airport, England (EGCN) - N53 28 W001 00' - to Dublin Airport, Ireland ((EIDW), departing EGCN at 21.05 UTC and routing via UPTON, L975, L70, V14 and DUB. Planned ETO at UPTON is 21.10 UTC and average planned GS is 296 kt. Approach to landing from DUB to touchdown is 8 minutes. METAR W/V at EIDW = 290/40 (no forecast changes) Aircraft maximum crosswind component = 25 kt A take-off delay means your ETO at UPTON is 21.15. What is your best course of action (from the following options)?",
+      "choices": [
+        "Cancel the flight.",
+        "Land on runway 28 (no distance limitations).",
+        "Land on runway 34 (no distance limitations).",
+        "Increase average GS to 325 kt."
+      ],
+      "answer": "Increase average GS to 325 kt."
+    },
+    {
+      "question": "Referring to your Jeppesen GSPRM IFR Chart E(HI)2 and any other relevant data, answer the following questions for an approach to land at Stuttgart Airport, Germany (EDDS): For a straight-in landing on RWY 07, what is the CAT II ILS DH?",
+      "choices": [
+        "91 ft",
+        "1367 ft",
+        "50 ft",
+        "100 ft"
+      ],
+      "answer": "100 ft"
+    },
+    {
+      "question": "Refer to Jeppesen GSPRM IFR Chart E(LO)1. A route is planned between FLESLAND VOR/DME (N60 20' E005 20') and MYGEGENAES NDB (N62 03' W007 16') along N623 and G3. TAS = 390 kt. ETO at FLS is 09.24 UTC, with a planned ETO at MY of 10.36 UTC. Reporting at VALDI at 09.52, what is the revised ETO at MY?",
+      "choices": [
+        "10.43 UTC",
+        "10.35 UTC",
+        "10.26 UTC",
+        "10.30 UTC"
+      ],
+      "answer": "10.30 UTC"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)2 and CAP 697, Fig. 4.2. You are tasked with making an urgent freight delivery between Knock Airport, Republic of Ireland (EIKN) and Edinburgh Airport, Scotland (EGPH), routing via the BELFAST VOR/DME (BEL). The Brake Release Weight is 62 500 kg. Outside air temperature is ISA +25\u00b0C. What is the short distance cruise altitude?",
+      "choices": [
+        "30 000 ft.",
+        "24 000 ft.",
+        "28 000 ft.",
+        "26 000 ft."
+      ],
+      "answer": "28 000 ft."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)1 and CAP 697, Figure 4.5.1. An aircraft is departing Fagernes airport, Norway (N61\u00b000' E009\u00b015') and climbs to an initial cruising altitude of FL250. OAT = ISA -5\u00b0C. QNH = 1003 hPa. Given a brake release weight of 56 000 kg and a 40 kt tailwind component, what is the time, fuel, ground distance and TAS for the climb?",
+      "choices": [
+        "10 min, 925 kg, 56 NM, 349 kt.",
+        "10 min, 1000 kg, 50 NM, 349 kt.",
+        "9 min, 900 kg, 39 NM, 339 kt.",
+        "9 min, 825 kg, 35 NM, 339 kt."
+      ],
+      "answer": "10 min, 925 kg, 56 NM, 349 kt."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)4 and CAP 697, Figure 4.5.3.1. An aircraft crosses NANTES ATLANTIQUE VOR/DME (NTS) (N42\u00b010' W001\u00b035') at FL 300 and at LRC speed, with an aircraft mass of 48 600 kg, en-route along A25 to BORDEAUX VOR/DME (BMC). Given a 50 kt tailwind and ISA +10\u00b0C, what is the fuel required between NTS and BMC?",
+      "choices": [
+        "795 kg.",
+        "850 kg.",
+        "1280 kg.",
+        "705 kg."
+      ],
+      "answer": "705 kg."
+    },
+    {
+      "question": "Referring to your Jeppesen GSPRM IFR Chart E(HI)2 and any other relevant data, answer the following questions for an approach to land at Stuttgart Airport, Germany (EDDS): For the RNP RWY 07 approach. what is the minimum ground visibility for aircraft greater than 5.7 mt MTOW?",
+      "choices": [
+        "1500 m",
+        "5000 ft",
+        "4000 m",
+        "2400 m"
+      ],
+      "answer": "4000 m"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)2 An aircraft crosses CRK VOR/DME at FL80 at 15.42 UTC, en-route along route P2 to STU VOR/DME, at a GS of 260 kt. The aircraft's ETO at NEXAT is 15.59 UTC. What is the revised GS to maintain the ETO overhead STU?",
+      "choices": [
+        "285 kt",
+        "249 kt",
+        "302 kt",
+        "260 kt"
+      ],
+      "answer": "249 kt"
+    },
+    {
+      "question": "Refer to Jeppesen GSPRM IFR Chart E(LO)1. A route is planned between MYGEGENAES NDB (N62 03' W007 16') and FLESLAND VOR/DME (N60 20' E005 20') along N623 and G3. Mach No = 0.73 Pressure Altitude = FL 250 OAT = ISA-10\u00b0C Forecast W/V = 220\u00b0/80 Fuel flow is 1250 kg/hr Fuel SG = 0.82 Fuel cost = \u00a30.85 per litre What is the fuel cost difference, which results from accepting a higher flight level at FL290 (OAT = ISA -5\u00b0C) with a reported wind of 250/120?",
+      "choices": [
+        "-\u00a3127.00",
+        "+\u00a385.00",
+        "-\u00a385.00",
+        "+\u00a3127.00"
+      ],
+      "answer": "-\u00a3127.00"
+    },
+    {
+      "question": "Refer to Jeppesen GSPRM IFR Chart E(LO)14. Your charter holiday aircraft is routing from UK over Italy via ARA (Araxos) VOR/DME (N38\u00b0 10\u2019 E021\u00b0 26\u2019) along L612, via TRL (Tripolis) VOR/DME (N37\u00b0 25\u2019 E022\u00b0 20\u2019), along J65 via SUD (Souda) VOR/DME (N35\u00b0 32\u2019 E024\u00b0 10\u2019) to IRA (Iraklion) VOR/DME (N35\u00b0 21\u2019 E025\u00b0 12\u2019), to land at Nikos Kazantzakis International Airport, Crete. On approaching ARA along N604, Athens Control clears you \u201cdirect own navigation from TRL to IRA, maintain FL80 until advised\u201d. Given a CAS of 210 kt, and W/V of 260\u00b0/30 at FL80 (OAT ISA +30\u00b0C) calculate the revised magnetic heading, groundspeed and ETE from TRL to IRA.",
+      "choices": [
+        "132\u00b0M, 231 kt, 41 min",
+        "140\u00b0M, 250 kt, 40 min",
+        "132\u00b0M, 269 kt, 41 min",
+        "136\u00b0M, 231 kt, 42 min"
+      ],
+      "answer": "132\u00b0M, 269 kt, 41 min"
+    },
+    {
+      "question": "Refer to IFR Chart E(HI)1. Your aircraft is routing from Newcastle, England (EGNT) to Keflavik, Iceland via route L602 - TLA VOR/DME - route UL613 - BAMRA - UP61. ETO TLA VOR/DME = 11.25 UTC, ETO BAMRA = 12.15 UTC. 5 nm before VADNO (N57\u00b0 27\u2019 W003\u00b0 38\u2019), ATC instructs a speed change: \u201cReduce speed, cross BAMRA not before 12.17 UTC\u201d. What is the required reduction in groundspeed?",
+      "choices": [
+        "15 kt",
+        "25 kt",
+        "10 kt",
+        "20 kt"
+      ],
+      "answer": "20 kt"
+    },
+    {
+      "question": "Referring to your Jeppesen GSPRM IFR Chart E(HI)2 and any other relevant data, answer the following questions for an approach to land at Stuttgart Airport, Germany (EDDS): Using BADSO 2A arrival, what is the frequency of the navaid to which you should proceed in case of communications failure?",
+      "choices": [
+        "109.2 MHz",
+        "109.2 KHz",
+        "109.2 Hz",
+        "109.2 GHz"
+      ],
+      "answer": "109.2 MHz"
+    },
+    {
+      "question": "Referring to your Jeppesen GSPRM IFR Chart E(HI)2 and any other relevant data, answer the following questions for an approach to land at Stuttgart Airport, Germany (EDDS): What is the appropriate frequency for obtaining local weather information for the BADSO 2A arrival?",
+      "choices": [
+        "126.125 MHz",
+        "126.125 KHz",
+        "126.125 Hz",
+        "126.125 GHz"
+      ],
+      "answer": "126.125 MHz"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)2 and CAP 697, Fig. 4.3.1 (select the correct version). Your planned route is from Shannon Airport, Republic of Ireland (EINN) via SHA VOR/DME - V14 - DUB VOR/DME - L975 - WAL VOR/DME - Y53 - PEDIG - DCT East Midlands Airport, England (EGNX). Forecast conditions are a 25 kt headwind component, a cruising altitude of FL330, a landing weight of 50 000 kg and a temperature of ISA +10\u00b0C. What is the trip fuel and time? (Note: Ignore the altitude limitations of the E(LO) chart)",
+      "choices": [
+        "2640 kg and 54 min.",
+        "2140 kg and 69 min.",
+        "2020 kg and 57 min.",
+        "2280 kg and 54 min."
+      ],
+      "answer": "2280 kg and 54 min."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)11 and CAP 697, Figure 4.5.3.2. An aircraft crosses TORINO VOR/DME (TOP) at FL 350 at M0.74, with an aircraft mass of 52 500 kg, en-route along M730 via GENOA VOR/DME (GEN) (N44\u00b025' E009\u00b005'), FRZ and ANC to SPLIT VOR/DME (SPL). Given a 60 kt headwind and ISA -20\u00b0C, what is the fuel required between GEN and SPL?",
+      "choices": [
+        "2000 kg.",
+        "1976 kg.",
+        "2322 kg.",
+        "2350 kg."
+      ],
+      "answer": "2322 kg."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E (LO)2. You want to fly from POLE HILL POL 112.1 (N53 45W002 06) to OTBED (N53 18 E000 02). Which route would you select?",
+      "choices": [
+        "POL Y70 GOLES Y70 OTBED",
+        "POL N601 DESIG L60 OTBED",
+        "POL N57 DENBY L975 DESIG L70 MAMUL L60 OTBED",
+        "POL N57 DENBY L70 L60 OTBED"
+      ],
+      "answer": "POL N57 DENBY L975 DESIG L70 MAMUL L60 OTBED"
+    },
+    {
+      "question": "Refer to GSPRM Alicante LEAL (19-1): An aircraft has suffered a radio failure, which method of entry should we use:",
+      "choices": [
+        "East of south route.",
+        "Proceed direct to airfield and fly right hand triangles.",
+        "Can not land , must divert.",
+        "North Route."
+      ],
+      "answer": "East of south route."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Amsterdam Chart 11-1. You are cleared for an ILS approach 06 for runway via SUGOL. The last clearance you receive is to descend to FL70. You may leave this level:",
+      "choices": [
+        "After passing SPL.",
+        "After passing CH locator.",
+        "After passing 9.2 KAG DME inbound.",
+        "When established on the final track (localizer captured) for ILS 06."
+      ],
+      "answer": "After passing SPL."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Amsterdam (EHAM) chart 11-1. An aircraft in approaching category A is cleared for the procedural ILS approach to runway 06 via CH Locator. At what point should the base turn into localiser track of 058\u00b0 (M) be started?",
+      "choices": [
+        "1 min after passing overhead the CH Locator.",
+        "9.2 NM DME range from ICAG DME.",
+        "11.1 NM DME range from SPL DME.",
+        "2 mins after passing overhead the CH Locator."
+      ],
+      "answer": "1 min after passing overhead the CH Locator."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Amsterdam (EHAM) chart 10-2. You are approaching to Amsterdam EHAM after ARTIP and you need to get ATIS information. Which Navaids facility will provide ATIS information?",
+      "choices": [
+        "SPL",
+        "EEL",
+        "RKN",
+        "SPY"
+      ],
+      "answer": "SPL"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Amsterdam Chart 10-2 and 10-1P. You are approaching AMSTERDAM via REKKEN 2A. Which of the following procedures should be followed in case of a radio communication failure?",
+      "choices": [
+        "Fly a holding pattern for at least 7 minutes.",
+        "Descend below the ceiling and continue VFR to the airport.",
+        "Continue on a direct course towards the airport.",
+        "Follow the procedures provided on the 10-1P pages of your route manual."
+      ],
+      "answer": "Follow the procedures provided on the 10-1P pages of your route manual."
+    },
+    {
+      "question": "Reference GSPRM Jeppesen Charts Amsterdam 10-3C, 10-3D. Which SID do you use for runway 04?",
+      "choices": [
+        "ANDIK 1N",
+        "ANDIK 2G",
+        "ANDIK 2E",
+        "ANDIK 2F"
+      ],
+      "answer": "ANDIK 2F"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Amsterdam Chart 10-2. What is the clearance limit of the given STAR chart?",
+      "choices": [
+        "EELDE (EEL)",
+        "SCHIPHOL (SPL)",
+        "NORKU",
+        "ARTIP"
+      ],
+      "answer": "ARTIP"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Alicante charts 10-3C & 10-3E. Aircraft fully RNAV equipped are suitable for what SID for Runway 10?",
+      "choices": [
+        "MITOS 1C",
+        "SOPET 1G",
+        "SOPET 1F",
+        "MITOS 2A"
+      ],
+      "answer": "MITOS 2A"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E(LO)2. A flight is planned along route T420, course 330\u00b0 , FL380, inbound TRENT VOR/DME (TNT). A descent should be initiated to pass waypoint ELVOS at FL200. Calculate the Top of Descent (ToD) relating to TRENT for a ground speed of 200 Kt and a rate of descent of 1500 FT/min:",
+      "choices": [
+        "65 NM",
+        "109 NM",
+        "55 NM",
+        "40 NM"
+      ],
+      "answer": "65 NM"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Charts Alicante 10-2, 10-2A, 10-2B, 10-2C. A flight from UK to Spain, destination Alicante, is going to pass Valencia VOR/DME. Which of the following STAR charts would be suitable?",
+      "choices": [
+        "Chart 10-2A",
+        "Chart 10-2C",
+        "Chart 10-2",
+        "Chart 10-2B"
+      ],
+      "answer": "Chart 10-2B"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen SCHIPHOL 10-2. You experience a total RNAV system failure en-route to your destination, Amsterdam Schiphol aerodrome. During descent, Schiphol Arrival assigns you the NORKU 2A arrival. Can you accept this STAR?",
+      "choices": [
+        "Yes, if you given vectors to OSKUR.",
+        "No, because it is an RNAV STAR.",
+        "No, because it is an RNAV STAR. However, you can request REKKEN 2A.",
+        "You can follow NORKU 2A because it is a conventional STAR."
+      ],
+      "answer": "No, because it is an RNAV STAR."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E(LO)2. You are flying at FL360, heading NW and ATC tell you have to be at FL200 over ELVOS. How far from TRENT (N53 03 W001 40) should you start your descent? TAS 420, ROD 2000 ft / min. Answer in NM.",
+      "choices": [
+        "126 NM",
+        "56 NM",
+        "81 NM",
+        "70 NM"
+      ],
+      "answer": "81 NM"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Charts Alicante 19-1, 19-2, 19-3. What is the magnetic bearing from reporting point N to NE?",
+      "choices": [
+        "221",
+        "44",
+        "66",
+        "246"
+      ],
+      "answer": "66"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Charts Alicante 19-1, 19-2, 19-3. When approaching Alicante, what is the procedure if you experience a communication failure?",
+      "choices": [
+        "Proceed in the direction of SW reporting point, assume a track east of South Route to S reporting point and maintain a maximum of 800 ft AMSL.",
+        "Turn to the closest aerodrome without control zone, land there and inform ATC via phone call.",
+        "Maintain heading and altitude for 7 minutes, then descend to 2000 ft and proceed to closest VFR reporting point and hold, waiting for light signals.",
+        "Set transponder 7600, proceed according to your filed flight plan if no instructions have been received previously, otherwise follow latest ATC instructions."
+      ],
+      "answer": "Proceed in the direction of SW reporting point, assume a track east of South Route to S reporting point and maintain a maximum of 800 ft AMSL."
+    },
+    {
+      "question": "Refer to GSPRM Chart E (LO)2. What is the Frequency of aeronautical service when overflying TULIP:",
+      "choices": [
+        "123.9",
+        "131.85",
+        "124.05",
+        "125.75"
+      ],
+      "answer": "125.75"
+    },
+    {
+      "question": "Refer to GSPRM AMSTERDAM - Charts 10-2, 10-2A, 10-2B, 10-2C. You are flying from PARIS to AMSTERDAM, which set of STAR is available for you?",
+      "choices": [
+        "10-2A",
+        "10-2B",
+        "10-2",
+        "10-2C"
+      ],
+      "answer": "10-2A"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. Routing north from BCN VOR/DME (N51\u00b0 44' W003\u00b0 16') along N864 to WAL VOR/DME (N53\u00b0 24' W003\u00b0 08'), what is the lowest available cruising altitude from the options given?",
+      "choices": [
+        "FL 180",
+        "FL 220",
+        "FL 210",
+        "FL 240"
+      ],
+      "answer": "FL 220"
+    },
+    {
+      "question": "Refer to GSPRM Chart E (LO)2. On an IFR flight close to airfield LELYSTAD (EHLE, N52\u00b028' E005\u00b0 32') you need to determine the distance to the corresponding DME station. Which of the following is the correct frequency and identifier?",
+      "choices": [
+        "Channel 51, FRO",
+        "326 kHz, LLS",
+        "123.67 MHz, AFIS",
+        "111.4 MHz, FRO"
+      ],
+      "answer": "111.4 MHz, FRO"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen ALICANTE (LEAL) 10-3A. An aircraft receives the following ATC clearance from the Alicante (LEAL) DELIVERY: \"Cleared to destination via the CATON 2C standard departure from runway 28,squawk 4017\". What are the altitude restrictions for this SID?",
+      "choices": [
+        "At or above 3100 ft at 9.5 NM from ALT, At or above 11 000 ft at VILNA, At or above 11 000 ft at NARGO",
+        "At or above 3100 ft at 9.5 NM from ALT, At or above FL80 at VILNA, At or above FL110 at NARGO, At or below FL230 at CATON",
+        "At or above 3100 ft at 9.5 NM from ALT, At or above FL110 at VILNA, At or above FL110 at NARGO",
+        "At or above FL70 overhead ALT, At or above FL110 at VILNA, At or above FL110 at NARGO, At or below FL230 at CATON"
+      ],
+      "answer": "At or above 3100 ft at 9.5 NM from ALT, At or above FL80 at VILNA, At or above FL110 at NARGO, At or below FL230 at CATON"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen E(L0)2. Find the magnetic bearing and distance from Trent (TNT) VOR/DME (53\u00b003'N, 001\u00b040'W) to waypoint AMVEL (53\u00b011'N, 000\u00b0 02'W).",
+      "choices": [
+        "084\u00b0M / 59 NM",
+        "260\u00b0M / 52 NM",
+        "264\u00b0M / 58 NM",
+        "080\u00b0M / 51 NM"
+      ],
+      "answer": "084\u00b0M / 59 NM"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM Terminal Section IFR RNAV Initial Approach Chart for Nantes, France (10-2B) What is the minimum sector altitude at DOGOV and what is the direct track distance from DOGOV to Nantes airport?",
+      "choices": [
+        "3000 ft - not specified",
+        "3000 ft - 15 NM.",
+        "FL 70 - 13 NM.",
+        "2100 ft - 15 NM."
+      ],
+      "answer": "2100 ft - 15 NM."
+    },
+    {
+      "question": "Refer to GSPRM chart for Santorini, Greece with the code 13-3. What is the DME Arc range for the VOR B procedure for RWY 34?",
+      "choices": [
+        "8 NM.",
+        "12 NM.",
+        "14 NM.",
+        "10 NM."
+      ],
+      "answer": "10 NM."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Alicante (LEAL) S10 10-3C. A flight is filed to depart from Alicante aerodrome (LEAL) via waypoint MITOS during FMS setup, what constraints should be verified as correct for a MITOS S10 from Runway 28?",
+      "choices": [
+        "Min 3100 ft at 9.5 NM from ALT, Min 5000 ft SUMMO",
+        "Max 3100 ft at 9.5 NM from ALT, Max 220 kt during the turn until ALT Radial 246, 6.3 NM Min 5000 ft at SUMMO",
+        "Min 3100 ft at 9.5 NM from ALT Max 220 kt until MITOS, Min 5000 ft at SUMMO",
+        "Min 3100 ft at 9.5 NM from ALT, Max 220 kt during the turn until ALT Radial 246, 6.3 NM"
+      ],
+      "answer": "Min 3100 ft at 9.5 NM from ALT, Max 220 kt during the turn until ALT Radial 246, 6.3 NM"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM Terminal Section IFR Charts for Alicante, Spain 10-3A - 10-3G. You are departing to the west. Your aircraft is not RNAV certified. W/V = 275/20. TAS after take-off = 120 kt. What departure procedure should you use and what is the minimum climb gradient and rate of climb required?",
+      "choices": [
+        "YES 3A - 5.0% @ 506 fpm",
+        "YES 1D - 5.0% @ 557 fpm",
+        "YES 1D - 5.5% @ 557 fpm",
+        "YES 1D - 7.0% @ 709 fpm"
+      ],
+      "answer": "YES 1D - 5.5% @ 557 fpm"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. What is the flight time from DUB VOR/DME (N53\u00b0 34' W006\u00b0 20') via LIFFY along UL975 to WAL VOR/DME (N53\u00b0 24' W003\u00b0 08') at FL 210 (OAT = ISA), CAS = 210 kt, W/V = 240/30.",
+      "choices": [
+        "25 min",
+        "21 min",
+        "19 min",
+        "23 min"
+      ],
+      "answer": "21 min"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)14. You are flying from Izmir, Turkey and are approaching Santorini, Greece along ATS route J62. The wind is from the south. Find the appropriate plates and identify the minimum holding altitude at KORAX.",
+      "choices": [
+        "5300",
+        "7000",
+        "3500",
+        "6000"
+      ],
+      "answer": "3500"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. What is the lowest Grid MORA for a direct track between Shannon, Ireland (N52\u00b0 43' W008\u00b0 52') and Manchester, England (N53\u00b0 21' W002\u00b0 16')?",
+      "choices": [
+        "4400",
+        "4800",
+        "4900",
+        "3500"
+      ],
+      "answer": "4900"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)14. You are flying from Izmir, Turkey and are approaching Santorini, Greece along ATS route J62. The wind is from the south. Find the appropriate plates and identify the radio navigation aid and its frequency on which the arrival to Santorini is based.",
+      "choices": [
+        "MIL 113.5 KHz",
+        "SNI 110.4 MHz",
+        "SNI 110.4 KHz",
+        "MKN 110.0 KHz"
+      ],
+      "answer": "SNI 110.4 MHz"
+    },
+    {
+      "question": "Refer to GSPRM Alicante Charts 10-2A, 10-2B, 10-2C, 10-2D. You are planning a flight from ATHENS to ALICANTE. Which of the STAR charts will you most likely consider when choosing an arrival route for your operational flight plan to determine the flight distance and fuel requirements?",
+      "choices": [
+        "10-2B",
+        "10-2A",
+        "10-2C",
+        "10-2D"
+      ],
+      "answer": "10-2C"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. What is the total track distance between HON VOR/DME (N52\u00b0 21' W001\u00b0 40') and SOMVA (N52\u00b0 18' E002\u00b0 39')?",
+      "choices": [
+        "161 000 m.",
+        "161 NM.",
+        "161 km.",
+        "161 000 yd."
+      ],
+      "answer": "161 NM."
+    },
+    {
+      "question": "Refer to GSPRM chart for Santorini, Greece with the code 13-3. What is the MDA and RVR for the straight in approach for the VOR B procedure for RWY 34?",
+      "choices": [
+        "1700'",
+        "1577'",
+        "N/A",
+        "3000'"
+      ],
+      "answer": "N/A"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E(LO)1. A section of a flight is carried out from SUMBURGH (SUM) to ABERDEEN (ADN) along airway Y905. Choose the lowest flight level which can be used for the whole section:",
+      "choices": [
+        "FL80",
+        "FL110",
+        "FL100",
+        "FL190"
+      ],
+      "answer": "FL110"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E (LO)2. The section of a routing is via airway Y96 from NORBO to TALLA (TLA, N55\u00b030' W003\u00b021'). What is the true course to TLA?",
+      "choices": [
+        "079\u00b0",
+        "176\u00b0",
+        "096\u00b0",
+        "279\u00b0"
+      ],
+      "answer": "096\u00b0"
+    },
+    {
+      "question": "What is the GSPRM chart for London, UK, with the code 10-2F?",
+      "choices": [
+        "London Heathrow STAR LAM 3A Arrival.",
+        "Tromso, Norway RNAV STAR RNAV GILGU 3L RNAV Arrival.",
+        "London Heathrow SID LAM 3A Arrival.",
+        "Stuttgart, Germany RNAV Transition BABEG 1E."
+      ],
+      "answer": "London Heathrow STAR LAM 3A Arrival."
+    },
+    {
+      "question": "ELO-2 Flying from Norbo to Deans Cross by route T256, how would this be written in a Navigation flight plan?",
+      "choices": [
+        "NORBO 144\u00b0 T256,RINPO DCS",
+        "DCT NORBO 144\u00b0 DCS",
+        "NORBO 144\u00b0 T256,OSMEG 136\u00b0 DCS",
+        "NORBO 144\u00b0 T256,NYG 136\u00b0 DCS"
+      ],
+      "answer": "NORBO 144\u00b0 T256,NYG 136\u00b0 DCS"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. What is the difference in flight time between (a) the direct route from DCS VOR/DME (N54\u00b0 43' W003\u00b0 20') along UL612 to HON VOR/DME (N52\u00b0 21' W001\u00b0 40') and (b) the route via WAL VOR/DME (N53\u00b0 24' W003\u00b0 08'), both flown at the same groundspeed of 171 kt?",
+      "choices": [
+        "2 min",
+        "4 min",
+        "5 min",
+        "3 min"
+      ],
+      "answer": "3 min"
+    },
+    {
+      "question": "Refer to GSPRM Amsterdam- chart 11-1. Which of the following are approach lights provided for Amsterdam ILS 06 approach?",
+      "choices": [
+        "A runway lead in lightning system (RLLS).",
+        "A high intensity approach light system.",
+        "GA lights in 2000 ft.",
+        "PAPI lights."
+      ],
+      "answer": "A high intensity approach light system."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)2. An aircraft is routing from SHA VOR/DME to CRK VOR/DME along N160. Shannon QNH = 993 hPa. OAT = ISA -10\u00b0C. What is the lowest pressure altitude that the aircraft can fly at to comply with obstacle clearance and cruising level rules?",
+      "choices": [
+        "FL 60",
+        "FL 80",
+        "FL 70",
+        "FL 50"
+      ],
+      "answer": "FL 70"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)2. Assuming nil wind conditions, at which point is the first change of magnetic heading between DUB VOR/DME and WAL VOR/DME along ATS route L975?",
+      "choices": [
+        "LIFFY",
+        "No heading change",
+        "IDEXA",
+        "MALUD"
+      ],
+      "answer": "LIFFY"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)14. You are flying from Izmir, Turkey and are approaching Santorini, Greece along ATS route J62. The wind is from the south. Find the appropriate plates and identify the approach procedure to be used.",
+      "choices": [
+        "STAR PEXAN 1C",
+        "STAR BINKI 1A",
+        "STAR UVRIT 1C",
+        "STAR IRBEG 1C"
+      ],
+      "answer": "STAR IRBEG 1C"
+    },
+    {
+      "question": "Refer to GSPRM - Greece Aerodrome Directory (7-3). What is the local time (LT) in Greece in Winter and Summer?",
+      "choices": [
+        "LT - 3 Hours = UTC; LT - 2 Hours = UTC",
+        "LT + 2 Hours = UTC; LT + 3 Hours = UTC",
+        "LT = UTC + 2 Hours; LT = UTC + 3 Hours",
+        "LT = UTC - 2 Hours; LT = UTC - 3 Hours"
+      ],
+      "answer": "LT = UTC + 2 Hours; LT = UTC + 3 Hours"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)2. What is the total track distance between GOW VOR/DME and HON VOR/DME and what is the ETE at an average groundspeed of 380 kt?",
+      "choices": [
+        "154 nm - 24 min.",
+        "432 km - 37 min.",
+        "233 nm - 40 min.",
+        "285 km - 45 min."
+      ],
+      "answer": "432 km - 37 min."
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. Flying from REGENSBURG EDNR (N49\u00b008' E012\u00b005') to STRUNKOVICE LKSR (N49\u00b005' E014\u00b004.5') What is your Magnetic Track?",
+      "choices": [
+        "93",
+        "95",
+        "89",
+        "80"
+      ],
+      "answer": "89"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. Refer to MUNCHEN airport (EDDM, N048\u00b0 21.23' E11\u00b0 47.17'). What is the lowest altitude of class C airspace?",
+      "choices": [
+        "3500 ft",
+        "4500 ft",
+        "FL105",
+        "FL65"
+      ],
+      "answer": "3500 ft"
+    },
+    {
+      "question": "Refer to GSPRM - AMSTERDAM Terminal Chart 16-2. What is the MDA for the NDB approach on runway 18C?",
+      "choices": [
+        "1312 ft",
+        "702 ft",
+        "880 ft",
+        "690 ft"
+      ],
+      "answer": "690 ft"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen ALICANTE VFR Approach Plate 19-1. On recovery to Alicante from the East; what is the maximum altitude approaching the NE Reporting Point?",
+      "choices": [
+        "1500 ft",
+        "FL75",
+        "2000 ft",
+        "1000 ft"
+      ],
+      "answer": "2000 ft"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Alicante 10-3 chart. Departure procedure Astro4A, QNH 1040, ROC 800 FT/min, GS 133 KT, at ALT VOR climb from 4000 FT to FL 080. When will you reach TOC?",
+      "choices": [
+        "At Vilna",
+        "2 NM after Vilna",
+        "7 NM before Vilna",
+        "5 NM before Vilna"
+      ],
+      "answer": "7 NM before Vilna"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. Find the the frequency of the LINZ ATIS.",
+      "choices": [
+        "129.62 MHz",
+        "118.40 MHz",
+        "128.12 MHz",
+        "116.60 MHz"
+      ],
+      "answer": "128.12 MHz"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen ALICANTE - charts 19-1, 19-2 and 19-3. What is the maximum permissible altitude for reaching the compulsory reporting point NE?",
+      "choices": [
+        "1500 m AMSL",
+        "1500 ft AMSL",
+        "2000 ft AMSL",
+        "2000 m AMSL"
+      ],
+      "answer": "2000 ft AMSL"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Amsterdam 10-2B. The ATIS can be found on which VOR?",
+      "choices": [
+        "SCHIPHOL VOR",
+        "REKKEN VOR",
+        "SPJKEROOR",
+        "EELDE VOR"
+      ],
+      "answer": "SCHIPHOL VOR"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Aberdeen 10-1R. What is the frequency of Aberdeen Radar?",
+      "choices": [
+        "119.5",
+        "119.05",
+        "114.5",
+        "114.3"
+      ],
+      "answer": "119.05"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen VFR Chart ED-4 chart. Flying from EDPJ LAICHINGEN airport (48\u00b030'N 009\u00b038'E) to EDTM MENGEN airport (48\u00b003'N 009\u00b022'E). What is the magnetic course and the distance?",
+      "choices": [
+        "Magnetic course: 020\u00b0; Distance: 58 NM.",
+        "Magnetic course: 200\u00b0; Distance: 29 NM.",
+        "Magnetic course: 200\u00b0; Distance: 58 NM.",
+        "Magnetic course: 020\u00b0; Distance: 29 NM."
+      ],
+      "answer": "Magnetic course: 200\u00b0; Distance: 29 NM."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen VFR Alicante Charts 19-1, 19-2, 19-3. What is the distance (NM) between reporting points N and NE?",
+      "choices": [
+        "5 NM",
+        "7.5 NM",
+        "5.5 NM",
+        "14 NM"
+      ],
+      "answer": "7.5 NM"
+    },
+    {
+      "question": "Given the following information, what is the height of the highest obstacle within 5 nm of track between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden ((EDSB) N48\u00b046' E008\u00b006?' Visibility: 20 km Cloud: OVC 7000 Temperature: ISA QNH: 1033 hPa W/V: 100\u00b0(T)/30 kt CAS: 145 kt.",
+      "choices": [
+        "5500 ft",
+        "2359 ft",
+        "1895 ft",
+        "2803 ft"
+      ],
+      "answer": "2803 ft"
+    },
+    {
+      "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden ((EDSB) N48\u00b046' E008\u00b006', what radio navigation aid could you use for distance and (nearly) accurate groundspeed to the first line feature, the A81 autobahn (motorway)? Visibility: 20 km Cloud: OVC 7000 Temperature: ISA QNH: 1033 hPa W/V: 100\u00b0(T)/30 kt CAS: 145 kt.",
+      "choices": [
+        "KBD DME 115.80 MHz",
+        "KRH VOR/DME 115.95 MHz",
+        "LBU VOR/DME 109.20 MHz",
+        "SHD DME 108.05 MHz"
+      ],
+      "answer": "SHD DME 108.05 MHz"
+    },
+    {
+      "question": "Refer to the Jeppesen GSPRM, VFR+GPS Chart ED-4. What is the minimum grid area altitude in the chart grid box bounded by the coordinates N48\u00b030\u2019 E012\u00b000\u2019?",
+      "choices": [
+        "3300' amsl",
+        "3800' amsl",
+        "3700' amsl",
+        "3200' amsl"
+      ],
+      "answer": "3200' amsl"
+    },
+    {
+      "question": "Refer to the Jeppesen GSPRM, VFR+GPS Chart ED-4. What is the projection type and scale of the chart?",
+      "choices": [
+        "Mercator's Conformal Conical Projection - 1:500 000",
+        "Lambert's Conformal Conical Projection - 1:500 000",
+        "Lambert's Conformal Conical Projection - 1:5 000 000",
+        "Lambert's Conformal Cylindrical Projection - 1:500 000"
+      ],
+      "answer": "Lambert's Conformal Conical Projection - 1:500 000"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. A VFR flight from LOLK to LOLF. Which of the following nav aids would be a suitable radio navigation aid for the flight?",
+      "choices": [
+        "N46\u00b026\u2019; E015\u00b008\u2019",
+        "N48\u00b026\u2019; E014\u00b008\u2019",
+        "N48\u00b026\u2019; E011\u00b008\u2019",
+        "N45\u00b026\u2019; E014\u00b008\u2019"
+      ],
+      "answer": "N48\u00b026\u2019; E014\u00b008\u2019"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen VFR chart ED-4. What is the True Course and distance for a direct flight from Scharnstein aerodrome (LOLC) (N47\u00b054' E013\u00b056') to Trieben aerodrome (LOGI) (N47\u00b030' E014\u00b030')?",
+      "choices": [
+        "141\u00b0 and 32 NM",
+        "137\u00b0 and 33 NM",
+        "317\u00b0 and 33 NM",
+        "136\u00b0 and 63 NM"
+      ],
+      "answer": "137\u00b0 and 33 NM"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen VFR Chart ED-4. Choose the correct statement on a standard day regarding the airspace above Stuttgart Airport (EDDS, N48\u00b041.4', E009\u00b013.3').",
+      "choices": [
+        "At 4000 ft AMSL you would be in class C airspace.",
+        "At 4000 ft AMSL you would be in class E airspace.",
+        "At 4000 ft AMSL you would be in class D airspace.",
+        "At 4000 ft AMSL you would be in class G airspace."
+      ],
+      "answer": "At 4000 ft AMSL you would be in class C airspace."
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Alicante VFR chart 19-1. How many VFR approaches are available?",
+      "choices": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "answer": "5"
+    },
+    {
+      "question": "Refer to the Jeppesen GSPRM, VFR+GPS Chart ED-4. What feature can be found at N47\u00b010\u2019 E011\u00b040\u2019?",
+      "choices": [
+        "PAT DME 112.00 MHz.",
+        "Obstacle 2014' amsl.",
+        "Danger Area, LO D-21.",
+        "Lit obstacle 2129' amsl."
+      ],
+      "answer": "Danger Area, LO D-21."
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. Find the frequency of the navaid which is located approximately 11 NM south of Munich aerodrome?",
+      "choices": [
+        "115.00 MHz",
+        "112.30 MHz",
+        "113.20 MHz",
+        "114.40 MHz"
+      ],
+      "answer": "112.30 MHz"
+    },
+    {
+      "question": "Refer to GSPRM Amsterdam (16-2) You are in a class B aircraft flying at 185 kt. What is the visibility limit for a circle to land approach?",
+      "choices": [
+        "1500 m",
+        "1600 m",
+        "2400 m",
+        "3600 m"
+      ],
+      "answer": "3600 m"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart Alicante 11-1. What is the height of the highest obstacle within the approach plan view?",
+      "choices": [
+        "4200 ft",
+        "4252 ft",
+        "3718 ft",
+        "625 ft"
+      ],
+      "answer": "4252 ft"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. You depart from BEILNGRIES / EDNC aerodrome (N49 01.3 E011 29.1) and then continue eastbound at the minimum grid altitude. Your altimeter scale is incorrectly set to 1010 hPa while the QNH given by the aerodrome is 1001 hPa. What is your approximate true altitude, shortly after departure, if the temperature at 3500 ft is 18\u00b0C?",
+      "choices": [
+        "3690 ft",
+        "3230 ft",
+        "3310 ft",
+        "3580 ft"
+      ],
+      "answer": "3310 ft"
+    },
+    {
+      "question": "Refer to GSPRM - VFR chart ED-4. An aircraft is on a VFR flight in Austria. The departure airfield is RIED KIRCHHEIM (LOLK, N48 12.8 E13 20.8) and the destination is FREISTADT (LOLF, N48 30.9 E14 24.5). Which of the following radio frequencies should be used as a radio navigation aid if the pilot intends to fly directly to the destination?",
+      "choices": [
+        "122.32 (Freistadt airfield)",
+        "116.60 MHz (Linz VOR)",
+        "113.50 MHz (Freistadt VOR)",
+        "327 kHz (Linz NDB)"
+      ],
+      "answer": "113.50 MHz (Freistadt VOR)"
+    },
+    {
+      "question": "Refer to Jeppesen GSPRM VFR+GPS Chart ED-4 What frequency is used for VDF at Stuttgart airport (EDDS) (N48\u00b041.4\u2019 E009\u00b013.3\u2019)?",
+      "choices": [
+        "134.50 MHz",
+        "118.80 MHz",
+        "129.60 MHz",
+        "122.80 MHz"
+      ],
+      "answer": "118.80 MHz"
+    }
+  ],
+  "FPM CAP": [
+    {
+      "question": "Refer to figure or CAP 697 Figure 4.5.3.2 for Pressure Altitude 35 000. What will be the change in air range available from 1000 kg of fuel for the following situation if the OAT increases from -55\u00b0 to -45\u00b0C? Aircraft mass at start of cruise leg: 50 000 kg, Cruise level: FL350, Cruise speed: Mach 0.74, Forecast OAT at FL350: -55\u00b0C, Wind component at FL350: -25 kt",
+      "choices": [
+        "A reduction of 1 NAM.",
+        "A reduction of 11 NAM.",
+        "An increase of 4 NAM.",
+        "An increase of 10 NAM."
+      ],
+      "answer": "A reduction of 1 NAM."
+    },
+    {
+      "question": "Refer to CAP workbook SEP Figure 2.4. Given: Aeroplane mass at start-up 3663 lbs, Aviation gasoline (density 6 lbs/gal, Take-off altitude sea level, Headwind 40 kt, Cruising altitude 8000 ft, Power setting full throttle 2300 RPM, 20 degrees celsius lean of peak EGT. Calculate the range.",
+      "choices": [
+        "844 NM",
+        "633 NM",
+        "730 NM",
+        "547.5 NM"
+      ],
+      "answer": "633 NM"
+    },
+    {
+      "question": "Flight Planning Manual MRJT 1 Figure 4.3.5. For a flight of 2400 ground nautical miles, the following apply: Tailwind 25 kt Temperature ISA -10\u00b0C Brake release mass 66 000 kg The Trip Fuel and trip time respectively are:",
+      "choices": [
+        "15 800 kg, 6 hrs 20 min.",
+        "14 600 kg, 5 hrs 45 min.",
+        "15 000 kg, 6 hrs 00 min.",
+        "14 000 kg, 5 hrs 35 min."
+      ],
+      "answer": "14 000 kg, 5 hrs 35 min."
+    },
+    {
+      "question": "Use Flight Planning Manual MRJT 1 Figure 4.5.1 Given: Brake release mass: 58 000 kg Temperature: ISA + 15 The fuel required to climb from an aerodrome at elevation 4000 ft to FL300 is:",
+      "choices": [
+        "1450 kg",
+        "1250 kg",
+        "1400 kg",
+        "1350 kg"
+      ],
+      "answer": "1250 kg"
+    },
+    {
+      "question": "Flight Planning Manual MRJT 1 Figure 4.3.5. What is the Trip Fuel? Given: Temperature ISA +15\u00b0C Brake release mass 62 000 kg Trip time 5 hrs 20 min",
+      "choices": [
+        "13 200 kg",
+        "13 500 kg",
+        "13 000 kg",
+        "13 800 kg"
+      ],
+      "answer": "13 500 kg"
+    },
+    {
+      "question": "Using Flight Planning Manual MRJT 1 Figure 4.7.2 An aircraft on an extended range operation is required never to be more than 120 minutes from an alternate, based on 1 engine inoperative LRC conditions in ISA. Using the above table and a given mass of 40 000 kg at the most critical point, the maximum air distance to the relevant alternate is:",
+      "choices": [
+        "735 NM",
+        "810 NM",
+        "875 NM",
+        "794 NM"
+      ],
+      "answer": "735 NM"
+    },
+    {
+      "question": "Refer to Cap 697 Figure 4.6.1 Given a trip distance of 500 miles 50 kf tailwind, max cruising level of FL160, standard day and an estimated landing weight of 50 000 kg, what is the trip fuel and time for a gear-down ferry flight?",
+      "choices": [
+        "5250 kg - 1hr 36 min",
+        "5350 kg - 1hr 26 min",
+        "5900 kg - 1hr 26 min",
+        "8900 kg - 2hr 24 min"
+      ],
+      "answer": "5250 kg - 1hr 36 min"
+    },
+    {
+      "question": "Use Flight planning Manual SEP 1 Figure 2.2 Table 2.2.3 Using the Power Setting Table, for the single engine aeroplane, determine the cruise TAS and fuel flow (lbs/hr) with full throttle and cruise lean mixture in the following conditions: Given: OAT: 13\u00b0C, Pressure altitude: 8000 ft, RPM: 2300",
+      "choices": [
+        "158 kt and 74.4 lbs/hr",
+        "160 kt and 69.3 lbs/hr",
+        "159 kt and 71.7 lbs/hr",
+        "160 kt and 71.1 lbs/hr"
+      ],
+      "answer": "160 kt and 69.3 lbs/hr"
+    },
+    {
+      "question": "Flight Planning Manual MRJT 1 Figure 4.3.5. What is the Trip Fuel? Given: Temperature ISA +15\u00b0C, Brake release mass 62 000 kg, Trip time 5 hrs 20 min",
+      "choices": [
+        "13 000 kg",
+        "13 800 kg",
+        "13 500 kg",
+        "13 200 kg"
+      ],
+      "answer": "13 500 kg"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 4.6.1. Given a trip distance of 300 miles, 100 kt headwind, max cruising level of FL200, standard day and an estimated landing weight of 55 000 kg, what is the trip fuel and time for a gear-down ferry flight?",
+      "choices": [
+        "4100 kg - 1 hr 45 min",
+        "5600 kg - 1 hr 45 min",
+        "2500 kg - 0 hr 51 min",
+        "6250 kg - 1 hr 45 min"
+      ],
+      "answer": "6250 kg - 1 hr 45 min"
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)1 and CAP 697, Figure 4.5.1. An aircraft is departing Fagernes airport, Norway (N61\u00b000' E009\u00b015') and climbs to an initial cruising altitude of FL250. OAT = ISA -5\u00b0C. QNH = 1003 hPa. Given a brake release weight of 56 000 kg and a 40 kt tailwind component, what is the time, fuel, ground distance and TAS for the climb?",
+      "choices": [
+        "10 min, 925 kg, 56 NM, 349 kt.",
+        "10 min, 1000 kg, 50 NM, 349 kt.",
+        "9 min, 900 kg, 39 NM, 339 kt.",
+        "9 min, 825 kg, 35 NM, 339 kt."
+      ],
+      "answer": "10 min, 925 kg, 56 NM, 349 kt."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)4 and CAP 697, Figure 4.5.3.1. An aircraft crosses NANTES ATLANTIQUE VOR/DME (NTS) (N42\u00b010' W001\u00b035') at FL 300 and at LRC speed, with an aircraft mass of 48 600 kg, en-route along A25 to BORDEAUX VOR/DME (BMC). Given a 50 kt tailwind and ISA +10\u00b0C, what is the fuel required between NTS and BMC?",
+      "choices": [
+        "795 kg.",
+        "850 kg.",
+        "1280 kg.",
+        "705 kg."
+      ],
+      "answer": "705 kg."
+    },
+    {
+      "question": "Refer to CAP697 MRJT Figure 4.3.1c. Trip distance 1900 nm, 50 kt tailwind, estimated landing weight 50 000 kg, cruise at FL220, ISA -10\u00b0C. What is the trip fuel and time?",
+      "choices": [
+        "14 800 kg and 5 hrs 36 mins",
+        "9500 kg and 4 hrs 6 mins",
+        "12 000 kg and 4 hrs 27 mins",
+        "12 000 kg and 4 hrs 45 mins"
+      ],
+      "answer": "12 000 kg and 4 hrs 27 mins"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 4.7.3 Given, a distance of 800 nm from the diversion point to the alternate, a 50 kt headwind, a weight of 40 000 kg at the point of diversion, a stabilisation level of FL 260 and ISA+20\u00b0C conditions; what is the fuel required and the time to arrive at the diversion?",
+      "choices": [
+        "4500 kg & 2 hr 30 min",
+        "6500 kg & 2 hr 30 min",
+        "6500 kg & 2 hr 39 min",
+        "5400 kg & 2 hr 39 min"
+      ],
+      "answer": "4500 kg & 2 hr 30 min"
+    },
+    {
+      "question": "Refer to CAP 697 Figures 4.7.1a & 4.7.1b Given a distance of 800 nm to the diversion from the critical point, a 50 kt headwind, a weight of 50 000 kg at the critical point, ISA conditions and no icing; calculate the critical fuel reserve required.",
+      "choices": [
+        "7800 kg",
+        "6300 kg",
+        "8100 kg",
+        "6000 kg"
+      ],
+      "answer": "8100 kg"
+    },
+    {
+      "question": "Refer to your CAP 696 Figure 4.5.4 Given: Economy descent profile, TOD at FL 310 descending to an airport 600 ft amsl. QNH = 1033 hPa. Estimated landing weight = 40 000 kg, and a 20kt tailwind component. What is the time, fuel and distance for the descent?",
+      "choices": [
+        "20 min, 280 kg, 103 NGM.",
+        "20 min, 280 kg, 95 NGM.",
+        "20 min, 280 kg, 88 NGM.",
+        "20 min, 280 kg, 81 NGM."
+      ],
+      "answer": "20 min, 280 kg, 95 NGM."
+    },
+    {
+      "question": "Refer to CAP 697 Figure 4.7.2 Given an ETOPS approval time of 120 minutes, long range cruise (LRC) technique and a weight of 55 000 kg at time of diversion; what is your permissible radius of operation on one engine?",
+      "choices": [
+        "803 NM.",
+        "380 NM.",
+        "752 NM.",
+        "743 NM."
+      ],
+      "answer": "743 NM."
+    },
+    {
+      "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)11 and CAP 697, Figure 4.5.3.2. An aircraft crosses TORINO VOR/DME (TOP) at FL 350 at M0.74, with an aircraft mass of 52 500 kg, en-route along M730 via GENOA VOR/DME (GEN) (N44\u00b025' E009\u00b005'), FRZ and ANC to SPLIT VOR/DME (SPL). Given a 60 kt headwind and ISA -20\u00b0C, what is the fuel required between GEN and SPL?",
+      "choices": [
+        "2000 kg.",
+        "1976 kg.",
+        "2322 kg.",
+        "2350 kg."
+      ],
+      "answer": "2322 kg."
+    },
+    {
+      "question": "Refer to CAP 697 Figure 3.1 Given a departure airport at a pressure altitude of 4000 ft (OAT +37\u00b0C), an MEP aircraft climbs to FL140 (OAT +10\u00b0C), what is the time, fuel and distance used in the climb?",
+      "choices": [
+        "4 USG, 7 min, 12 NM.",
+        "14 USG, 25 min, 46 NM.",
+        "10 USG, 18 min, 33 NM.",
+        "18 USG, 32 min, 58 NM."
+      ],
+      "answer": "10 USG, 18 min, 33 NM."
+    },
+    {
+      "question": "Refer to CAP 697 Figure 3.2 Given a cruise pressure altitude of FL100 (OAT ISA +10\u00b0C), using economy power, and a 40 kt tailwind component, what is the aircraft\u2019s still air range with a 45 minute reserve?",
+      "choices": [
+        "750 NM.",
+        "760 NM.",
+        "770 NM.",
+        "670 NM."
+      ],
+      "answer": "770 NM."
+    },
+    {
+      "question": "Using Flight Planning Manual MRJT 1 Figure 4.5.4. Planning an IFR flight from Paris to London for the twin jet aeroplane. Given: Estimated Landing Mass 49 700 kg, Cruise level FL280, Average wind 280\u00b0 / 40 kts, Average True Course 320\u00b0, Descent profile M 074 / 250 KIAS. Determine the fuel consumption from the top of descent to London (elevation 80 ft).",
+      "choices": [
+        "320 kg",
+        "210 kg",
+        "273 kg",
+        "263 kg"
+      ],
+      "answer": "273 kg"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 3.6 Given top of descent at FL160 (OAT -20\u00b0C), destination airport at a pressure altitude of 6000 ft (OAT 0\u00b0C), what is the time, fuel and distance used during the descent?",
+      "choices": [
+        "6 min, 2 USG, 16 NM.",
+        "10 min, 4 USG, 26 NM.",
+        "16 min, 6 USG, 42 NM.",
+        "4 min, 11 USG, 26 NM."
+      ],
+      "answer": "10 min, 4 USG, 26 NM."
+    },
+    {
+      "question": "Refer to CAP 697 Figure 3.2 Given a cruise pressure altitude of FL130 (OAT ISA +20\u00b0C), using 75% power, and a 40 kt tailwind component, what is the aircraft\u2019s maximum still air range with no reserve?",
+      "choices": [
+        "730 NM.",
+        "740 NM.",
+        "710 NM.",
+        "750 NM."
+      ],
+      "answer": "750 NM."
+    },
+    {
+      "question": "Refer to CAP 697 Figure 3.1 Given a departure airport at a pressure altitude of 2000 ft (OAT +20\u00b0C), an MEP aircraft climbs to FL100, no ISA deviation, what is the fuel, time and distance used in the climb?",
+      "choices": [
+        "9 USG, 16 min, 29 NM.",
+        "11 USG, 20 min, 34 NM.",
+        "2 USG, 4 min, 6 NM.",
+        "7 USG, 13 min, 22 NM."
+      ],
+      "answer": "7 USG, 13 min, 22 NM."
+    },
+    {
+      "question": "Refer to CAP 697 Figure 3.6 Given top of descent at FL180 (OAT -20\u00b0C), destination airport at a pressure altitude of 3000 ft (OAT +22\u00b0C), what is the fuel, time and distance used during the descent?",
+      "choices": [
+        "7 USG, 22 min, 57 NM.",
+        "1 USG, 3 min, 8 NM.",
+        "5 USG, 15 min, 41 NM.",
+        "6 USG, 19 min, 49 NM."
+      ],
+      "answer": "5 USG, 15 min, 41 NM."
+    },
+    {
+      "question": "Refer to CAP workbook SEP Figure 2.4. Given: Aeroplane mass at start-up 3663 lbs, Aviation gasoline (density 6 lbs/gal), Take-off altitude sea level, Headwind 40 kt, Cruising altitude 8000 ft, Power setting full throttle 2300 RPM, 20 degrees celsius lean of peak EGT. Calculate the range.",
+      "choices": [
+        "844 NM",
+        "730 NM",
+        "633 NM",
+        "547.5 NM"
+      ],
+      "answer": "633 NM"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 2.4. Find the maximum range of an aircraft, given a cruise pressure altitude of 8000 ft, a full throttle power setting of 2300 RPM, and nil wind?",
+      "choices": [
+        "894 nm",
+        "800 nm",
+        "912 nm",
+        "845 nm"
+      ],
+      "answer": "845 nm"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 2.2. Given a power setting of 23 in.Hg. and 2300 RPM, ISA +20\u00b0C, find the manifold air pressure, fuel flow, indicated speed and true air speed for the optimum cruise at a pressure altitude of 12 000 ft.",
+      "choices": [
+        "19.2 in.Hg, 10.6 GPH, 135 KIAS and 153 KTAS",
+        "19.2 in.Hg, 10 GPH, 123 KIAS and 151 KTAS",
+        "19.2 in.Hg, 10.3 GPH, 129 KIAS and 152 KTAS",
+        "19.1 in.Hg, 10.9 GPH, 132 KIAS and 161 KTAS"
+      ],
+      "answer": "19.2 in.Hg, 10 GPH, 123 KIAS and 151 KTAS"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 2.5. Given a cruising pressure altitude of 9000 ft and a FULL THROTTLE power setting at 2300 RPM, what are the safe and ATC endurances in hours and minutes?",
+      "choices": [
+        "4 hr 55 min & 5 hr 40 min",
+        "5 hr 30 min & 6 hr 15 min",
+        "6 hr 15 min & 5 hr 30 min",
+        "5 hr 30 min & 6 hr 00 min"
+      ],
+      "answer": "5 hr 30 min & 6 hr 15 min"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 2.3. Given a power setting of 21 in.Hg. and 2100 RPM, OAT = -3\u00b0C in ISA conditions, find the manifold air pressure, fuel flow, indicated speed and true air speed for the economy cruise at full throttle and pressure altitude of 10 000 ft.",
+      "choices": [
+        "20.8 in.Hg, 10.0 GPH, 132 KIAS and 144 KTAS",
+        "21.0 in.Hg, 9.6 GPH, 126 KIAS and 140 KTAS",
+        "20.8 in.Hg, 9.6 GPH, 126 KIAS and 143 KTAS",
+        "20.8 in.Hg, 9.5 GPH, 119 KIAS and 141 KTAS"
+      ],
+      "answer": "20.8 in.Hg, 9.6 GPH, 126 KIAS and 143 KTAS"
+    },
+    {
+      "question": "Refer to CAP 697 Figure 2.1. Given OAT = ISA and a departure airport at sea level, an aircraft with a take-off mass of 3650 lb climbs to FL120 for its cruise. Calculate the time, the fuel and distance in the climb?",
+      "choices": [
+        "12 min, 4.2 USG, 24 nm",
+        "23 min, 7.4 USG, 47 nm",
+        "19 min, 6.4 USG, 38 nm",
+        "9 min, 3.5 USG, 19 nm"
+      ],
+      "answer": "19 min, 6.4 USG, 38 nm"
     }
   ],
   "FPM": [
@@ -37074,16 +38428,6 @@
       "answer": "8\u00b0 Left"
     },
     {
-      "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden ((EDSB) N48\u00b046' E008\u00b006', what radio navigation aid could you use for distance and (nearly) accurate groundspeed to the first line feature, the A81 autobahn (motorway)?",
-      "choices": [
-        "SHD DME 108.05 MHz",
-        "KBD DME 115.80 MHz",
-        "KRH VOR/DME 115.95 MHz",
-        "LBU VOR/DME 109.20 MHz"
-      ],
-      "answer": "SHD DME 108.05 MHz"
-    },
-    {
       "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden (EDSB) N48\u00b046' E008\u00b006', what is the flight time between the line features formed by the A81 and A8 autobahns (motorways)?",
       "choices": [
         "19 min",
@@ -37252,16 +38596,6 @@
         "9115 kg"
       ],
       "answer": "9460 kg"
-    },
-    {
-      "question": "Refer to IFR Chart E(HI)1. Your aircraft is routing from Newcastle, England (EGNT) to Keflavik, Iceland via route L602 - TLA VOR/DME - route UL613 - BAMRA - UP61. ETO TLA VOR/DME = 11.25 UTC ETO BAMRA = 12.15 UTC 5 nm before VADNO (N57\u00b0 27\u2019 W003\u00b0 38\u2019), ATC instructs a speed change: \u201cReduce speed, cross BAMRA not before 12.17 UTC\u201d. What is the required reduction in groundspeed?",
-      "choices": [
-        "25 kt",
-        "20 kt",
-        "10 kt",
-        "15 kt"
-      ],
-      "answer": "20 kt"
     },
     {
       "question": "Refer to GSPRM Jeppesen Plate AMSTERDAM (Schipol) 10-2B. You recover via MOLIX, LUTEX and ROBVI and then hold for 20 mins. TAS 250 kt Nil Wind Fuel flow in cruise 3000 kg /h Holding fuel flow 2400 kg / h How much fuel do you burn between MOLIX and leaving the hold to commence the procedure?",
@@ -37712,16 +39046,6 @@
         "167 min."
       ],
       "answer": "219 min."
-    },
-    {
-      "question": "Refer to CAP 697 Figure 4.6.1. Given a trip distance of 500 miles, 50 kt tailwind, max cruising level of FL160, standard day and an estimated landing weight of 50 000 kg, what is the trip fuel and time for a gear-down ferry flight?",
-      "choices": [
-        "8900 kg - 2hr 24 min",
-        "5900 kg - 1hr 26 min",
-        "5250 kg - 1hr 26 min",
-        "5350 kg - 1hr 39 min"
-      ],
-      "answer": "5350 kg - 1hr 39 min"
     },
     {
       "question": "With 3.5 hours total endurance on board, and a wind velocity of 270\u00b0/20 kt, a pilot has to travel over a distance of 200 NM on a track of 270\u00b0T. If the TAS is 100 kt and the pilot must land with 30 minutes worth of fuel on board, what is the distance to the Point of Safe Return PSR, and how long will it take to get there?",
@@ -38644,16 +39968,6 @@
       "answer": "N0120"
     },
     {
-      "question": "Refer to your Jeppesen GSPRM IFR Chart E(LO)14. You are flying from Izmir, Turkey and are approaching Santorini, Greece along ATS route J62. The wind is from the south. Find the appropriate plates and identify the bearing and range from KORAX to SNI .",
-      "choices": [
-        "155\u00b0M - 9 nm",
-        "335\u00b0M - 9 nm",
-        "335\u00b0T - 9 nm",
-        "155\u00b0M - 9 km"
-      ],
-      "answer": "155\u00b0M - 9 nm"
-    },
-    {
       "question": "Refer to GSPRM chart for Santorini, Greece with the code 13-3. What is the DME Arc range for the VOR B procedure for RWY 34?",
       "choices": [
         "8 NM.",
@@ -39314,16 +40628,6 @@
       "answer": "METAR"
     },
     {
-      "question": "\"The mass of an aeroplane plus standard items such as: unusable fuel and other unusable fluids; lubricating oil in engine and auxiliary units; fire extinguishers; pyrotechnics; emergency oxygen equipment; supplementary electronic equipment.\" This definition best describes which of the following?",
-      "choices": [
-        "BEM",
-        "DOM",
-        "MBE",
-        "ZFM"
-      ],
-      "answer": "BEM"
-    },
-    {
       "question": "When completing an ATS flight plan before departure, the time information which should be entered in item 13 'Time' is:",
       "choices": [
         "Estimated off-block time.",
@@ -39494,16 +40798,6 @@
       "answer": "200 kt"
     },
     {
-     "question": "Given the following information, when flying between Schwäbish Hall (EDTY) N49°08' E009°47' and Karlsruhe/Baden-Baden (EDSB) N48°46' E008°06', what radio navigation aid could you use for distance and (nearly) accurate groundspeed to the first line feature, the A81 autobahn (motorway)? Visibility: 20 km Cloud: OVC 7000 Temperature: ISA QNH: 1033 hPa W/V: 100°(T)/30 kt CAS: 145 kt.",
-     "choices": [
-       "LBU VOR/DME 109.20 MHz",
-       "KRH VOR/DME 115.95 MHz",
-       "KBD DME 115.80 MHz",
-       "SHD DME 108.05 MHz"
-     ],
-     "answer": "SHD DME 108.05 MHz"
-    },
-    {
      "question": "You want to plan a very accurate VFR route within a controlled airspace. Which of the following landmarks do you consider best suited for insertion into a GNSS flight plan using coordinates?",
      "choices": [
         "Lakes and rivers",
@@ -39642,16 +40936,6 @@
         "4100 ft"
       ],
       "answer": "5500 ft"
-    },
-    {
-      "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden ((EDSB) N48\u00b046' E008\u00b006', what station and frequency should you contact for a flight information service on leaving Schw\u00e4bish Hall Information? Visibility: 20 km Cloud: OVC 7000 Temperature: ISA QNH: 1033 hPa W/V: 100\u00b0(T)/30 kt CAS: 145 kt.",
-      "choices": [
-        "Stuttgart Tower 119.05 MHz",
-        "V\u00f6lkleshofen Lichtenberg 130.12 MHz",
-        "Schw\u00e4bish Hall 108.05 MHz",
-        "Langen Information 128.95 MHz"
-      ],
-      "answer": "Langen Information 128.95 MHz"
     },
     {
       "question": "What happens to the Point of Equal Time when flying with a wind component present?",
@@ -40052,16 +41336,6 @@
         "156 kt"
       ],
       "answer": "156 kt"
-    },
-    {
-      "question": "Given the following information, when flying between Schw\u00e4bish Hall (EDTY) N49\u00b008' E009\u00b047' and Karlsruhe/Baden-Baden (EDSB) N48\u00b046' E008\u00b006', what is the flight time between the line features formed by the A81 and A8 autobahns (motorways)? Visibility: 20 km Cloud: OVC 7000 Temperature: ISA QNH: 1033 hPa W/V: 100\u00b0(T)/30 kt CAS: 145 kt.",
-      "choices": [
-        "38 min",
-        "9 min",
-        "19 min",
-        "7.5 min"
-      ],
-      "answer": "9 min"
     },
     {
       "question": "Given that distance from REKLO to SAMDU is 240 nm into a 40 kt headwind, TAS = 160 kt, what is the distance to the PET from REKLO (in nm)?",
