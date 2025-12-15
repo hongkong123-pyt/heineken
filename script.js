@@ -53,7 +53,6 @@ const flagBtnNav = document.getElementById("flagBtnNav");
 const pagination = document.getElementById("pagination");
 const resultScreen = document.getElementById("resultScreen");
 const scoreText = document.getElementById("scoreText");
-const restartBtn = document.getElementById("restartBtn");
 const retryWrongBtn = document.getElementById("retryWrongBtn");
 const reviewFlaggedBtn = document.getElementById("reviewFlaggedBtn");
 const backToFullQuizBtn = document.getElementById("backToFullQuizBtn");
@@ -66,18 +65,52 @@ feedback.style.fontWeight = "bold";
 optionsList.insertAdjacentElement("afterend", feedback);
 
 /***********************
+ * Persistence
+ ***********************/
+function saveState() {
+  localStorage.setItem("quizState", JSON.stringify({
+    currentSubject,
+    currentQuestions,
+    currentIndex,
+    answeredStatus,
+    flaggedQuestions,
+    shuffledAnswersMap
+  }));
+}
+
+function loadState() {
+  const saved = JSON.parse(localStorage.getItem("quizState"));
+  if (!saved) return false;
+
+  currentSubject = saved.currentSubject;
+  currentQuestions = saved.currentQuestions;
+  currentIndex = saved.currentIndex;
+  answeredStatus = saved.answeredStatus || {};
+  flaggedQuestions = saved.flaggedQuestions || {};
+  shuffledAnswersMap = saved.shuffledAnswersMap || {};
+
+  subjectSelect.value = currentSubject;
+  renderPagination();
+  displayQuestion();
+  return true;
+}
+
+/***********************
  * Load questions
  ***********************/
 fetch("questions.json")
   .then(res => res.json())
   .then(json => {
     data = json;
+
     for (let subject in data) {
       const opt = document.createElement("option");
       opt.value = subject;
       opt.textContent = subject;
       subjectSelect.appendChild(opt);
     }
+
+    loadState();
   });
 
 /***********************
@@ -92,11 +125,11 @@ subjectSelect.addEventListener("change", () => {
   answeredStatus = {};
   flaggedQuestions = {};
   shuffledAnswersMap = {};
-  resultScreen.classList.add("hidden");
   startTime = Date.now();
 
   renderPagination();
   displayQuestion();
+  saveState();
 });
 
 /***********************
@@ -121,14 +154,11 @@ function displayQuestion() {
     shuffledAnswersMap[currentIndex] = shuffleArray([...q.choices]);
   }
 
-  const choices = shuffledAnswersMap[currentIndex];
-
-  choices.forEach((choice, i) => {
-    const id = `opt-${currentIndex}-${i}`;
+  shuffledAnswersMap[currentIndex].forEach((choice, i) => {
     const label = document.createElement("label");
 
     label.innerHTML = `
-      <input type="radio" name="option" id="${id}" value="${choice}">
+      <input type="radio" name="option" value="${choice}">
       ${choice}
     `;
 
@@ -149,12 +179,14 @@ function displayQuestion() {
       feedback.style.color = isCorrect ? "green" : "red";
 
       updatePaginationColors();
+      saveState();
       displayQuestion();
 
       if (isCorrect) {
         setTimeout(() => {
           if (currentIndex < currentQuestions.length - 1) {
             currentIndex++;
+            saveState();
             displayQuestion();
           }
         }, 800);
@@ -173,6 +205,7 @@ function displayQuestion() {
 prevBtn.onclick = () => {
   if (currentIndex > 0) {
     currentIndex--;
+    saveState();
     displayQuestion();
   }
 };
@@ -180,12 +213,13 @@ prevBtn.onclick = () => {
 nextBtn.onclick = () => {
   if (currentIndex < currentQuestions.length - 1) {
     currentIndex++;
+    saveState();
     displayQuestion();
   }
 };
 
 /***********************
- * Keyboard shortcuts
+ * Keyboard
  ***********************/
 document.addEventListener("keydown", e => {
   const key = e.key.toLowerCase();
@@ -193,7 +227,7 @@ document.addEventListener("keydown", e => {
 
   if (!answeredStatus[currentIndex] && ["a", "b", "c", "d"].includes(key)) {
     const index = { a: 0, b: 1, c: 2, d: 3 }[key];
-    if (radios[index]) radios[index].click();
+    radios[index]?.click();
   }
 
   if (key === "arrowright") nextBtn.click();
@@ -204,61 +238,40 @@ document.addEventListener("keydown", e => {
  * Finish
  ***********************/
 finishBtn.onclick = finishBtnSide.onclick = () => {
-  const total = currentQuestions.length;
-  const answered = Object.keys(answeredStatus).length;
-  const correct = Object.values(answeredStatus).filter(a => a.isCorrect).length;
-  const percentage = ((correct / total) * 100).toFixed(1);
-
-  const timeSpent = Math.round((Date.now() - startTime) / 1000);
-  const minutes = Math.floor(timeSpent / 60);
-  const seconds = timeSpent % 60;
-
-  scoreText.innerHTML = `
-    Answered: <strong>${answered}/${total}</strong><br>
-    Correct: <strong>${correct}</strong><br>
-    Score: <strong>${percentage}%</strong><br>
-    Time: <strong>${minutes}m ${seconds}s</strong>
-  `;
-
   resultScreen.classList.remove("hidden");
+  localStorage.removeItem("quizState");
 };
 
 /***********************
- * Retry wrong answers ✅ FIXED
+ * Retry wrong
  ***********************/
 retryWrongBtn.onclick = () => {
-  const wrongQuestions = Object.entries(answeredStatus)
-    .filter(([_, ans]) => !ans.isCorrect)
-    .map(([index]) => currentQuestions[index]);
+  currentQuestions = Object.entries(answeredStatus)
+    .filter(([_, a]) => !a.isCorrect)
+    .map(([i]) => currentQuestions[i]);
 
-  if (wrongQuestions.length === 0) {
-    alert("No wrong answers to retry!");
-    return;
-  }
-
-  currentQuestions = wrongQuestions;
   currentIndex = 0;
   answeredStatus = {};
   flaggedQuestions = {};
   shuffledAnswersMap = {};
 
-  resultScreen.classList.add("hidden");
   renderPagination();
   displayQuestion();
+  saveState();
 };
 
 /***********************
  * Review flagged
  ***********************/
 reviewFlaggedBtn.onclick = () => {
-  const original = data[currentSubject];
-  currentQuestions = original.filter((_, i) => flaggedQuestions[i]);
+  currentQuestions = currentQuestions.filter((_, i) => flaggedQuestions[i]);
   currentIndex = 0;
   answeredStatus = {};
   shuffledAnswersMap = {};
-  resultScreen.classList.add("hidden");
+
   renderPagination();
   displayQuestion();
+  saveState();
 };
 
 /***********************
@@ -267,13 +280,15 @@ reviewFlaggedBtn.onclick = () => {
 backToFullQuizBtn.onclick = () => {
   currentQuestions = [...data[currentSubject]];
   if (shuffleToggle.checked) shuffleArray(currentQuestions);
+
   currentIndex = 0;
   answeredStatus = {};
   flaggedQuestions = {};
   shuffledAnswersMap = {};
-  resultScreen.classList.add("hidden");
+
   renderPagination();
   displayQuestion();
+  saveState();
 };
 
 /***********************
@@ -286,6 +301,7 @@ function renderPagination() {
     btn.textContent = i + 1;
     btn.onclick = () => {
       currentIndex = i;
+      saveState();
       displayQuestion();
     };
     pagination.appendChild(btn);
@@ -310,6 +326,8 @@ flagBtnNav.onclick = () => {
   flaggedQuestions[currentIndex]
     ? delete flaggedQuestions[currentIndex]
     : flaggedQuestions[currentIndex] = true;
+
+  saveState();
   updatePaginationColors();
 };
 
