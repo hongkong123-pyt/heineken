@@ -13,7 +13,7 @@ function shuffleArray(array) {
  * Password
  ***********************/
 function checkPassword() {
-  const correctPassword = "bier";
+  const correctPassword = "nosharing";
   const input = document.getElementById("accessInput").value;
   const error = document.getElementById("errorMsg");
 
@@ -34,7 +34,7 @@ let currentQuestions = [];
 let currentIndex = 0;
 let answeredStatus = {};
 let flaggedQuestions = {};
-let shuffledAnswersMap = {}; // 👈 keeps answer order per question
+let shuffledAnswersMap = {};
 let startTime = Date.now();
 
 /***********************
@@ -117,7 +117,6 @@ function displayQuestion() {
     );
   }
 
-  // Shuffle answers ONCE per question
   if (!shuffledAnswersMap[currentIndex]) {
     shuffledAnswersMap[currentIndex] = shuffleArray([...q.choices]);
   }
@@ -152,7 +151,6 @@ function displayQuestion() {
       updatePaginationColors();
       displayQuestion();
 
-      // ✅ AUTO-ADVANCE ON CORRECT
       if (isCorrect) {
         setTimeout(() => {
           if (currentIndex < currentQuestions.length - 1) {
@@ -223,6 +221,59 @@ finishBtn.onclick = finishBtnSide.onclick = () => {
   `;
 
   resultScreen.classList.remove("hidden");
+};
+
+/***********************
+ * Retry wrong answers ✅ FIXED
+ ***********************/
+retryWrongBtn.onclick = () => {
+  const wrongQuestions = Object.entries(answeredStatus)
+    .filter(([_, ans]) => !ans.isCorrect)
+    .map(([index]) => currentQuestions[index]);
+
+  if (wrongQuestions.length === 0) {
+    alert("No wrong answers to retry!");
+    return;
+  }
+
+  currentQuestions = wrongQuestions;
+  currentIndex = 0;
+  answeredStatus = {};
+  flaggedQuestions = {};
+  shuffledAnswersMap = {};
+
+  resultScreen.classList.add("hidden");
+  renderPagination();
+  displayQuestion();
+};
+
+/***********************
+ * Review flagged
+ ***********************/
+reviewFlaggedBtn.onclick = () => {
+  const original = data[currentSubject];
+  currentQuestions = original.filter((_, i) => flaggedQuestions[i]);
+  currentIndex = 0;
+  answeredStatus = {};
+  shuffledAnswersMap = {};
+  resultScreen.classList.add("hidden");
+  renderPagination();
+  displayQuestion();
+};
+
+/***********************
+ * Back to full quiz
+ ***********************/
+backToFullQuizBtn.onclick = () => {
+  currentQuestions = [...data[currentSubject]];
+  if (shuffleToggle.checked) shuffleArray(currentQuestions);
+  currentIndex = 0;
+  answeredStatus = {};
+  flaggedQuestions = {};
+  shuffledAnswersMap = {};
+  resultScreen.classList.add("hidden");
+  renderPagination();
+  displayQuestion();
 };
 
 /***********************
