@@ -31969,6 +31969,538 @@
       "answer": "1.15"
     }
   ],
+  "PER CAP": [
+    {
+      "question": "With reference to CAP 698 Figure 3.7. Why is wind omitted from the graph?",
+      "choices": [
+        "Wind is automatically incorporated into the graph.",
+        "Wind is only considered when climbing in certain directions.",
+        "The data is measured with reference to the air.",
+        "The data is measured with reference to the ground."
+      ],
+      "answer": "The data is measured with reference to the air."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.10. Given the following information, calculate the barrier speed for a multi-engine piston airplane. Pressure altitude: 4000 ft Outside air temp: 10\u00b0C Aircraft mass: 3450 lb",
+      "choices": [
+        "76 kt",
+        "74 kt",
+        "75 kt",
+        "72 kt"
+      ],
+      "answer": "72 kt"
+    },
+    {
+      "question": "Refer to CAP 698 Figure 4.1. For a maximum allowable tailwind of 10 kt calculate the maximum wind strength that can be accepted for a take off from runway 06 with wind from 180 degrees.",
+      "choices": [
+        "10",
+        "20",
+        "15",
+        "25"
+      ],
+      "answer": "20"
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the required headwind given: OAT+30\u00b0C, Pressure altitude: 2000 ft, TODA 1900 ft, Mass 3200 lbs, Flaps at Approach, Dry asphalt runway.",
+      "choices": [
+        "15 kt.",
+        "10 kt.",
+        "22 kt.",
+        "20 kt."
+      ],
+      "answer": "22 kt."
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. Determine the TOD for an aircraft, mass 4500 lb, flaps up, 1000 ft pressure altitude, 20\u00b0C and 10 kt headwind component.",
+      "choices": [
+        "1900 ft.",
+        "1400 ft.",
+        "1700 ft.",
+        "2000 ft."
+      ],
+      "answer": "1700 ft."
+    },
+    {
+      "question": "Reference CAP 698 Figure 4.23. Given the following Information, calculate the highest aircraft mass that allows a safe net level-off altitude. MSA: 12 000 ft Anti-ice: OFF A/C: AUTO (HIGH) ISA deviation: +15\u00b0C",
+      "choices": [
+        "60 750 kg",
+        "58 500 kg",
+        "58 250 kg",
+        "62 850 kg"
+      ],
+      "answer": "58 250 kg"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.23. Given: Aircraft mass: 52 000 kg Temperature: ISA +20\u00b0C Engine Anti-Ice: ON Air Conditioning (AC): OFF Using the data above determine the net level off altitude.",
+      "choices": [
+        "17 000 ft",
+        "17 400 ft",
+        "14 800 ft",
+        "15 400 ft"
+      ],
+      "answer": "15 400 ft"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.7. Given the following information, what is the Maximum Take-Off Mass (MTOM) eventually limited by VMBE for the MRJT aeroplane? Airfield Elevation: 1998 ft Slope: 0.2% upslope QNH: 1013.25 hPa OAT: 38\u00b0C V1: 145 kt Tailwind: 5 kt",
+      "choices": [
+        "Approximately 68 000 kg.",
+        "Significantly more than 68 000 kg.",
+        "We do not have enough information to determine this.",
+        "Below 68 000 kg."
+      ],
+      "answer": "Approximately 68 000 kg."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.28. Given: Airport PA: 1800 ft Runway: dry Field length: 1600 m Headwind: 20 kt Flaps: 30\u00b0 Automatic spoilers and anti-skid: operative Find the field length limit mass:",
+      "choices": [
+        "47 000 kg",
+        "58 000 kg",
+        "52 000 kg",
+        "60 000 kg"
+      ],
+      "answer": "58 000 kg"
+    },
+    {
+      "question": "Reference CAP 698 Figure 4.4. Given the following: Runway 02, TORA 6400 ft, 1 % upslope, obstacle after departure, maximum 5\u00b0 flaps allowed. Runway 20, TORA 6400 ft, 1 % downslope, departure over the sea, maximum 15\u00b0 flaps allowed. Wind: 020\u00b0 /5 kt. The actual TOM is 58 800 kg, which is 600 kg beyond the limit for runway 02. Which of the following options is the best choice, from both a safety and commercial standpoint?",
+      "choices": [
+        "Take-off on RWY 20 despite tailwind, as useful load could be increased by 600 kg.",
+        "Offload 600 kg of passengers or bags and take-off on RWY 02.",
+        "Defuel by 600 kg and take-off on RWY 02.",
+        "Take-off on RWY 20, after reducing the TOM."
+      ],
+      "answer": "Take-off on RWY 20 despite tailwind, as useful load could be increased by 600 kg."
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.31 What is the minimum brake cooling time required after a rejected take off, given the following: aircraft mass 55 tons; take-off rejected (brakes-on) at 135 kt; aerodrome pressure altitude 1000 ft; OAT +35\u00baC.",
+      "choices": [
+        "31 min.",
+        "88 min.",
+        "29 min.",
+        "32 min."
+      ],
+      "answer": "88 min."
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.28. Determine the minimum LDA for the following conditions: aircraft mass 55 000 kg; aerodrome pressure altitude 2000 ft; wet runway; Flap 40; wind component +20 kt; anti-skid inoperative, manual spoilers.",
+      "choices": [
+        "8400 ft.",
+        "5350 ft.",
+        "9050 ft.",
+        "9700 ft."
+      ],
+      "answer": "8400 ft."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.30. Given: Aerodrome Pressure altitude: 3000 ft Outside Air Temperature (OAT): +30\u00b0F Runway slope: 1.5% down Wind: 10 kt head Flaps: 40\u00b0 Using the data above, determine the Maximum Quick Turnaround Mass.",
+      "choices": [
+        "55 850 kg",
+        "58 125 kg",
+        "57 000 kg",
+        "56 375 kg"
+      ],
+      "answer": "56 375 kg"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.5. Consider the take-off performance for the twin jet aeroplane climb limit chart. Why has the wind been omitted from the chart?",
+      "choices": [
+        "There is a built-in safety measure.",
+        "The effect of the wind must be taken from another chart.",
+        "The climb limit performances are taken relative to the air.",
+        "There is no effect of the wind on the climb angle relative to the ground."
+      ],
+      "answer": "The climb limit performances are taken relative to the air."
+    },
+    {
+      "question": "Refer to CAP 698 Section 4. What are the V speeds for the MRJT for a TOM of 50 000 kg, Flaps 5\u00b0, at a 4000 ft pressure altitude and OAT of +37\u00b0C, 15 kt tailwind, no runway slope?",
+      "choices": [
+        "V1 130 kt VR 132 kt V2 142 kt.",
+        "V1 126 kt VR 128 kt V2 138 kt.",
+        "V1 132 kt VR 134 kt V2 141 kt.",
+        "V1 128 kt VR 134 kt V2 141 kt."
+      ],
+      "answer": "V1 128 kt VR 134 kt V2 141 kt."
+    },
+    {
+      "question": "Reference 698 CAP Figure 4. 7. Determine the brake release weight, given: V1: 149 kts Pressure altitude: 1487 ft OAT: +19\u00b0C Runway Slope: 0.5 % UP Wind: 10 kt headwind",
+      "choices": [
+        "The same as the MSTOM 62 800 kg.",
+        "Cannot be determined.",
+        "V1 can't be higher than VMBE.",
+        "Excess of 68 000 kg."
+      ],
+      "answer": "Excess of 68 000 kg."
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.25. An aircraft with a mass of 55 tons descends from FL 340 having suffered an engine failure. There is a 30 kt tailwind. Anti-ice is not required. The OAT is ISA -15\u00baC. What is the horizontal distance covered, the time taken and the fuel burned, to descend to 20 000 ft ? ...",
+      "choices": [
+        "148 nm; 19 min; 750 kg",
+        "150 nm; 20 min; 400 kg",
+        "144 nm; 24 min; 750 kg",
+        "120 nm; 25 min; 500 kg"
+      ],
+      "answer": "144 nm; 24 min; 750 kg"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.28. Given: Airport PA: 1800 ft Runway: dry Field length: 1600 m Headwind: 20 kt Flaps: 30\u00b0_Automatic spoilers and anti-skid: operative Find the field length limit mass:",
+      "choices": [
+        "47 000 kg",
+        "52 000 kg",
+        "60 000 kg",
+        "58 000 kg"
+      ],
+      "answer": "58 000 kg"
+    },
+    {
+      "question": "Reference CAP 698 Figure 4.7. Planned take-off mass is 64 000 kg Pressure altitude 4000 ft OAT +10\u00b0C. V1 - 151, 155, 161. Runway slope is -1% and tailwind 5 kt. What is the maximum permitted take-off mass?",
+      "choices": [
+        "63 400 kg",
+        "64 000 kg",
+        "63 700 kg",
+        "64 900 kg"
+      ],
+      "answer": "63 400 kg"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.31. Using the environmental data below and the attached figure, calculate the required brake cooling period for the rejected take-off. ... Abort speed: 100 kt (Max braking and reverse thrust used).",
+      "choices": [
+        "40 minutes",
+        "55 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "answer": "55 minutes"
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.28. Determine the runway length limiting landing mass at an aerodrome with a pressure altitude of 2000 ft, with 7250 ft runway length available, wind calm, runway wet and flaps 40\u00b0, anti-skid operative.",
+      "choices": [
+        "53 600 kg.",
+        "63 600 kg.",
+        "61 500 kg.",
+        "67 000 kg."
+      ],
+      "answer": "63 600 kg."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.6. Given: Pressure Altitude: 85 ft OAT: +8\u00b0C Tailwind Component: 8 kt PMC: OFF Flaps: 5\u00b0 Find the FLAPS TYRE SPEED LIMIT MASS for your aircraft which is fitted with 225 mph tyres...",
+      "choices": [
+        "It is not possible to determine from the information provided.",
+        "Below 84 000 kg.",
+        "It is out of the aircraft structural MTOM limits.",
+        "84 000 kg."
+      ],
+      "answer": "It is out of the aircraft structural MTOM limits."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.31. Using the environmental data below and the attached figure, calculate whether a brake cooling period is required following a rejected take-off: Takeoff mass: 61 300 kg Elevation: 2000 ft OAT: +34\u00b0C Wind: calm Abort speed: 80 kt",
+      "choices": [
+        "Cooling is required and it will require approximately 45 min to achieve this.",
+        "Cooling is required and it will require approximately 30 min to achieve this.",
+        "Cooling is not required, reverse thrust is considered to have been used for rejected takeoff purposes.",
+        "Cooling is required, it will require approximately 25 min to achieve this."
+      ],
+      "answer": "Cooling is required and it will require approximately 45 min to achieve this."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.28. What is the minimum field length required for the worst wind situation, landing a twin jet aeroplane with the anti-skid inoperative? Given: Elevation: 2000 ft QNH: 1013 hPa Landing Mass: 50 000 kg Flaps: as required for minimum landing distance Runway condition: dry Maximum allowable tailwind: 15 kts Maximum allowable headwind: 50 kts",
+      "choices": [
+        "2600 m",
+        "2700 m",
+        "2900 m",
+        "3100 m"
+      ],
+      "answer": "3100 m"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.4. For a twin engine turbojet aeroplane two take-off flap settings (5\u00b0 and 15\u00b0) are certified. Using the attached chart, what is the maximum allowed Take-off Mass, given the following conditions: Airport PA: 7000 ft OAT: -10\u00b0C Field length available: 2400 m Slope: Level Wind: Calm PMC: ON A/C: AUTO",
+      "choices": [
+        "70 000 kg",
+        "55 000 kg",
+        "52 000 kg",
+        "56 000 kg"
+      ],
+      "answer": "56 000 kg"
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.25. An aircraft with a mass of 55 tons descends from FL 340 having suffered an engine failure. There is a 30 kt tailwind. Anti-ice is not required. The OAT is ISA -15\u00baC. What is the horizontal distance covered, the time taken and the fuel burned, to descend to 20 000 ft ? Note: 1 Imperial ton is approximately 1000 kg.",
+      "choices": [
+        "120 nm; 25 min; 500 kg",
+        "144 nm; 24 min; 750 kg",
+        "150 nm; 20 min; 400 kg",
+        "148 nm; 19 min; 750 kg"
+      ],
+      "answer": "144 nm; 24 min; 750 kg"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.28. What is the field length limiting mass for the below conditions? Flaps: 15\u00b0 Wind: 20 kt headwind Runway condition: dry Pressure altitude: 3000 ft Field length available: 5505 ft Anti-Skid: operative.",
+      "choices": [
+        "51 000 kg",
+        "41 000 kg",
+        "53 000 kg",
+        "48 000 kg"
+      ],
+      "answer": "51 000 kg"
+    },
+    {
+      "question": "Refer to CAP 698 figure 4.31 What is the minimum brake cooling time after landing, given the following: landing mass 45 tons; brakes-on speed 130 kt; OAT +40\u00baC; MSL: wind calm; manual braking and no reverse thrust.",
+      "choices": [
+        "62 min.",
+        "32 min.",
+        "19 min.",
+        "58 min."
+      ],
+      "answer": "62 min."
+    },
+    {
+      "question": "Ref to CAP 698 MEP 1 Figure 3.1. OAT: 24\u00b0C Pressure Altitude: 3000 ft RWY: 30R Wind: 060\u00b0/4 kt Take-off Mass: 3800 lb Other conditions are as associated in the header of the graph. Given the following information, what is the Take-Off Distance?",
+      "choices": [
+        "1550 ft",
+        "2150 ft",
+        "1670 ft",
+        "2000 ft"
+      ],
+      "answer": "2000 ft"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.7. Given: OAT: -20\u00b0C Pressure altitude: 18 000 ft Gross mass: 4000 lbs Mixture: Leaned to 25\u00b0F Rich of peak EGT Other conditions as associated in the header of the graph. What is the two engine rate of climb for the conditions given?",
+      "choices": [
+        "870 ft/min.",
+        "1050 ft/min.",
+        "1370 ft/min.",
+        "550 ft/min."
+      ],
+      "answer": "1050 ft/min."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Calculate the obstacle clearance over an obstacle 900 ft high, 3 nm from the end of TODA given a climb gradient of 10%.",
+      "choices": [
+        "1875 ft.",
+        "1825 ft.",
+        "975 ft.",
+        "2775 ft."
+      ],
+      "answer": "975 ft."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.6. Given the following data, determine the aircraft height gain after 2.5 NM. Mass: 4200 lbs PA: 4000 ft OAT: +30\u00b0C Wind: 20 kt headwind (All engines operating).",
+      "choices": [
+        "2550 ft",
+        "1350 ft",
+        "3300 ft",
+        "2800 ft"
+      ],
+      "answer": "3300 ft"
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. Calculate the planned clearance above an obstacle 700 ft high, 2 nm from reference zero. The aircraft\u2019s take-off mass is 4000 lb, flaps are UP, the aerodrome pressure altitude is 4000 ft and the temperature is +20\u00b0C. The cloud base is 500 ft and there is a 10 kt headwind.",
+      "choices": [
+        "386 ft.",
+        "586 ft.",
+        "186 ft.",
+        "786 ft."
+      ],
+      "answer": "186 ft."
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. What is the MTOM for a commercial flight conducting a normal take-off from a field length of 1870 ft, given the following conditions. MSL, OAT +18\u00b0C, wind calm, paved level dry surface. No stopway or clearway.",
+      "choices": [
+        "3550 lb",
+        "4100 lb",
+        "2500 lb",
+        "3150 lb"
+      ],
+      "answer": "3550 lb"
+    },
+    {
+      "question": "Refer to CAP 698 Figure 2.4. Given the following information, determine the minimum or maximum wind component for the SEP aircraft to land: Pressure altitude: 10 000 ft Mass: 2860 lb Temperature: -2\u00b0 C Runway LDA: 2000 ft.",
+      "choices": [
+        "Maximum 6 kt tailwind.",
+        "Minimum 19 kt headwind.",
+        "Maximum 4 kt tailwind.",
+        "Minimum 38 kt headwind."
+      ],
+      "answer": "Minimum 19 kt headwind."
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. You plan an approach to an airfield at a pressure altitude of 5000 ft and an OAT of +38\u00b0C. With the aeroplane at its AUM of 4513 lb, you must determine whether it can satisfy the balked landing climb gradient requirement. What is the achievable balked landing climb gradient? What is the minimum required balked climb gradient?",
+      "choices": [
+        "7.35% achievable and 1.43% required.",
+        "7% achievable and 2.5% required.",
+        "7.35% achievable and 2.5% required.",
+        "2.6% achievable and 7.5% required."
+      ],
+      "answer": "7.35% achievable and 2.5% required."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine MTOM with a TOD of 2500 ft, given: OAT+20\u00b0C Pressure altitude: 4000 ft Tailwind 5 kt Flaps at Approach Runway dry asphalt.",
+      "choices": [
+        "2750 lb.",
+        "3250 kg.",
+        "4000 lb.",
+        "3250 lb."
+      ],
+      "answer": "3250 lb."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP698 as required. Determine the ground roll distance given: OAT+40\u00b0C Pressure altitude: 6000 ft QNH 973 hPa Mass 3400 lbs Tailwind 5 kt Flaps at Approach Dry asphalt runway.",
+      "choices": [
+        "2150 ft.",
+        "3500 ft.",
+        "3800 ft.",
+        "2000 ft."
+      ],
+      "answer": "2150 ft."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the required headwind given: OAT+30\u00b0C Pressure altitude: 2000 ft TODA 1900 ft Mass 3200 lbs Flaps at Approach Dry asphalt runway.",
+      "choices": [
+        "20 kt.",
+        "15 kt.",
+        "10 kt.",
+        "22 kt."
+      ],
+      "answer": "22 kt."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.2. Given: OAT: 20\u00b0C Pressure Altitude: 2000 ft RWY: 24L Wind: 120\u00b0/8 kts Take-off Mass: 4500 lbs Heavy Duty Brakes: installed Other conditions as associated in the header of the chart. What is the Accelerate and Stop Distance under the conditions given?",
+      "choices": [
+        "3400 ft",
+        "3600 ft",
+        "4200 ft",
+        "4500 ft"
+      ],
+      "answer": "4200 ft"
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. Determine the ASD for an aircraft, mass 4500 lb, flaps up, 1000 ft pressure altitude, 20\u00b0C and 10 kt headwind component.",
+      "choices": [
+        "3450 m.",
+        "3800 ft.",
+        "3450 ft.",
+        "3750 ft."
+      ],
+      "answer": "3450 ft."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. You have identified a suitable forced landing area 4 nm off route at an altitude of 2000 ft. Given the following conditions, calculate the minimum net glide height needed to make it to the forced landing site: OAT at forced landing site +30C, ISA pressure. Gross air gradient 10%. Glide speed 75 KIAS. Tailwind of 20 kt.\u201d",
+      "choices": [
+        "1800 ft.",
+        "2430 ft.",
+        "2550 ft.",
+        "2055 ft."
+      ],
+      "answer": "2055 ft."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.2. Given: OAT: 25\u00b0C Pressure altitude: 3000 ft RWY: 24L Wind: 310\u00b0/20 kts Take-off mass: 4400 lbs Heavy Duty Brakes: installed Other conditions as associated in the header of the chart. What is the Accelerate and Stop Distance under the conditions given?",
+      "choices": [
+        "4000 ft",
+        "33750 ft",
+        "3750 ft",
+        "4300 ft"
+      ],
+      "answer": "3750 ft"
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the required headwind given: OAT+20\u00b0C Pressure altitude: sea level QNH 973 hPa TODA 1700 ft Mass 3450 lbs Flaps approach Dry asphalt runway",
+      "choices": [
+        "20 ft.",
+        "26 kt.",
+        "10 ft.",
+        "14 ft."
+      ],
+      "answer": "26 kt."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the distance to a height of 50 ft given: OAT+38\u00b0C Pressure altitude: 4000 ft QNH 973 hPa Mass 3400 lbs Tailwind 5 kt Flaps at Approach Firm, dry grass runway.",
+      "choices": [
+        "1700 ft.",
+        "4050 ft.",
+        "3900 ft.",
+        "3250 ft."
+      ],
+      "answer": "3900 ft."
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the distance to a height of 50 ft given: OAT-7\u00b0C Pressure altitude: 5800 ft QNH 973 hPa Mass 2950 lbs Headwind 5 kt Flaps up Runway dry.",
+      "choices": [
+        "1750 ft.",
+        "1000 ft.",
+        "2050 ft.",
+        "1900 ft."
+      ],
+      "answer": "1750 ft."
+    },
+    {
+      "question": "Refer to CAP 697 SEP 1 Figure 2.1. Given the following information, what is the required fuel to climb? Airport Pressure Altitude: 4000 ft Airport OAT: +10\u00b0C Climb to: FL100 OAT at FL100: -5\u00b0C Take-off Mass: 3400 lb Gear: up",
+      "choices": [
+        "4.2 gal",
+        "2.8 gal",
+        "16.0 gal",
+        "8.0 gal"
+      ],
+      "answer": "2.8 gal"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 3.9. For a multi-engine piston aeroplane, calculate the maximum landing mass given the following conditions: Temperature: 10\u00b0C Pressure altitude: 2000 ft LDA: 2600 ft Headwind: 14 kt",
+      "choices": [
+        "2750 Ib",
+        "3600 lb",
+        "3350 Ib",
+        "3000 Ib"
+      ],
+      "answer": "3350 Ib"
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. What is the FLL limited landing mass for a commercial MEP 1 flight given the following conditions: Pressure altitude sea level; OAT 0\u00b0C; LDA 2430 ft; 15 kt headwind on a dry runway.",
+      "choices": [
+        "3400 lb",
+        "3450 lb",
+        "3300 lb",
+        "3000 lb"
+      ],
+      "answer": "3300 lb"
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. The landing distance for a MEP 1 private flight was calculated as 3260 ft from the following data: Pressure altitude 3000 ft OAT +10\u00b0C Mass 4250 lb 5 kt tailwind. If this had been a commercial flight the landing distance would be:",
+      "choices": [
+        "3010 ft",
+        "4660 ft",
+        "2280 ft",
+        "3260 ft"
+      ],
+      "answer": "4660 ft"
+    },
+    {
+      "question": "For an SEP Aircraft. Using the data provided in CAP 698 as required. Determine the distance to a height of 50 ft, and the length of the take-off roll, given: OAT 30\u00b0C Pressure altitude: 1000 ft Mass 3400 lbs Tailwind 10 kt Flaps at Approach Dry, asphalt runway.",
+      "choices": [
+        "TOD 1800 ft TOR 900 ft.",
+        "TOD 2750 ft TOR 145 ft.",
+        "TOD 1300 ft TOR 2500 ft.",
+        "TOD 2500 ft TOR 1300 ft."
+      ],
+      "answer": "TOD 2500 ft TOR 1300 ft."
+    },
+    {
+      "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. Determine the landing distance, and speed at screen height, for a MEP 1 commercial air transport flight given the following data: Pressure altitude 3000 ft OAT +10\u00b0C Mass 4250 lb 5 kt tailwind.",
+      "choices": [
+        "88 kt and 1310 ft.",
+        "89 kt and 3260 ft.",
+        "88 kt and 1420 ft.",
+        "88 kt and 3260 ft."
+      ],
+      "answer": "88 kt and 3260 ft."
+    },
+    {
+      "question": "If you want to follow a 3.25\u00b0 glideslope (ILS), when TAS is 130 kt and wind component is 15 kt tailwind, your rate of descend must be:",
+      "choices": [
+        "675 feet/min",
+        "510 feet/min",
+        "748 feet/min",
+        "832 feet/min"
+      ],
+      "answer": "832 feet/min"
+    }
+  ],   
   "PER": [
     {
       "question": "With reference to CAP 698 Figure 3.7. Why is wind omitted from the graph?",
@@ -32015,10 +32547,10 @@
       "choices": [
         "VS1.",
         "VMC.",
-        "VSO.",
+        "VS0.",
         "VS."
       ],
-      "answer": "VSO."
+      "answer": "VS0."
     },
     {
       "question": "Compared with clean configuration, a take off with a 10\u00b0 flaps setting will result in:",
@@ -38134,6 +38666,36 @@
         "9 min, 3.5 USG, 19 nm"
       ],
       "answer": "19 min, 6.4 USG, 38 nm"
+    },
+    {
+      "question": "Refer to the LRJT 1 Integrated Cruise table. A turbojet aircraft is flying using the following data: TOM: 155 400 kg; Planned cruise at FL 330; LRC; Standard Atmosphere (ISA); CG: 37 %. What flight time will be required to cover an air distance of 2350 NM?",
+      "choices": [
+        "1 hr 28 min",
+        "8 hr 51 min",
+        "7 hr 23 min",
+        "5 hr 58 min"
+      ],
+      "answer": "5 hr 58 min"
+    },
+    {
+      "question": "Refer to the LRJT 1 Integrated Cruise table. A turbojet aeroplane is flying using the following data: Flight level FL 330, Long Range (LR) cruise, Mass of 160 000 kg, Temperature: ISA, Head wind component: 120 kt, Remaining flight time: 4h 30 min Referring to the image above. Which of the following correctly indicates the ground distance remaining?",
+      "choices": [
+        "1447 NGM",
+        "1328 NGM",
+        "2408 NGM",
+        "1868 NGM"
+      ],
+      "answer": "1328 NGM"
+    },
+    {
+      "question": "Refer to the LRJT 1 Integrated Cruise table. For a long distance flight at FL 370, \"Long Range\" regime, divided into 4 flight legs with the following specifications: Segment AB - Ground distance: 1000 NM. headwind component: 100 kt Segment BC - Ground distance: 2000 NM. headwind component: 50 kt Segment CD - Ground distance: 500 NM. tailwind component:50 kt Segment DE - Ground distance: 1500 NM. tailwind component: 100 kt The total air distance is approximately:",
+      "choices": [
+        "5000 NAM",
+        "4800 NAM",
+        "4517 NAM",
+        "5200 NAM"
+      ],
+      "answer": "5200 NAM"
     }
   ],
   "FPM": [
@@ -38510,10 +39072,10 @@
     {
       "question": "When calculating the fuel required to carry out a given flight, one must take into account: 1 - the wind 2 - foreseeable airborne delays 3 - other weather forecasts 4 - any foreseeable conditions which may delay landing The combination which provides the correct statement is:",
       "choices": [
-        "2003-01-02 00:00:00",
-        "2025-01-03 00:00:00",
+        "1, 2, 4",
+        "2, 3",
         "1, 2, 3, 4",
-        "2025-02-04 00:00:00"
+        "1, 3"
       ],
       "answer": "1, 2, 3, 4"
     },
@@ -38978,16 +39540,6 @@
       "answer": "97 NM"
     },
     {
-      "question": "Given: Distance from departure to destination 165 NM, True track 055\u00b0, W/V 360/20, TAS 105 kt. What is the distance of the PET from the departure point?",
-      "choices": [
-        "132 NM",
-        "73 NM",
-        "83 NM",
-        "92 NM"
-      ],
-      "answer": "92 NM"
-    },
-    {
       "question": "How much useable fuel should be on board at start-up given the following planning information: APU fuel flow 150 kg/h, Taxi fuel flow 11 kg / minute, APU time 38 minutes, Taxi. 13 minutes, Trip fuel (including contingency) 4250 kg, Alternate and Final Reserve fuel 3730 kg",
       "choices": [
         "7980 kg",
@@ -39408,16 +39960,6 @@
       "answer": "132\u00b0M, 269 kt, 41 min"
     },
     {
-      "question": "Given: Distance from departure to destination 220 NM, True track 175\u00b0, W/V 220/10, TAS 135 kts. What is the distance of the PET from the departure point?",
-      "choices": [
-        "116 NM",
-        "103 NM",
-        "110 NM",
-        "136 NM"
-      ],
-      "answer": "116 NM"
-    },
-    {
       "question": "Refer to CAP697 MRJT Figure 4.3.1c. Trip distance 1900 nm, 50 kt tailwind, estimated landing weight 50 000 kg, cruise at FL220, ISA -10\u00b0C. What is the trip fuel and time?",
       "choices": [
         "14 800 kg and 5 hrs 36 mins",
@@ -39556,16 +40098,6 @@
         "17:30:00"
       ],
       "answer": "12:15:00"
-    },
-    {
-      "question": "Refer to the LRJT 1 Integrated Cruise table. For a long distance flight at FL 370, \"Long Range\" regime, divided into 4 flight legs with the following specifications: Segment AB - Ground distance: 1000 NM. headwind component: 100 kt Segment BC - Ground distance: 2000 NM. headwind component: 50 kt Segment CD - Ground distance: 500 NM. tailwind component:50 kt Segment DE - Ground distance: 1500 NM. tailwind component: 100 kt The total air distance is approximately:",
-      "choices": [
-        "5000 NAM",
-        "4800 NAM",
-        "4517 NAM",
-        "5200 NAM"
-      ],
-      "answer": "5200 NAM"
     },
     {
       "question": "During a flight the fuel indicators show that the remaining amount of fuel is 100 lb after 38 minutes. The total amount of fuel at take off was 160 lb. For the alternate fuel, 30 lb is necessary. The planned fuel for taxi is 13 lb. Final reserve fuel is estimated at 50 lb. If the fuel flow remains the same, how many minutes can be flown to the destination with the remaining fuel?",
@@ -40856,6 +41388,16 @@
         "Any flight in Class F airspace wishing to participate in an Air Traffic Advisory Service."
       ],
       "answer": "Any flight, longer than 50 km, from a UK aerodrome with aircraft Maximum Total Weight Authorised (MTWA) greater than 7500 kg."
+    },
+    {
+      "question": "What is the difference between an RNAV STAR and RNAV STAR overlay?",
+      "choices": [
+        "The RNAV STAR overlay is a longer route than the RNAV STAR.",
+        "The RNAV STAR overlay will follow a different route from the conventional STAR procedure.",
+        "The RNAV STAR overlay is a shorter route than the RNAV STAR.",
+        "The RNAV STAR overlay permits pilots to fly a conventional STAR procedure using GNSS equipment."
+      ],
+      "answer": "The RNAV STAR overlay permits pilots to fly a conventional STAR procedure using GNSS equipment."
     },
     {
       "question": "Refer to CAP 697 Figure 2.2. Given a power setting of 23 in.Hg. and 2300 RPM, ISA +20\u00b0C, find the manifold air pressure, fuel flow, indicated speed and true air speed for the optimum cruise at a pressure altitude of 12 000 ft.",
