@@ -1,6 +1,4 @@
-/***********************
- * Utilities
- ***********************/
+// === Utility Functions ===
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -9,11 +7,14 @@ function shuffleArray(array) {
   return array;
 }
 
-/***********************
- * Password
- ***********************/
+// ✅ NEW: shuffle choices safely without mutating original data
+function getShuffledChoices(choices) {
+  return shuffleArray([...choices]);
+}
+
+// === Password Check ===
 function checkPassword() {
-  const correctPassword = "bier";
+  const correctPassword = "nosharing";
   const input = document.getElementById("accessInput").value;
   const error = document.getElementById("errorMsg");
 
@@ -25,21 +26,15 @@ function checkPassword() {
   }
 }
 
-/***********************
- * State
- ***********************/
+// === Variables ===
 let data = {};
+let currentIndex = 0;
 let currentSubject = "";
 let currentQuestions = [];
-let currentIndex = 0;
 let answeredStatus = {};
 let flaggedQuestions = {};
-let shuffledAnswersMap = {};
 let startTime = Date.now();
 
-/***********************
- * DOM
- ***********************/
 const subjectSelect = document.getElementById("subjectSelect");
 const questionIndex = document.getElementById("questionIndex");
 const questionText = document.getElementById("questionText");
@@ -53,6 +48,7 @@ const flagBtnNav = document.getElementById("flagBtnNav");
 const pagination = document.getElementById("pagination");
 const resultScreen = document.getElementById("resultScreen");
 const scoreText = document.getElementById("scoreText");
+const restartBtn = document.getElementById("restartBtn");
 const retryWrongBtn = document.getElementById("retryWrongBtn");
 const reviewFlaggedBtn = document.getElementById("reviewFlaggedBtn");
 const backToFullQuizBtn = document.getElementById("backToFullQuizBtn");
@@ -64,80 +60,61 @@ feedback.style.marginTop = "10px";
 feedback.style.fontWeight = "bold";
 optionsList.insertAdjacentElement("afterend", feedback);
 
-/***********************
- * Persistence
- ***********************/
-function saveState() {
-  localStorage.setItem("quizState", JSON.stringify({
-    currentSubject,
-    currentQuestions,
-    currentIndex,
-    answeredStatus,
-    flaggedQuestions,
-    shuffledAnswersMap
-  }));
-}
-
-function loadState() {
-  const saved = JSON.parse(localStorage.getItem("quizState"));
-  if (!saved) return false;
-
-  currentSubject = saved.currentSubject;
-  currentQuestions = saved.currentQuestions;
-  currentIndex = saved.currentIndex;
-  answeredStatus = saved.answeredStatus || {};
-  flaggedQuestions = saved.flaggedQuestions || {};
-  shuffledAnswersMap = saved.shuffledAnswersMap || {};
-
-  subjectSelect.value = currentSubject;
-  renderPagination();
-  displayQuestion();
-  return true;
-}
-
-/***********************
- * Load questions
- ***********************/
 fetch("questions.json")
   .then(res => res.json())
   .then(json => {
     data = json;
-
     for (let subject in data) {
-      const opt = document.createElement("option");
+      let opt = document.createElement("option");
       opt.value = subject;
       opt.textContent = subject;
       subjectSelect.appendChild(opt);
     }
 
-    loadState();
+    const saved = JSON.parse(localStorage.getItem("quizState"));
+    if (saved && data[saved.currentSubject]) {
+      currentSubject = saved.currentSubject;
+      currentQuestions = data[currentSubject];
+      currentIndex = saved.currentIndex;
+      answeredStatus = saved.answeredStatus || {};
+      flaggedQuestions = saved.flaggedQuestions || {};
+      subjectSelect.value = currentSubject;
+      renderPagination();
+      displayQuestion();
+    }
   });
 
-/***********************
- * Subject change
- ***********************/
 subjectSelect.addEventListener("change", () => {
   currentSubject = subjectSelect.value;
   currentQuestions = [...data[currentSubject]];
-  if (shuffleToggle.checked) shuffleArray(currentQuestions);
-
+  if (shuffleToggle.checked) shuffle(currentQuestions);
   currentIndex = 0;
   answeredStatus = {};
   flaggedQuestions = {};
-  shuffledAnswersMap = {};
+  resultScreen.classList.add("hidden");
   startTime = Date.now();
-
   renderPagination();
   displayQuestion();
-  saveState();
 });
 
-/***********************
- * Display question
- ***********************/
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+function saveProgress() {
+  localStorage.setItem("quizState", JSON.stringify({
+    currentSubject,
+    currentIndex,
+    answeredStatus,
+    flaggedQuestions
+  }));
+}
+
 function displayQuestion() {
   const q = currentQuestions[currentIndex];
-
   questionIndex.textContent = `${currentIndex + 1} / ${currentQuestions.length}`;
   questionText.textContent = q.question;
   optionsList.innerHTML = "";
@@ -150,15 +127,15 @@ function displayQuestion() {
     );
   }
 
-  if (!shuffledAnswersMap[currentIndex]) {
-    shuffledAnswersMap[currentIndex] = shuffleArray([...q.choices]);
-  }
+  // ✅ SHUFFLED ANSWERS HERE
+  const shuffledChoices = getShuffledChoices(q.choices);
 
-  shuffledAnswersMap[currentIndex].forEach((choice, i) => {
+  shuffledChoices.forEach((choice, i) => {
+    const id = `opt${i}`;
     const label = document.createElement("label");
-
+    label.setAttribute("for", id);
     label.innerHTML = `
-      <input type="radio" name="option" value="${choice}">
+      <input type="radio" name="option" id="${id}" value="${choice}" />
       ${choice}
     `;
 
@@ -171,22 +148,21 @@ function displayQuestion() {
 
     label.querySelector("input").addEventListener("change", () => {
       if (answeredStatus[currentIndex]) return;
-
       const isCorrect = choice === q.answer;
       answeredStatus[currentIndex] = { selected: choice, isCorrect };
+      saveProgress();
 
       feedback.textContent = isCorrect ? "Correct!" : "Incorrect";
       feedback.style.color = isCorrect ? "green" : "red";
 
-      updatePaginationColors();
-      saveState();
       displayQuestion();
+
+      updatePaginationColors();
 
       if (isCorrect) {
         setTimeout(() => {
           if (currentIndex < currentQuestions.length - 1) {
             currentIndex++;
-            saveState();
             displayQuestion();
           }
         }, 800);
@@ -199,13 +175,9 @@ function displayQuestion() {
   updatePaginationColors();
 }
 
-/***********************
- * Navigation
- ***********************/
 prevBtn.onclick = () => {
   if (currentIndex > 0) {
     currentIndex--;
-    saveState();
     displayQuestion();
   }
 };
@@ -213,87 +185,76 @@ prevBtn.onclick = () => {
 nextBtn.onclick = () => {
   if (currentIndex < currentQuestions.length - 1) {
     currentIndex++;
-    saveState();
     displayQuestion();
   }
 };
 
-/***********************
- * Keyboard
- ***********************/
-document.addEventListener("keydown", e => {
-  const key = e.key.toLowerCase();
-  const radios = document.querySelectorAll(".custom-option-list input");
-
-  if (!answeredStatus[currentIndex] && ["a", "b", "c", "d"].includes(key)) {
-    const index = { a: 0, b: 1, c: 2, d: 3 }[key];
-    radios[index]?.click();
-  }
-
-  if (key === "arrowright") nextBtn.click();
-  if (key === "arrowleft") prevBtn.click();
-});
-
-/***********************
- * Finish
- ***********************/
 finishBtn.onclick = finishBtnSide.onclick = () => {
+  const answered = Object.keys(answeredStatus).length;
+  const correct = Object.values(answeredStatus).filter(a => a.isCorrect).length;
+  const total = currentQuestions.length;
+  const percentage = ((correct / total) * 100).toFixed(1);
+  const flaggedCount = Object.keys(flaggedQuestions).length;
+  const timeSpent = Math.round((Date.now() - startTime) / 1000);
+  const minutes = Math.floor(timeSpent / 60);
+  const seconds = timeSpent % 60;
+
+  scoreText.innerHTML = `
+    You answered <strong>${answered}</strong> of <strong>${total}</strong> questions.<br/>
+    Correct answers: <strong>${correct}</strong><br/>
+    Score: <strong>${percentage}%</strong><br/>
+    Flagged questions: <strong>${flaggedCount}</strong><br/>
+    Time spent: <strong>${minutes}m ${seconds}s</strong>
+  `;
   resultScreen.classList.remove("hidden");
+};
+
+restartBtn.onclick = () => {
+  subjectSelect.value = "Choose a subject";
+  resultScreen.classList.add("hidden");
+  questionText.textContent = "Loading...";
+  optionsList.innerHTML = "";
+  feedback.textContent = "";
   localStorage.removeItem("quizState");
 };
 
-/***********************
- * Retry wrong
- ***********************/
 retryWrongBtn.onclick = () => {
-  currentQuestions = Object.entries(answeredStatus)
-    .filter(([_, a]) => !a.isCorrect)
-    .map(([i]) => currentQuestions[i]);
+  const wrongIndexes = Object.entries(answeredStatus)
+    .filter(([_, ans]) => !ans.isCorrect)
+    .map(([index]) => parseInt(index));
 
+  if (wrongIndexes.length === 0) {
+    alert("No wrong answers to retry!");
+    return;
+  }
+
+  currentQuestions = wrongIndexes.map(i => currentQuestions[i]);
   currentIndex = 0;
   answeredStatus = {};
-  flaggedQuestions = {};
-  shuffledAnswersMap = {};
-
+  flagged = {};
+  resultScreen.classList.add("hidden");
   renderPagination();
   displayQuestion();
-  saveState();
 };
 
-/***********************
- * Review flagged
- ***********************/
 reviewFlaggedBtn.onclick = () => {
-  currentQuestions = currentQuestions.filter((_, i) => flaggedQuestions[i]);
+  const originalQuestions = data[currentSubject];
+  currentQuestions = originalQuestions.filter((_, i) => flaggedQuestions[i]);
   currentIndex = 0;
-  answeredStatus = {};
-  shuffledAnswersMap = {};
-
+  resultScreen.classList.add("hidden");
   renderPagination();
   displayQuestion();
-  saveState();
 };
 
-/***********************
- * Back to full quiz
- ***********************/
 backToFullQuizBtn.onclick = () => {
   currentQuestions = [...data[currentSubject]];
-  if (shuffleToggle.checked) shuffleArray(currentQuestions);
-
+  if (shuffleToggle.checked) shuffle(currentQuestions);
   currentIndex = 0;
-  answeredStatus = {};
-  flaggedQuestions = {};
-  shuffledAnswersMap = {};
-
+  resultScreen.classList.add("hidden");
   renderPagination();
   displayQuestion();
-  saveState();
 };
 
-/***********************
- * Pagination
- ***********************/
 function renderPagination() {
   pagination.innerHTML = "";
   currentQuestions.forEach((_, i) => {
@@ -301,7 +262,6 @@ function renderPagination() {
     btn.textContent = i + 1;
     btn.onclick = () => {
       currentIndex = i;
-      saveState();
       displayQuestion();
     };
     pagination.appendChild(btn);
@@ -319,21 +279,36 @@ function updatePaginationColors() {
   });
 }
 
-/***********************
- * Flagging
- ***********************/
 flagBtnNav.onclick = () => {
-  flaggedQuestions[currentIndex]
-    ? delete flaggedQuestions[currentIndex]
-    : flaggedQuestions[currentIndex] = true;
-
-  saveState();
+  if (flaggedQuestions[currentIndex]) {
+    delete flaggedQuestions[currentIndex];
+  } else {
+    flaggedQuestions[currentIndex] = true;
+  }
+  saveProgress();
   updatePaginationColors();
 };
 
-/***********************
- * Theme
- ***********************/
-document.getElementById("themeToggle").addEventListener("change", e => {
+document.getElementById("themeToggle").addEventListener("change", (e) => {
   document.body.classList.toggle("dark", e.target.checked);
 });
+
+document.addEventListener("keydown", (e) => {
+  const key = e.key.toLowerCase();
+  const options = document.querySelectorAll(".custom-option-list input");
+  const hasAnswered = answeredStatus[currentIndex];
+
+  if (!hasAnswered && ["a", "b", "c", "d"].includes(key)) {
+    const index = { a: 0, b: 1, c: 2, d: 3 }[key];
+    if (options[index]) options[index].click();
+  }
+
+  if (key === "arrowright") nextBtn.click();
+  if (key === "arrowleft") prevBtn.click();
+});
+
+function clearSelection(event, groupName) {
+  event.preventDefault();
+  const radios = document.querySelectorAll(`input[name='${groupName}']`);
+  radios.forEach(r => r.checked = false);
+}
