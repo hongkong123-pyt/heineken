@@ -32221,16 +32221,6 @@
       "answer": "56 000 kg"
     },
     {
-      "question": "Refer to CAP 698 figure 4.25. An aircraft with a mass of 55 tons descends from FL 340 having suffered an engine failure. There is a 30 kt tailwind. Anti-ice is not required. The OAT is ISA -15\u00baC. What is the horizontal distance covered, the time taken and the fuel burned, to descend to 20 000 ft ? Note: 1 Imperial ton is approximately 1000 kg.",
-      "choices": [
-        "120 nm; 25 min; 500 kg",
-        "144 nm; 24 min; 750 kg",
-        "150 nm; 20 min; 400 kg",
-        "148 nm; 19 min; 750 kg"
-      ],
-      "answer": "144 nm; 24 min; 750 kg"
-    },
-    {
       "question": "With reference to CAP 698 Figure 4.28. What is the field length limiting mass for the below conditions? Flaps: 15\u00b0 Wind: 20 kt headwind Runway condition: dry Pressure altitude: 3000 ft Field length available: 5505 ft Anti-Skid: operative.",
       "choices": [
         "51 000 kg",
@@ -33319,6 +33309,16 @@
       "answer": "reduces"
     },
     {
+      "question": "The distance from the point on the surface of the aerodrome at which an aeroplane begins its take-off roll to the nearest point in the direction of take-off at which it can’t roll over the surface of the aerodrome and be brought to rest in an emergency without risk of accident is a description of:",
+      "choices": [
+        "ASDA",
+        "TODA",
+        "TODR",
+        "TORA"
+      ],
+      "answer": "ASDA"
+    },
+    {
       "question": "__________ is the minimum speed that ensures you can retain sufficient control of the aircraft when in the approach and landing configuration.",
       "choices": [
         "VREF",
@@ -33779,6 +33779,26 @@
       "answer": "0.091"
     },
     {
+      "question": "If you don’t let the automatics manage the descent:",
+      "choices": [
+        "Select a target CAS to avoid the risk of a MMO exceedance.",
+        "Select a target CAS to avoid the risk of a VMO exceedance.",
+        "Set a target CAS or Mach number to avoid the risk of any speed exceedance.",
+        "The aeroplane will descend at the minimum rate of descent."
+      ],
+      "answer": "Select a target CAS to avoid the risk of a VMO exceedance."
+    },
+    {
+      "question": "The result of a higher flap setting up to the optimum at take-off is:",
+      "choices": [
+        "An increased acceleration.",
+        "A shorter ground roll.",
+        "A longer take-off run.",
+        "A higher V1."
+      ],
+      "answer": "A shorter ground roll."
+    },
+    {
       "question": "A marked speed acceleration along the flight path results in __________ climb performance during the acceleration event.",
       "choices": [
         "reduced",
@@ -34053,7 +34073,7 @@
         "150",
         "1000"
      ],
-     "answer": "1000"
+     "answer": "200"
     },      
     {
       "question": "Assume a take-off with a class A aeroplane on a wet runway. Which of the following values shows the corresponding screen height of the take-off distance?",
@@ -34693,7 +34713,35 @@
         "150",
         "500"
       ],
-      "answer": "1000"
+      "answer": "2000"
+    },
+    {
+      "question": "A __________ runway is a runway in which the surface is covered with water, or equivalent, but less than that of a contaminated runway.",
+      "choices": [
+        "damp",
+        "wet"
+      ],
+     "answer": "wet"
+    },
+    {
+       "question": "What is the purpose of the crossover altitude, for an aircraft during the climb?",
+        "choices": [
+          "To not exceed VNE.",
+          "To not exceed MMO.",
+          "To not exceed VMO.",
+          "To not exceed VLO."
+        ],
+        "answer": "To not exceed MMO."
+    },
+    {
+      "question": "During take-off on a limiting runway, if a dry V1 was used instead of a wet V1 due to wet runway conditions the result would be:",
+      "choices": [
+        "The one engine inoperative take-off distance may exceed the take-off distance available.",
+        "It may lead to over-rotation.",
+        "The accelerate stop distance will exceed the accelerate stop distance available.",
+        "Dry V1 and wet V1 are the same."
+      ],
+      "answer": "The accelerate stop distance will exceed the accelerate stop distance available."
     },
     {
       "question": "Refer to CAP 698 figure 4.25. An aircraft with a mass of 55 tons descends from FL 340 having suffered an engine failure. There is a 30 kt tailwind. Anti-ice is not required. The OAT is ISA -15\u00baC. What is the horizontal distance covered, the time taken and the fuel burned, to descend to 20 000 ft ? ...",
@@ -34756,7 +34804,7 @@
       "answer": "77 110 kg"
     },
     {
-      "question": "In the landing roll, when can the pilot apply the brakes? 1) When both main gears touch the ground ... 4) When all wheels are on the ground.",
+      "question": "In the landing roll, when can the pilot apply the brakes? 1) When both main gears touch the ground 2) When at least one main gear has contact with runway 3) When both main gears are on the ground and provided that the nose gear can be lowered in a controlled manner permitting it to touch down safely 4) When all wheels are on the ground.",
       "choices": [
         "1 and 2.",
         "1, 3 and 4.",
@@ -35306,16 +35354,6 @@
       "answer": "VMU"
     },
     {
-      "question": "Refer to CAP 698 figure 4.25. An aircraft with a mass of 55 tons descends from FL 340 having suffered an engine failure. There is a 30 kt tailwind. Anti-ice is not required. The OAT is ISA -15\u00baC. What is the horizontal distance covered, the time taken and the fuel burned, to descend to 20 000 ft ? Note: 1 Imperial ton is approximately 1000 kg.",
-      "choices": [
-        "120 nm; 25 min; 500 kg",
-        "144 nm; 24 min; 750 kg",
-        "150 nm; 20 min; 400 kg",
-        "148 nm; 19 min; 750 kg"
-      ],
-      "answer": "144 nm; 24 min; 750 kg"
-    },
-    {
       "question": "The take-off distance required on a dry runway is the greater of TODN-1dry and __________ x TODN dry.",
       "choices": [
         "1.1",
@@ -35344,6 +35382,46 @@
         "equal to V1"
       ],
       "answer": "equal to or greater than V1"
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.23. Given: Obstacle pressure altitude: 16 000 ft; Required obstacle clearance: 2000 ft; Engine Anti-Ice: ON; Air Conditioning (A/C): AUTO; Temperature (OAT): ISA+10°C. With reference to the above given values and by using the attached graph, which maximum mass can be used to clear the obstacle with one engine inoperative (OEI)?",
+      "choices": [
+        "45 550 kg",
+        "46 750 kg",
+        "53 150 kg",
+        "49 250 kg"
+      ],
+      "answer": "49 250 kg"
+    },
+    {
+      "question": "The rate of climb of a class A aeroplane is 740 ft/min, TAS = 200 kt, headwind = 15 kt. What is the minimum gross gradient during the take-off climb?",
+      "choices": [
+        "3.7%",
+        "1.15%",
+        "1.25%",
+        "4%"
+      ],
+      "answer": "3.7%"
+    },
+    {
+      "question": "Cruise altitude can be increased progressively during the flight due to the:",
+      "choices": [
+        "lower temperature.",
+        "movement of the centre of gravity.",
+        "lower air density.",
+        "fuel consumption."
+      ],
+      "answer": "fuel consumption."
+    },
+    {
+      "question": "The minimum control speed on or near ground is known as __________.",
+      "choices": [
+        "V1",
+        "VMC",
+        "VEF",
+        "VMCG"
+      ],
+      "answer": "VMCG"
     },
     {
       "question": "During your approach, ATC asks you to perform a circle-to-land manoeuvre due to an unexpectedly strong tailwind. After the downwind leg, you make the last turn to the final approach with a strong headwind. ln comparison to an approach in still air, you should (1) ____ thrust to stay on the correct glide path, as the headwind will cause the aircraft's glide angle to (2) ____",
@@ -35494,6 +35572,16 @@
         "2800 ft"
       ],
       "answer": "3300 ft"
+    },
+    {
+      "question": "A headwind during the climb will result in:",
+      "choices": [
+        "Increased fuel to climb.",
+        "No change in the flight-path angle.",
+        "An increased ground distance to climb.",
+        "No change in the time to climb."
+      ],
+      "answer": "No change in the time to climb."
     },
     {
       "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. Calculate the planned clearance above an obstacle 700 ft high, 2 nm from reference zero. The aircraft\u2019s take-off mass is 4000 lb, flaps are UP, the aerodrome pressure altitude is 4000 ft and the temperature is +20\u00b0C. The cloud base is 500 ft and there is a 10 kt headwind.",
@@ -36096,6 +36184,16 @@
       "answer": "(1) increase; (2) decrease."
     },
     {
+      "question": "Choose the combination of correct statements regarding the Accelerate-Stopping Distance Available (ASDA): 1. The ASDA includes the TORA. 2. The ASDA includes the starter extension (if available). 3. The ASDA includes the stopway in the direction of take-off (if available). 4. The ASDA includes the stopways in both directions (if available).",
+      "choices": [
+        "1, 2 and 4.",
+        "Only 1.",
+        "1 and 3.",
+        "1, 2 and 3."
+      ],
+      "answer": "1, 2 and 3."
+    },
+    {
       "question": "A 4-engined aeroplane with a mass of 358 000 kg suffers an engine failure in the climb. Assuming acceleration of gravity 10 m/s\u00b2. Its drag is 455 000 N. Each engine produces a thrust of 245 000 N. What is the aeroplane\u2019s climb gradient following the engine failure?",
       "choices": [
         "0.076",
@@ -36390,6 +36488,146 @@
       "answer": "ANDIK 2F"
     },
     {
+      "question": "A jet aeroplane equipped with old engines has a specific fuel consumption of 0.06 kg per Newton of thrust and per hour and, in a given flying condition, a fuel mileage of 14 kg per Nautical Miles. In the same flying conditions, the same aeroplane equipped with modern engines with a specific fuel consumption of 0.035 kg per Newton of thrust and per hour, has a fuel mileage of:",
+      "choices": [
+        "11.7 kg/NM.",
+        "14 kg/NM.",
+        "10.7 kg/NM.",
+        "8.17 kg/NM."
+      ],
+      "answer": "8.17 kg/NM."
+    },
+    {
+      "question": "In the ATS flight plan Item 19, emergency and survival equipment carried on the flight should be indicated by:",
+      "choices": [
+        "Placing a tick in the relevant box.",
+        "Circling the relevant box.",
+        "Crossing out the box relevant to any equipment not carried.",
+        "Listing the items carried on the \u201cREMARKS\u201d line."
+      ],
+      "answer": "Crossing out the box relevant to any equipment not carried."
+    },
+    {
+      "question": "An aircraft was over A at 1435 hours flying direct to B. Given: Distance A to B 2900 NM, True airspeed 470 kt, Mean wind component OUT +55 kt, Mean wind component BACK -75 kt. The ETA for reaching the point of equal time (PET) between A and B is:",
+      "choices": [
+        "17:21:00",
+        "17:44:00",
+        "18:46:00",
+        "16:57:00"
+      ],
+      "answer": "16:57:00"
+    },
+    {
+      "question": "Flight Planning Manual MRJT 1 Figure 4.3.5. What is the Trip Fuel? Given: Temperature ISA +15\u00b0C Brake release mass 62 000 kg Trip time 5 hrs 20 min",
+      "choices": [
+        "13 200 kg",
+        "13 500 kg",
+        "13 000 kg",
+        "13 800 kg"
+      ],
+      "answer": "13 500 kg"
+    },
+    {
+      "question": "According to the following NOTAM, what time does the Tower close on Saturdays in winter? AMEND AD HR WINTER MON-FRI 0815-1215, 1315-1730 SAT 0815-1230 SUMMER MON-SAT 0700-1730APP/TWR WINTER MON-FRI 0815-1215, 1315-1730 SAT 0815-1215 SUMMER MON-SAT 0700-1800.",
+      "choices": [
+        "12:15:00",
+        "12:30:00",
+        "18:00:00",
+        "17:30:00"
+      ],
+      "answer": "12:15:00"
+    },
+    {
+      "question": "Given : Taxi Fuel = 150 kg Trip time = 2hrs Alternate = 1200 kg Extra Fuel = 350 kg Holding Fuel Flow = 2500 kg/hr Trip Fuel flow = 3100 kg/hr Find the Block Fuel.",
+      "choices": [
+        "9466 kg",
+        "9640 kg",
+        "9460 kg",
+        "9115 kg"
+      ],
+      "answer": "9460 kg"
+    },
+    {
+      "question": "An aircraft takes-off from an airport 2 hours before sunset. The pilot flies a track of 090\u00b0 (T), W/V 130\u00b0 /20 kt, TAS 100 kt. In order to return to the point of departure before sunset, the furthest distance which may be travelled is:",
+      "choices": [
+        "105 NM",
+        "84 NM",
+        "97 NM",
+        "115 NM"
+      ],
+      "answer": "97 NM"
+    },
+    {
+      "question": "Given the following NOTAM information, what operating hours can be expected for BRISTOL RADAR during the summer? ATS SURVEILLANCE SERVICES AND PROCEDURES BRISTOL LOWER AIRSPACE RADAR SERHR CHANGED TO 1000- 1800 WINTER (SUMMER 1HR EARLIER) ENR 1.6 PARAGRAPH 4.1.6 REFERS NOTAM EG/B0056/16 >>> END-OF-BULLETIN <<<",
+      "choices": [
+        "1000-1800",
+        "0900-1700",
+        "0900-1900",
+        "1100-1900"
+      ],
+      "answer": "0900-1700"
+    },
+    {
+      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM: 87 5000 lbs MLM: 65 2000 lbs MZFM: 55 5100 lbs DOM: 39 4100 lbs Traffic Load: 10 9350 lbs Trip Fuel: 28 9750 lbs Planned T/O Fuel: 31 5315 lbs Taxi Fuel: 1600 lbs Fuel burn correction per 1000lb of Extra Fuel based upon: TOM: + 470lb and LDM: + 887lb Tank capacity: 37 7750 lbs",
+      "choices": [
+        "56 235 lbs",
+        "54 635 lbs",
+        "54 255 lbs",
+        "72 235 lbs"
+      ],
+      "answer": "56 235 lbs"
+    },
+    {
+      "question": "Refer to GSPRM Jeppesen Chart E(LO)2. You are flying at FL360, heading NW and ATC tell you have to be at FL200 over ELVOS. How far from TRENT (N53 03 W001 40) should you start your descent? TAS 420, ROD 2000 ft / min. Answer in NM.",
+      "choices": [
+        "126 NM",
+        "56 NM",
+        "81 NM",
+        "70 NM"
+      ],
+      "answer": "81 NM"
+    },
+    {
+      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 233 000 kg MLM 182 000 kg MZFM 170 000 kg DOM 122 550 kg Traffic Load 35 367 kg Trip Fuel 62 332 kg Planned T/O Fuel 67 885 kg Taxi Fuel 300 kg Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 394 kg and LDM: + 650 kg Fuel tank capacity 110 000 kg",
+      "choices": [
+        "12 751 kg",
+        "6898 kg",
+        "7198 kg",
+        "18 530 kg"
+      ],
+      "answer": "7198 kg"
+    },
+    {
+      "question": "Given: Distance from departure to destination 220 NM True track 175\u00b0 W/V 220/10 TAS 135 kts What is the distance of the PET from the departure point?",
+      "choices": [
+        "136 NM",
+        "103 NM",
+        "110 NM",
+        "116 NM"
+      ],
+      "answer": "116 NM"
+    },
+    {
+      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 85 000 kg MLM 75 500 kg MZFM 71 420 kg DOM 48 000 kg Traffic Load 15 464 kg Trip Fuel 2561 kg Planned T/O Fuel 5167 kg Taxi Fuel 200 kg Fuel tank capacity 23 500 kg Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 54 kg and LDM: + 57kg",
+      "choices": [
+        "9430 kg",
+        "7956 kg",
+        "9968 kg",
+        "9940 kg"
+      ],
+      "answer": "9968 kg"
+    },
+    {
+      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 233 000 kg MLM 182 000 kg MZFM 170 000 kg DOM 122 550 kg Traffic Load 41 936 kg Trip Fuel 52 139 kg Planned T/O Fuel 57 143 kg Taxi Fuel 300 kg Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 394 kg and LDM: + 650 kg Fuel tank capacity 110 000 kg",
+      "choices": [
+        "5514 kg",
+        "12 510 kg",
+        "11 371 kg",
+        "11 071 kg"
+      ],
+      "answer": "11 371 kg"
+    },
+    {
       "question": "Refer to GSPRM Jeppesen Alicante charts 10-3C & 10-3E. Aircraft fully RNAV equipped are suitable for what SID for Runway 10?",
       "choices": [
         "MITOS 1C",
@@ -36458,6 +36696,16 @@
         "1000 ft"
       ],
       "answer": "2000 ft"
+    },
+    {
+      "question": "Refer to CAP workbook SEP Figure 2.4. Given: Aeroplane mass at start-up 3663 lbs, Aviation gasoline (density 6 lbs/gal, Take-off altitude sea level, Headwind 40 kt, Cruising altitude 8000 ft, Power setting full throttle 2300 RPM, 20 degrees celsius lean of peak EGT. Calculate the range.",
+      "choices": [
+        "844 NM",
+        "633 NM",
+        "730 NM",
+        "547.5 NM"
+      ],
+      "answer": "633 NM"
     },
     {
       "question": "Refer to GSPRM Jeppesen Charts Alicante 19-1, 19-2, 19-3. What is the magnetic bearing from reporting point N to NE?",
@@ -36650,6 +36898,16 @@
         "6300 ft."
       ],
       "answer": "6300 ft."
+    },
+    {
+      "question": "Given the following NOTAM information, what RADAR and TOWER frequency should be used by departing aircraft at 2100 UTC? >>> EGLF (FARNBOROUGH) <<< DUE TO WIP TAXIWAY ZULU IS CLOSED NOTAM EG/C0697/16 SCHEDULE MON-FRI 0700-0800 2000- 2200, SAT-SUN 0800-0900,1830-2200 FARNBOROUGH RADAR AND TOWER MAY BE PROVIDED AS A COMBINED SERVICE WITH COUPLED FREQUENCIES INBOUND AIRCRAFT SHOULD CONTACT FARNBOROUGH RADAR ON 134.350MHZ OUTBOUND AIRCRAFT SHOULD CONTACT FARNBOROUGH TOWER ON 122.500MHZ NOTAM",
+      "choices": [
+        "122.500 MHz.",
+        "RADAR frequency as specified on the chart.",
+        "TOWER frequency as specified on the chart.",
+        "134.350 MHz."
+      ],
+      "answer": "122.500 MHz."
     },
     {
       "question": "Refer to GSPRM Jeppesen Alicante 10-3 chart. Departure procedure Astro4A, QNH 1040, ROC 800 FT/min, GS 133 KT, at ALT VOR climb from 4000 FT to FL 080. When will you reach TOC?",
