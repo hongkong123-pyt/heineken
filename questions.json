@@ -31438,7 +31438,7 @@
       "answer": "77 110 kg"
     },
     {
-      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: ...",
+      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: 1. Undercarriage retracted 2. Undercarriage extended 3. Flaps up 4. Flaps in take-off position 5. Al engines at take-off thrust 6. Operative engine(s) at take-off thrust 7. Climbing speed of V2 + 10 kts 8. Climbing speed of 1.3 x Vs 9. Climbing speed of V2 10.Commencing height 35 ft",
       "choices": [
         "2, 3, 6 , 9.",
         "1, 4, 6, 9.",
@@ -32139,16 +32139,6 @@
         "120 nm; 25 min; 500 kg"
       ],
       "answer": "144 nm; 24 min; 750 kg"
-    },
-    {
-      "question": "With reference to CAP 698 Figure 4.28. Given: Airport PA: 1800 ft Runway: dry Field length: 1600 m Headwind: 20 kt Flaps: 30\u00b0_Automatic spoilers and anti-skid: operative Find the field length limit mass:",
-      "choices": [
-        "47 000 kg",
-        "52 000 kg",
-        "60 000 kg",
-        "58 000 kg"
-      ],
-      "answer": "58 000 kg"
     },
     {
       "question": "Reference CAP 698 Figure 4.7. Planned take-off mass is 64 000 kg Pressure altitude 4000 ft OAT +10\u00b0C. V1 - 151, 155, 161. Runway slope is -1% and tailwind 5 kt. What is the maximum permitted take-off mass?",
@@ -34678,7 +34668,7 @@
     {
       "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: ...",
       "choices": [
-        "2, 3, 6 , 9.",
+        "2, 3, 6, 9.",
         "1, 4, 6, 9.",
         "1, 5, 8, 10.",
         "1, 4, 5, 10."
@@ -34814,16 +34804,6 @@
       "answer": "3 and 4."
     },
     {
-      "question": "With reference to CAP 698 Figure 4.28. Given: Airport PA: 1800 ft Runway: dry Field length: 1600 m Headwind: 20 kt Flaps: 30\u00b0_Automatic spoilers and anti-skid: operative Find the field length limit mass:",
-      "choices": [
-        "47 000 kg",
-        "52 000 kg",
-        "60 000 kg",
-        "58 000 kg"
-      ],
-      "answer": "58 000 kg"
-    },
-    {
       "question": "For a Class A aeroplane what is the all engines take-off distance safety factor?",
       "choices": [
         "1.3",
@@ -34924,10 +34904,10 @@
       "answer": "greatest"
     },
     {
-      "question": "Which factors might cause V2 to be limited by VMCA? 1) large flap angles ... 6) low aircraft weights.",
+      "question": "Which factors might cause V2 to be limited by VMCA? 1) large flap angles 2) small flap angles 3) high air pressure 4) low air pressure 5) high aircraft weights 6) low aircraft weights.",
       "choices": [
         "2, 3, 5.",
-        "2, 4, 6.",
+        "2, 4, 6."
         "1, 3, 5.",
         "1, 3, 6."
       ],
