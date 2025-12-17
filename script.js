@@ -9,7 +9,7 @@ function shuffleArray(array) {
 
 // === Password Check ===
 function checkPassword() {
-  const correctPassword = "bier";
+  const correctPassword = "nosharing";
   const input = document.getElementById("accessInput").value;
   const error = document.getElementById("errorMsg");
 
@@ -28,7 +28,7 @@ let currentSubject = "";
 let currentQuestions = [];
 let answeredStatus = {};
 let flaggedQuestions = {};
-let shuffledChoicesMap = {}; // ✅ stores shuffled answers per question
+let shuffledChoicesMap = {}; // stores shuffled answers per question
 let startTime = Date.now();
 
 const subjectSelect = document.getElementById("subjectSelect");
@@ -67,6 +67,19 @@ fetch("questions.json")
       opt.textContent = subject;
       subjectSelect.appendChild(opt);
     }
+
+    // restore saved state
+    const saved = JSON.parse(localStorage.getItem("quizState"));
+    if (saved && data[saved.currentSubject]) {
+      currentSubject = saved.currentSubject;
+      currentQuestions = data[currentSubject];
+      currentIndex = saved.currentIndex;
+      answeredStatus = saved.answeredStatus || {};
+      flaggedQuestions = saved.flaggedQuestions || {};
+      subjectSelect.value = currentSubject;
+      renderPagination();
+      displayQuestion();
+    }
   });
 
 // === Subject Change ===
@@ -79,14 +92,13 @@ subjectSelect.addEventListener("change", () => {
   answeredStatus = {};
   flaggedQuestions = {};
   shuffledChoicesMap = {}; // reset shuffled answers
-
   resultScreen.classList.add("hidden");
   startTime = Date.now();
   renderPagination();
   displayQuestion();
 });
 
-// === Shuffle Questions ===
+// === Shuffle helper ===
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -119,21 +131,17 @@ function displayQuestion() {
     );
   }
 
-  // ✅ Shuffle answers ONCE per question
+  // shuffle answers once per question
   if (!shuffledChoicesMap[currentIndex]) {
     shuffledChoicesMap[currentIndex] = shuffleArray([...q.choices]);
   }
-
   const choices = shuffledChoicesMap[currentIndex];
 
   choices.forEach((choice, i) => {
     const id = `opt${i}`;
     const label = document.createElement("label");
     label.setAttribute("for", id);
-    label.innerHTML = `
-      <input type="radio" name="option" id="${id}" value="${choice}" />
-      ${choice}
-    `;
+    label.innerHTML = `<input type="radio" name="option" id="${id}" value="${choice}" /> ${choice}`;
 
     if (answeredStatus[currentIndex]) {
       const selected = answeredStatus[currentIndex].selected;
@@ -144,7 +152,6 @@ function displayQuestion() {
 
     label.querySelector("input").addEventListener("change", () => {
       if (answeredStatus[currentIndex]) return;
-
       const isCorrect = choice === q.answer;
       answeredStatus[currentIndex] = { selected: choice, isCorrect };
       saveProgress();
@@ -155,12 +162,10 @@ function displayQuestion() {
       displayQuestion();
       updatePaginationColors();
 
-      if (isCorrect) {
+      if (isCorrect && currentIndex < currentQuestions.length - 1) {
         setTimeout(() => {
-          if (currentIndex < currentQuestions.length - 1) {
-            currentIndex++;
-            displayQuestion();
-          }
+          currentIndex++;
+          displayQuestion();
         }, 800);
       }
     });
@@ -172,43 +177,79 @@ function displayQuestion() {
 }
 
 // === Navigation Buttons ===
-prevBtn.onclick = () => {
-  if (currentIndex > 0) {
-    currentIndex--;
-    displayQuestion();
-  }
+prevBtn.onclick = () => { if (currentIndex > 0) { currentIndex--; displayQuestion(); } };
+nextBtn.onclick = () => { if (currentIndex < currentQuestions.length - 1) { currentIndex++; displayQuestion(); } };
+
+// === Finish / Results ===
+finishBtn.onclick = finishBtnSide.onclick = () => {
+  const answered = Object.keys(answeredStatus).length;
+  const correct = Object.values(answeredStatus).filter(a => a.isCorrect).length;
+  const total = currentQuestions.length;
+  const percentage = ((correct / total) * 100).toFixed(1);
+  const flaggedCount = Object.keys(flaggedQuestions).length;
+  const timeSpent = Math.round((Date.now() - startTime) / 1000);
+  const minutes = Math.floor(timeSpent / 60);
+  const seconds = timeSpent % 60;
+
+  scoreText.innerHTML = `
+    You answered <strong>${answered}</strong> of <strong>${total}</strong> questions.<br/>
+    Correct answers: <strong>${correct}</strong><br/>
+    Score: <strong>${percentage}%</strong><br/>
+    Flagged questions: <strong>${flaggedCount}</strong><br/>
+    Time spent: <strong>${minutes}m ${seconds}s</strong>
+  `;
+  resultScreen.classList.remove("hidden");
 };
 
-nextBtn.onclick = () => {
-  if (currentIndex < currentQuestions.length - 1) {
-    currentIndex++;
-    displayQuestion();
-  }
+// === Restart / Retry / Review Buttons ===
+restartBtn.onclick = () => {
+  subjectSelect.value = "Choose a subject";
+  resultScreen.classList.add("hidden");
+  questionText.textContent = "Loading...";
+  optionsList.innerHTML = "";
+  feedback.textContent = "";
+  localStorage.removeItem("quizState");
 };
 
-// === Keyboard Support (FIXED & WORKING) ===
-document.addEventListener("keydown", (e) => {
-  const key = e.key.toLowerCase();
-  const options = optionsList.querySelectorAll("input[type='radio']");
-  const hasAnswered = answeredStatus[currentIndex];
+retryWrongBtn.onclick = () => {
+  const wrongIndexes = Object.entries(answeredStatus)
+    .filter(([_, ans]) => !ans.isCorrect)
+    .map(([index]) => parseInt(index));
 
-  // A / B / C / D selection
-  if (!hasAnswered && ["a", "b", "c", "d"].includes(key)) {
-    const index = { a: 0, b: 1, c: 2, d: 3 }[key];
-    if (options[index]) options[index].click();
-  }
+  if (wrongIndexes.length === 0) { alert("No wrong answers to retry!"); return; }
 
-  // Arrow navigation
-  if (key === "arrowright" && currentIndex < currentQuestions.length - 1) {
-    currentIndex++;
-    displayQuestion();
-  }
+  currentQuestions = wrongIndexes.map(i => currentQuestions[i]);
+  currentIndex = 0;
+  answeredStatus = {};
+  flaggedQuestions = {};
+  shuffledChoicesMap = {};
+  resultScreen.classList.add("hidden");
+  renderPagination();
+  displayQuestion();
+};
 
-  if (key === "arrowleft" && currentIndex > 0) {
-    currentIndex--;
-    displayQuestion();
-  }
-});
+reviewFlaggedBtn.onclick = () => {
+  const originalQuestions = data[currentSubject];
+  currentQuestions = originalQuestions.filter((_, i) => flaggedQuestions[i]);
+  currentIndex = 0;
+  answeredStatus = {};
+  shuffledChoicesMap = {};
+  resultScreen.classList.add("hidden");
+  renderPagination();
+  displayQuestion();
+};
+
+backToFullQuizBtn.onclick = () => {
+  currentQuestions = [...data[currentSubject]];
+  if (shuffleToggle.checked) shuffle(currentQuestions);
+  currentIndex = 0;
+  answeredStatus = {};
+  flaggedQuestions = {};
+  shuffledChoicesMap = {};
+  resultScreen.classList.add("hidden");
+  renderPagination();
+  displayQuestion();
+};
 
 // === Pagination ===
 function renderPagination() {
@@ -216,10 +257,7 @@ function renderPagination() {
   currentQuestions.forEach((_, i) => {
     const btn = document.createElement("button");
     btn.textContent = i + 1;
-    btn.onclick = () => {
-      currentIndex = i;
-      displayQuestion();
-    };
+    btn.onclick = () => { currentIndex = i; displayQuestion(); };
     pagination.appendChild(btn);
   });
   updatePaginationColors();
@@ -241,3 +279,20 @@ flagBtnNav.onclick = () => {
   saveProgress();
   updatePaginationColors();
 };
+
+// === Keyboard Support ===
+document.addEventListener("keydown", (e) => {
+  const key = e.key.toLowerCase();
+  const options = optionsList.querySelectorAll("input[type='radio']");
+  const hasAnswered = answeredStatus[currentIndex];
+
+  // A/B/C/D selection
+  if (!hasAnswered && ["a","b","c","d"].includes(key)) {
+    const index = { a:0, b:1, c:2, d:3 }[key];
+    if (options[index]) options[index].click();
+  }
+
+  // Arrow navigation
+  if (key === "arrowright" && currentIndex < currentQuestions.length - 1) { currentIndex++; displayQuestion(); }
+  if (key === "arrowleft" && currentIndex > 0) { currentIndex--; displayQuestion(); }
+});
