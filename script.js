@@ -9,7 +9,7 @@ function shuffleArray(array) {
 
 // === Password Check ===
 function checkPassword() {
-  const correctPassword = "nosharing";
+  const correctPassword = "bier";
   const input = document.getElementById("accessInput").value;
   const error = document.getElementById("errorMsg");
 
