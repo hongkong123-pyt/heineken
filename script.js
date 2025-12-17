@@ -7,14 +7,9 @@ function shuffleArray(array) {
   return array;
 }
 
-// ✅ NEW: shuffle choices safely without mutating original data
-function getShuffledChoices(choices) {
-  return shuffleArray([...choices]);
-}
-
 // === Password Check ===
 function checkPassword() {
-  const correctPassword = "bier";
+  const correctPassword = "nosharing";
   const input = document.getElementById("accessInput").value;
   const error = document.getElementById("errorMsg");
 
@@ -33,6 +28,7 @@ let currentSubject = "";
 let currentQuestions = [];
 let answeredStatus = {};
 let flaggedQuestions = {};
+let shuffledChoicesMap = {}; // ✅ NEW: stores shuffled answers per question
 let startTime = Date.now();
 
 const subjectSelect = document.getElementById("subjectSelect");
@@ -70,29 +66,20 @@ fetch("questions.json")
       opt.textContent = subject;
       subjectSelect.appendChild(opt);
     }
-
-    const saved = JSON.parse(localStorage.getItem("quizState"));
-    if (saved && data[saved.currentSubject]) {
-      currentSubject = saved.currentSubject;
-      currentQuestions = data[currentSubject];
-      currentIndex = saved.currentIndex;
-      answeredStatus = saved.answeredStatus || {};
-      flaggedQuestions = saved.flaggedQuestions || {};
-      subjectSelect.value = currentSubject;
-      renderPagination();
-      displayQuestion();
-    }
   });
 
 subjectSelect.addEventListener("change", () => {
   currentSubject = subjectSelect.value;
   currentQuestions = [...data[currentSubject]];
   if (shuffleToggle.checked) shuffle(currentQuestions);
+
   currentIndex = 0;
   answeredStatus = {};
   flaggedQuestions = {};
+  shuffledChoicesMap = {}; // ✅ reset on new quiz
   resultScreen.classList.add("hidden");
   startTime = Date.now();
+
   renderPagination();
   displayQuestion();
 });
@@ -127,10 +114,14 @@ function displayQuestion() {
     );
   }
 
-  // ✅ SHUFFLED ANSWERS HERE
-  const shuffledChoices = getShuffledChoices(q.choices);
+  // ✅ Shuffle answers ONCE per question
+  if (!shuffledChoicesMap[currentIndex]) {
+    shuffledChoicesMap[currentIndex] = shuffleArray([...q.choices]);
+  }
 
-  shuffledChoices.forEach((choice, i) => {
+  const choices = shuffledChoicesMap[currentIndex];
+
+  choices.forEach((choice, i) => {
     const id = `opt${i}`;
     const label = document.createElement("label");
     label.setAttribute("for", id);
@@ -148,6 +139,7 @@ function displayQuestion() {
 
     label.querySelector("input").addEventListener("change", () => {
       if (answeredStatus[currentIndex]) return;
+
       const isCorrect = choice === q.answer;
       answeredStatus[currentIndex] = { selected: choice, isCorrect };
       saveProgress();
@@ -156,7 +148,6 @@ function displayQuestion() {
       feedback.style.color = isCorrect ? "green" : "red";
 
       displayQuestion();
-
       updatePaginationColors();
 
       if (isCorrect) {
@@ -195,64 +186,14 @@ finishBtn.onclick = finishBtnSide.onclick = () => {
   const total = currentQuestions.length;
   const percentage = ((correct / total) * 100).toFixed(1);
   const flaggedCount = Object.keys(flaggedQuestions).length;
-  const timeSpent = Math.round((Date.now() - startTime) / 1000);
-  const minutes = Math.floor(timeSpent / 60);
-  const seconds = timeSpent % 60;
 
   scoreText.innerHTML = `
-    You answered <strong>${answered}</strong> of <strong>${total}</strong> questions.<br/>
-    Correct answers: <strong>${correct}</strong><br/>
+    Answered: <strong>${answered}</strong><br/>
+    Correct: <strong>${correct}</strong><br/>
     Score: <strong>${percentage}%</strong><br/>
-    Flagged questions: <strong>${flaggedCount}</strong><br/>
-    Time spent: <strong>${minutes}m ${seconds}s</strong>
+    Flagged: <strong>${flaggedCount}</strong>
   `;
   resultScreen.classList.remove("hidden");
-};
-
-restartBtn.onclick = () => {
-  subjectSelect.value = "Choose a subject";
-  resultScreen.classList.add("hidden");
-  questionText.textContent = "Loading...";
-  optionsList.innerHTML = "";
-  feedback.textContent = "";
-  localStorage.removeItem("quizState");
-};
-
-retryWrongBtn.onclick = () => {
-  const wrongIndexes = Object.entries(answeredStatus)
-    .filter(([_, ans]) => !ans.isCorrect)
-    .map(([index]) => parseInt(index));
-
-  if (wrongIndexes.length === 0) {
-    alert("No wrong answers to retry!");
-    return;
-  }
-
-  currentQuestions = wrongIndexes.map(i => currentQuestions[i]);
-  currentIndex = 0;
-  answeredStatus = {};
-  flagged = {};
-  resultScreen.classList.add("hidden");
-  renderPagination();
-  displayQuestion();
-};
-
-reviewFlaggedBtn.onclick = () => {
-  const originalQuestions = data[currentSubject];
-  currentQuestions = originalQuestions.filter((_, i) => flaggedQuestions[i]);
-  currentIndex = 0;
-  resultScreen.classList.add("hidden");
-  renderPagination();
-  displayQuestion();
-};
-
-backToFullQuizBtn.onclick = () => {
-  currentQuestions = [...data[currentSubject]];
-  if (shuffleToggle.checked) shuffle(currentQuestions);
-  currentIndex = 0;
-  resultScreen.classList.add("hidden");
-  renderPagination();
-  displayQuestion();
 };
 
 function renderPagination() {
@@ -280,35 +221,7 @@ function updatePaginationColors() {
 }
 
 flagBtnNav.onclick = () => {
-  if (flaggedQuestions[currentIndex]) {
-    delete flaggedQuestions[currentIndex];
-  } else {
-    flaggedQuestions[currentIndex] = true;
-  }
+  flaggedQuestions[currentIndex] = !flaggedQuestions[currentIndex];
   saveProgress();
   updatePaginationColors();
 };
-
-document.getElementById("themeToggle").addEventListener("change", (e) => {
-  document.body.classList.toggle("dark", e.target.checked);
-});
-
-document.addEventListener("keydown", (e) => {
-  const key = e.key.toLowerCase();
-  const options = document.querySelectorAll(".custom-option-list input");
-  const hasAnswered = answeredStatus[currentIndex];
-
-  if (!hasAnswered && ["a", "b", "c", "d"].includes(key)) {
-    const index = { a: 0, b: 1, c: 2, d: 3 }[key];
-    if (options[index]) options[index].click();
-  }
-
-  if (key === "arrowright") nextBtn.click();
-  if (key === "arrowleft") prevBtn.click();
-});
-
-function clearSelection(event, groupName) {
-  event.preventDefault();
-  const radios = document.querySelectorAll(`input[name='${groupName}']`);
-  radios.forEach(r => r.checked = false);
-}
