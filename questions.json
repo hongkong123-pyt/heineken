@@ -31749,7 +31749,7 @@
      "answer": "Remains constant."
     },  
     {
-      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: ...",
+      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: 1. Undercarriage retracted 2. Undercarriage extended 3. Flaps up 4. Flaps in take-off position 5. Al engines at take-off thrust 6. Operative engine(s) at take-off thrust 7. Climbing speed of V2 + 10 kts 8. Climbing speed of 1.3 x Vs 9. Climbing speed of V2 10.Commencing height 35 ft",
       "choices": [
         "2, 3, 6 , 9.",
         "1, 4, 6, 9.",
@@ -34666,9 +34666,9 @@
       "answer": "V1 128 kt VR 134 kt V2 141 kt."
     },
     {
-      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: ...",
+      "question": "Select from the following list of conditions those that must prevail in the second segment of the take-off net flight path for a Class A aeroplane: 1. Undercarriage retracted 2. Undercarriage extended 3. Flaps up 4. Flaps in take-off position 5. Al engines at take-off thrust 6. Operative engine(s) at take-off thrust 7. Climbing speed of V2 + 10 kts 8. Climbing speed of 1.3 x Vs 9. Climbing speed of V2 10.Commencing height 35 ft",
       "choices": [
-        "2, 3, 6, 9.",
+        "2, 3, 6 , 9.",
         "1, 4, 6, 9.",
         "1, 5, 8, 10.",
         "1, 4, 5, 10."
@@ -34907,7 +34907,7 @@
       "question": "Which factors might cause V2 to be limited by VMCA? 1) large flap angles 2) small flap angles 3) high air pressure 4) low air pressure 5) high aircraft weights 6) low aircraft weights.",
       "choices": [
         "2, 3, 5.",
-        "2, 4, 6."
+        "2, 4, 6.",
         "1, 3, 5.",
         "1, 3, 6."
       ],
