@@ -31673,7 +31673,7 @@
       "choices": [
         "The distance between the point of touch down on the runway and the point on the runway where the aeroplane has come to a complete stop.",
         "The length of the runway from threshold to threshold.",
-        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point...",
+        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point, in the direction of take-off, at which the surface of the aerodrome is incapable of bearing the weight of the aeroplane.",
         "The runway plus the clearway."
       ],
       "answer": "The length of the runway from threshold to threshold."
@@ -32423,12 +32423,12 @@
     {
       "question": "With reference to CAP 698 Figure 3.9. For a multi-engine piston aeroplane, calculate the maximum landing mass given the following conditions: Temperature: 10\u00b0C Pressure altitude: 2000 ft LDA: 2600 ft Headwind: 14 kt",
       "choices": [
-        "2750 Ib",
+        "2750 lb",
         "3600 lb",
-        "3350 Ib",
-        "3000 Ib"
+        "3350 lb",
+        "3000 lb"
       ],
-      "answer": "3350 Ib"
+      "answer": "3350 lb"
     },
     {
       "question": "For an MEP Aircraft. Using the data provided in CAP698 as required. What is the FLL limited landing mass for a commercial MEP 1 flight given the following conditions: Pressure altitude sea level; OAT 0\u00b0C; LDA 2430 ft; 15 kt headwind on a dry runway.",
@@ -33883,7 +33883,7 @@
       "choices": [
         "The distance between the point of touch down on the runway and the point on the runway where the aeroplane has come to a complete stop.",
         "The length of the runway from threshold to threshold.",
-        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point...",
+        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point, in the direction of take-off, at which the surface of the aerodrome is incapable of bearing the weight of the aeroplane.",
         "The runway plus the clearway."
       ],
       "answer": "The length of the runway from threshold to threshold."
@@ -33949,16 +33949,6 @@
       "answer": "The final segment starts at the end of segment 3 with the aircraft in a clean configuration, at the final segment climb speed with maximum continuous power set, ending at 1500 ft or higher if there are distant obstacles to clear."
     },
     {
-      "question": "Given: airfield pressure altitude of 4000 ft, temperature +37\u00b0C, field length available 5500 ft, 1% downslope, 10 kt tailwind, and Flaps 15\u00b0 find the field length limiting mass.",
-      "choices": [
-        "47 000 kg.",
-        "42 400 kg.",
-        "50 000 kg.",
-        "42 000 kg."
-      ],
-      "answer": "42 400 kg."
-    },
-    {
       "question": "The Class A performance calculations:",
       "choices": [
         "Assume no degradation of performance due to icing conditions.",
@@ -34006,15 +33996,6 @@
      ],
      "answer": "Remains constant."
     },  
-    {
-      "question": "If your aeroplane can achieve a positive net gradient with one engine inoperative, then your minimum obstacle clearance is __________ ft within 5 nm of your intended track (provided you have sufficient navigation accuracy).",
-      "choices": [
-        "2000",
-        "150",
-        "1000"
-     ],
-     "answer": "2000"
-    },      
     {
       "question": "Assume a take-off with a class A aeroplane on a wet runway. Which of the following values shows the corresponding screen height of the take-off distance?",
       "choices": [
@@ -34124,16 +34105,6 @@
         "110"
       ],
       "answer": "115"
-    },
-    {
-      "question": "Find the climb limited take-off mass for an airfield at a pressure altitude of 4000 ft, with an OAT of +37\u00b0C, when using Flaps 15\u00b0.",
-      "choices": [
-        "52 200 kg.",
-        "50 000 kg.",
-        "48 200 kg.",
-        "54 200 kg."
-      ],
-      "answer": "48 200 kg."
     },
     {
       "question": "What are the factors that affect the drift-down flight path during a descent with OEI?",
@@ -34386,16 +34357,6 @@
       "answer": "70"
     },
     {
-      "question": "If your aeroplane can\u2019t climb with one engine inoperative, then your minimum obstacle clearance is __________ ft within 5 nm of your intended track (provided you have sufficient navigation accuracy).",
-      "choices": [
-        "1000",
-        "150",
-        "2000",
-        "2500"
-      ],
-      "answer": "1000"
-    },
-    {
       "question": "VR is __________ by air density.",
       "choices": [
         "not affected",
@@ -34513,7 +34474,7 @@
         "150",
         "500"
       ],
-      "answer": "2000"
+      "answer": "1000"
     },
     {
       "question": "A __________ runway is a runway in which the surface is covered with water, or equivalent, but less than that of a contaminated runway.",
@@ -35562,6 +35523,454 @@
         "The demonstrated crosswind."
       ],
       "answer": "The demonstrated crosswind."
+    },
+    {
+      "question": "In the take-off climb segment, a MEP aircraft has a gross gradient of 13% with all engines operating and a gross gradient of 5.2% with one engine inoperative. Which net gradients must be used for the calculation of obstacle clearance if the cloud base is at 600 ft?",
+      "choices": [
+        "13% below the cloud base and 5.2% above.",
+        "10% below the cloud base and 5.2% above.",
+        "13% below the cloud base and 4% above.",
+        "10% below the cloud base and 4% above."
+      ],
+      "answer": "10% below the cloud base and 5.2% above."
+    },
+    {
+      "question": "A jet aeroplane has three configurations available for take-off. T/01: 1 stage of slats and flaps. T/02: 2 stages of slats and flaps. T/03: 3 stages of slats and 3 stages of flaps. The runway is NOT limiting but the given departure requires a climb gradient of 6.8% to 2000 ft. Which T/0 configuration will be most appropriate to achieve the best climb gradient?",
+      "choices": [
+        "T/03 because it results in greater climb speeds and greater rate of climb than when using T/01.",
+        "T/01 because it results in lower climb speeds, giving a higher angle of climb than when using T/02.",
+        "T/01 because it results in greater climb speeds and greater rate of climb than when using T/02.",
+        "T/02 because it results in lower climb speeds and greater rate of climb than when using T/03."
+      ],
+      "answer": "T/01 because it results in greater climb speeds and greater rate of climb than when using T/02."
+    },
+    {
+      "question": "A take-off performance is calculated with the use of given conditions. If subsequently, the OAT drops, the aircraft's climb performance will (1) ___ because the excess thrust will be (2) ___ .",
+      "choices": [
+        "(1) deteriorate; (2) reduced.",
+        "(1) improve; (2) increased.",
+        "(1) improve; (2) reduced.",
+        "(1) deteriorate; (2) increased."
+      ],
+      "answer": "(1) improve; (2) increased."
+    },
+    {
+      "question": "The Density Altitude:",
+      "choices": [
+        "is used to determine the aeroplane performance.",
+        "is equal to the pressure altitude.",
+        "is used to establish minimum clearance of 2000 feet over mountains.",
+        "is used to calculate the FL above the Transition Altitude."
+      ],
+      "answer": "is used to determine the aeroplane performance."
+    },
+    {
+      "question": "Study the diagram then identify the correct answer:",
+      "choices": [
+        "B is 0.76 VMD",
+        "A is VMD",
+        "B is VMP",
+        "A is VMP"
+      ],
+      "answer": "A is VMP"
+    },
+    {
+      "question": "Having all other conditions the same, taking off from an upward-sloping runway compared to a zero slope runway will result in:",
+      "choices": [
+        "an increased take-off distance, and an increased stopping distance in case of an aborted take-off.",
+        "a decreased take-off distance, and an increased stopping distance in case of an aborted take-off.",
+        "a decreased take-off distance, and a decreased stopping distance in case of an aborted take-off.",
+        "an increased take-off distance, and a decreased stopping distance in case of an aborted take-off."
+      ],
+      "answer": "an increased take-off distance, and a decreased stopping distance in case of an aborted take-off."
+    },
+    {
+      "question": "An aircraft is climbing at a maximum climb angle with constant speed and thrust. Consider for theoretical purposes that the weight of the aircraft suddenly decreases but the flight otherwise continues as normal. For the pilot to maintain the same speed, all factors remaining the same, the angle of climb must be:",
+      "choices": [
+        "Reduced, to increase the backward component of weight in order to exceed the excess thrust.",
+        "Reduced, to reduce the backward component of weight in order to match the excess thrust.",
+        "Increased, to increase the backward component of weight in order to match the excess thrust.",
+        "Increased, to reduce the backward component of weight in order to be less than the excess thrust."
+      ],
+      "answer": "Increased, to increase the backward component of weight in order to match the excess thrust."
+    },
+    {
+      "question": "Which of the following is a Performance Class B aircraft?",
+      "choices": [
+        "More than 9 passenger seats and a MTOM of more than 5700 kg propeller driven aircraft and all multi-engine jet aircraft.",
+        "Propeller driven aircraft, with a MOPSC less than 9 passenger seats and with a MTOM of 5700 kg.",
+        "More than 9 passenger seats and a MTOM of more than 5700 kg.",
+        "Propeller driven aircraft, with a MOPSC equal to or less than 9 passenger seats and with a MTOM of 5700 kg or less."
+      ],
+      "answer": "Propeller driven aircraft, with a MOPSC equal to or less than 9 passenger seats and with a MTOM of 5700 kg or less."
+    },
+    {
+      "question": "The pilot of an aircraft has calculated a 4000 m service ceiling, based on the forecast general conditions for the flight and a take-off mass of 3250 kg. If the take-off mass is 3000 kg, the service ceiling will be:",
+      "choices": [
+        "less than 4000 m.",
+        "higher than 4000 m.",
+        "unchanged, equal to 4000 m.",
+        "only a new performance analysis will determine if the service ceiling is higher or lower than 4000 m."
+      ],
+      "answer": "higher than 4000 m."
+    },
+    {
+      "question": "At the planning stage for a Class B performance aircraft, what minimum climb gradient do you use?",
+      "choices": [
+        "500 ft min climb speed with all engines operating.",
+        "500 ft min climb speed with one engine out.",
+        "300 ft min climb speed with one engine out.",
+        "300 ft min climb speed with all engines operating."
+      ],
+      "answer": "300 ft min climb speed with all engines operating."
+    },
+    {
+      "question": "For an aeroplane in Performance Class B the net take-off flight path begins at a height of __________ and ends at a height of __________.",
+      "choices": [
+        "35 ft; 1500 ft",
+        "35 ft; 1000 ft",
+        "50 ft; 1000 ft",
+        "50 ft; 1500 ft"
+      ],
+      "answer": "50 ft; 1500 ft"
+    },
+    {
+      "question": "For a piston-engine, at what altitude will it have the best endurance?",
+      "choices": [
+        "at service ceiling",
+        "about 15 000 ft",
+        "about Mean Sea Level",
+        "at 15 000 ft and more"
+      ],
+      "answer": "about Mean Sea Level"
+    },
+    {
+      "question": "The important speeds during take-off, in ascending order, are:",
+      "choices": [
+        "VEF < VR < V1 < VLOF",
+        "V1 < V2 < VR < VLOF",
+        "V1 < VEF < VR < VLOF < V2",
+        "VEF < V1 ≤ VR < VLOF < V2"
+      ],
+      "answer": "VEF < V1 ≤ VR < VLOF < V2"
+    },
+    {
+      "question": "During the drift-down following an engine failure, the vertical interval by which a Class A aeroplane must avoid all obstacles in the drift-down path is:",
+      "choices": [
+        "1500 ft",
+        "1000 ft",
+        "2000 ft",
+        "35 ft"
+      ],
+      "answer": "2000 ft"
+    },
+    {
+      "question": "A balanced field is contaminated with compacted snow, what effect will it have on the TODA and ASDR?",
+      "choices": [
+        "The TODA and ASDR will increase.",
+        "The TODR and ASDR will increase.",
+        "The TODA will decrease and the ASDR will increase.",
+        "The TODA stays the same and the ASDR increases."
+      ],
+      "answer": "The TODA stays the same and the ASDR increases."
+    },
+    {
+     "question": "On take-off from an unbalanced field you have an available range of V1s. If a higher V1 is selected from the range then:",
+      "choices": [
+        "Both TOD and ASD will decrease.",
+        "The ASDR will decrease.",
+        "The all engine take-off distance will be unaffected.",
+        "Both TOD and ASD will increase."
+      ],
+      "answer": "The all engine take-off distance will be unaffected."
+    },
+    {
+      "question": "What is the purpose of the crossover altitude, for an aircraft during the descent?",
+      "choices": [
+        "To not exceed VMO.",
+        "To not exceed VNE.",
+        "To not exceed MMO.",
+        "To not exceed VLO."
+      ],
+      "answer": "To not exceed VMO."
+    },
+    {
+      "question": "The lowest CAS at which, when the critical engine is suddenly made inoperative, it is possible to maintain directional control and straight flight with an angle of bank of not more than 5°. This is a definition of:",
+      "choices": [
+        "V2",
+        "V2MIN",
+        "VMCG",
+        "VMC"
+      ],
+      "answer": "VMC"
+    },
+    {
+      "question": "The use of reduced take-off thrust is permitted, only if:",
+      "choices": [
+        "The actual take-off mass is lower than the performance limited take-off mass.",
+        "The actual take-off mass including a margin is lower than the performance limited take-off mass.",
+        "The actual take-off mass including a margin is greater than the performance limited take-off mass.",
+        "The take-off distance available is lower than the take-off distance required."
+      ],
+      "answer": "The actual take-off mass is lower than the performance limited take-off mass."
+    },
+    {
+      "question": "You are about to take-off at Mykonos airport in Greece on a short runway 1905 m facing the sea in a large jet transport aircraft. For this take-off, you are not limited by the climb gradient, which of the following allowable take-off configurations is best to obtain the maximum runway length limited TOM? Configuration 1: 1 stage of slats and flaps. Configuration 2: 2 stages of slats and flaps. Configuration 3: 2 stages of slats and 3 stages of flaps.",
+      "choices": [
+        "Configuration 1 because it results in a lower take-off distance and higher climb gradient than using configuration 2 or 3.",
+        "Configuration 3 because it results in lower take-off speeds and higher runway limited mass than using configuration 1 or 2.",
+        "Configuration 2 because it results in lower take-off speeds and higher runway limited mass than using configuration 3.",
+        "Configuration 1 because it results in greater take-off speeds and lower take-off distance than using configuration 2 or 3."
+      ],
+      "answer": "Configuration 3 because it results in lower take-off speeds and higher runway limited mass than using configuration 1 or 2."
+    },
+    {
+      "question": "For a 2-engined aircraft, the limiting mass for the approach climb is the maximum mass at which a gradient of __________ can be achieved.",
+      "choices": [
+        "2.5",
+        "2.1",
+        "2.4",
+        "2.7"
+      ],
+      "answer": "2.1"
+    },
+    {
+      "question": "Compared with a balanced field with no stopway or clearway, the use of a stopway in the take-off calculations allows an:",
+      "choices": [
+        "decrease in the Take-off Mass, and decrease the V1.",
+        "increase in the Take-off Mass, and decrease the V1.",
+        "decrease in the Take-off Mass, and increase the V1.",
+        "increase in the Take-off Mass, and increase the V1."
+      ],
+      "answer": "increase in the Take-off Mass, and increase the V1."
+    },
+    {
+      "question": "In the OPS regulations, a runway is considered damp when:",
+      "choices": [
+        "its surface is not dry, and when surface moisture does not give it a shiny appearance.",
+        "surface moisture gives it a shiny appearance.",
+        "it is covered with a film of water of less than 1 mm.",
+        "it is covered with a film of water of less than 3 mm."
+      ],
+      "answer": "its surface is not dry, and when surface moisture does not give it a shiny appearance."
+    },
+    {
+      "question": "Reference CAP 698 Figure 4.31. The pilot of an MRJT aeroplane after recognising a generator failure during the take-off roll decides to reject the take-off and taxi off the runway to hold on a taxiway. Resetting the generator after 10 minutes, it is found to function properly and the flight can resume. Given the following information, what is the minimum cooling time before the next take-off, assuming that the taxi distance is negligible? Take-off mass: 57 500 kg. Speed when fault occurred: 90 kt. Speed when rejection commenced: 100 kt. Retardation: Maximum braking and reverse thrust. Wind: light and variable. Elevation: 1400 ft. QNH: 1013.25 hPa. OAT: −10°C.",
+      "choices": [
+        "It is recommended to wait for approximately 35 minutes having used maximum braking and reverse thrust.",
+        "It is recommended to wait for approximately 50 minutes if some credit is given for using reverse thrust.",
+        "Only ground cooling is recommended, which means that a new take-off may be commenced now that the fault is no longer present.",
+        "It is recommended to wait for approximately 40 minutes after using maximum manual braking."
+      ],
+      "answer": "It is recommended to wait for approximately 50 minutes if some credit is given for using reverse thrust."
+    },
+    {
+      "question": "For a turboprop-powered aeroplane, a 2200 m long runway at the destination and the aerodrome runway is expected to be 'wet'. The 'dry runway' landing distance should not exceed how many metres?",
+      "choices": [
+        "1200 m",
+        "1250 m",
+        "1397 m",
+        "1339 m"
+      ],
+      "answer": "1339 m"
+    },
+    {
+      "question": "On a transatlantic flight, the captain asks the First Officer why a final step climb from FL340 to FL380 ten minutes before top of descent might not be an efficient use of the fuel. Select a possible explanation:",
+      "choices": [
+        "A climb to FL380 might consume more fuel than would be saved by being at the higher altitude for a short period.",
+        "There might be stronger tailwinds at FL380.",
+        "The headwind present at FL340 might be more favourable than the still air conditions at FL380.",
+        "Even in still air, cruising at the higher optimum level would decrease the specific range."
+      ],
+      "answer": "A climb to FL380 might consume more fuel than would be saved by being at the higher altitude for a short period."
+    },
+    {
+      "question": "The increased V2 procedure (improved climb technique) improves a climb limited take-off mass by increasing V1, VR and V2. Using this procedure __________ weights exceeding Vtyres.",
+      "choices": [
+        "does not permit",
+        "permits"
+      ],
+      "answer": "does not permit"
+    },
+    {
+      "question": "Normally, for a twin engined aircraft, V2MIN may not be less than __________ x VMCA, and __________ x VSR.",
+      "choices": [
+        "1.13; 1.13.",
+        "1.1; 1.13.",
+        "1.1; 1.1.",
+        "1.13; 1.1."
+      ],
+      "answer": "1.1; 1.13."
+    },
+    {
+      "question": "What is the climb requirement in the 3rd take off segment?",
+      "choices": [
+        "1500 ft per minute.",
+        "200 ft per minute.",
+        "There is no climb requirement.",
+        "400 ft per minute."
+      ],
+      "answer": "There is no climb requirement."
+    },
+    {
+      "question": "Complete the following statement regarding the take-off performance of an aeroplane in Performance Class A. Following an engine failure before __________ and allowing for a pilot reaction time of __________ a correctly loaded aircraft must be capable of decelerating to a stop within the__________.",
+      "choices": [
+        "V1; 2 seconds; Take-Off distance available (TODA)",
+        "V2; 3 seconds; Take-Off distance available (TODA)",
+        "V1; 1 second; Accelerate-Stop distance available (ASDA)",
+        "V1; 2 seconds; Accelerate-Stop distance available (ASDA)"
+      ],
+      "answer": "V1; 2 seconds; Accelerate-Stop distance available (ASDA)"
+    },  
+    {
+      "question": "Reference CAP 698 Figure 4.31. The flight crew of an MRJT plan to touchdown with the braking configuration: Autobrake 2, Normal Reverse #2 Detent. However, on touchdown, the thrust reverser fail light illuminates and the Commander cancels the reverse thrust and selects Autobrake 3 instead, to gain some extra braking. From the runway the aeroplane has to taxi 1.5 miles to the assigned terminal gate. Given the following performance data, how much energy has been absorbed per brake unit, and what is the minimum brake cooling time after this landing? Estimated landing mass: 100 000 lb, VREF: 123 kt, Corrections to VREF: (VREF - 3kt), Corrections to VREF for wind component: minus 50% of a headwind or plus 150% for a tailwind, Headwind component: 4 kt, Pressure Altitude: 5000ft, OAT:-10°C, graphAdd one million foot pounds for each taxi mile to obtain total brake energy.",
+      "choices": [
+        "Approximately 14.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of 44 minutes.",
+        "Approximately 18.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of 62 minutes.",
+        "Approximately 9.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of at least of 16 minutes.",
+        "Approximately 15.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of at least of 52 minutes."
+      ],
+      "answer": "Approximately 15.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of at least of 52 minutes."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.7. Given: TOM: 60 000 kg, PA: 6000 ft, OAT: -10°C, Slope: 2% down, Tailwind: 5 kt, PMC: OFF. VMBE is:",
+      "choices": [
+        "139 kt",
+        "149 kt",
+        "154 kt",
+        "170 kt"
+      ],
+      "answer": "149 kt"
+    },
+    {
+      "question": "When compared to a clean configuration, how does flap setting usually affect the Runway Length limited Take-Off Mass and the Climb limited Take-Off Mass? The Runway Length limited Take-Off Mass:",
+      "choices": [
+        "decreases, and the Climb limited Take-off Mass increases.",
+        "increases, and the Climb limited Take-Off Mass increases.",
+        "increases, and the Climb Limited Take-off Mass decreases.",
+        "decreases, and the Climb limited Take-off Mass decreases."
+      ],
+      "answer": "increases, and the Climb Limited Take-off Mass decreases."
+    },
+    {
+      "question": "The 'maximum tyre speed' limits:",
+      "choices": [
+        "V1 in kt ground speed.",
+        "VR, or VMU if this is lower than VR.",
+        "V1 in kt TAS.",
+        "VLOF in terms of ground speed."
+      ],
+      "answer": "VLOF in terms of ground speed."
+    },
+    {
+      "question": "VR is the speed:",
+      "choices": [
+        "By which the aircraft's nose wheel must have lifted off the ground.",
+        "At which the PF applies pressure on the control column to raise the nose wheel off the ground.",
+        "By which the aircraft's main wheels must be about to lift off the ground.",
+        "By which the aircraft must have rotated."
+      ],
+      "answer": "At which the PF applies pressure on the control column to raise the nose wheel off the ground."
+    },
+    {
+      "question": "If V2 is increased what happens to CLTOM and the climb angle?",
+      "choices": [
+        "CLTOM decreases and climb angle increases.",
+        "Both decrease.",
+        "CLTOM increases and climb angle decreases.",
+        "Both increase."
+      ],
+      "answer": "Both increase."
+    },
+    {
+      "question": "Regarding the net take-off flight path of a class A aircraft certified under CS25, below __________ ft there must be no change in thrust or configuration, except gear retraction and automatic propeller feathering.",
+      "choices": [
+        "500",
+        "1000",
+        "35",
+        "400"
+      ],
+      "answer": "400"
+    },
+    {
+      "question": "In relation to flight performance what does the term Cost Index define?",
+      "choices": [
+        "A number denoting the cost per nautical mile.",
+        "A number denoting the ratio of the costs of crew and maintenance to the cost of the fuel.",
+        "A number denoting the ratio of the cost of fuel to speed.",
+        "A number denoting the ratio of direct operating costs to speed."
+      ],
+      "answer": "A number denoting the ratio of the costs of crew and maintenance to the cost of the fuel."
+    },
+    {
+      "question": "Which factors affect the level off altitude in a drift down procedure?",
+      "choices": [
+        "Fuel remaining, distance to destination.",
+        "Temperature and Weight.",
+        "Temperature, Speed and Weight.",
+        "Power, Weight, Fuel Remaining."
+      ],
+      "answer": "Temperature, Speed and Weight."
+    },
+    {
+      "question": "What is the effect on EAS, CAS and TAS for an aeroplane which climbs with a constant Mach speed below the tropopause?",
+      "choices": [
+        "EAS, CAS and TAS decrease.",
+        "EAS decreases and CAS and TAS increase.",
+        "EAS, CAS and TAS increase.",
+        "EAS increases and CAS and TAS decrease."
+      ],
+      "answer": "EAS, CAS and TAS decrease."
+    },
+    {
+      "question": "With a downward sloping runway:",
+      "choices": [
+        "VR will increase.",
+        "VR will decrease.",
+        "V1 will increase.",
+        "V1 will decrease."
+      ],
+      "answer": "V1 will decrease."
+    },
+    {
+      "question": "Two identical aeroplanes at different masses are descending at zero wind and zero thrust. At a given angle of attack, which of the following statements correctly describes their descent characteristics?",
+      "choices": [
+        "There is no difference between the descent characteristics of the two aeroplanes.",
+        "The heavier aeroplane will glide further than the lighter aeroplane.",
+        "Both the vertical and the forward speed are greater for the heavier aeroplane.",
+        "The lighter aeroplane will glide further than the heavier aeroplane."
+      ],
+      "answer": "Both the vertical and the forward speed are greater for the heavier aeroplane."
+    },
+    {
+      "question": "The speed VS is defined as:",
+      "choices": [
+        "Design stress speed.",
+        "Safety speed for take-off in case of a contaminated runway.",
+        "Speed for best specific range.",
+        "Stalling speed or minimum steady flight speed at which the aeroplane is controllable."
+      ],
+      "answer": "Stalling speed or minimum steady flight speed at which the aeroplane is controllable."
+    },
+    {
+      "question": "What is the effect of tail wind on the time to climb to a given altitude?",
+      "choices": [
+        "Increases.",
+        "Decreases.",
+        "No change",
+        "Depends on the aeroplane type."
+      ],
+      "answer": "No change"
+    },
+    {
+      "question": "Study this diagram. The crosswind component is approximately:",
+      "choices": [
+        "13 kt.",
+        "25 kt.",
+        "9 kt.",
+        "20 kt."
+      ],
+      "answer": "20 kt."
     }
   ],
   "PER": [    {
@@ -35573,6 +35982,464 @@
         "The data is measured with reference to the ground."
       ],
       "answer": "The data is measured with reference to the air."
+    },
+    {
+      "question": "What is the effect of tail wind on the time to climb to a given altitude?",
+      "choices": [
+        "Increases.",
+        "Decreases.",
+        "No change",
+        "Depends on the aeroplane type."
+      ],
+      "answer": "No change"
+    },
+    {
+      "question": "The speed VS is defined as:",
+      "choices": [
+        "Design stress speed.",
+        "Safety speed for take-off in case of a contaminated runway.",
+        "Speed for best specific range.",
+        "Stalling speed or minimum steady flight speed at which the aeroplane is controllable."
+      ],
+      "answer": "Stalling speed or minimum steady flight speed at which the aeroplane is controllable."
+    },
+    {
+      "question": "Two identical aeroplanes at different masses are descending at zero wind and zero thrust. At a given angle of attack, which of the following statements correctly describes their descent characteristics?",
+      "choices": [
+        "There is no difference between the descent characteristics of the two aeroplanes.",
+        "The heavier aeroplane will glide further than the lighter aeroplane.",
+        "Both the vertical and the forward speed are greater for the heavier aeroplane.",
+        "The lighter aeroplane will glide further than the heavier aeroplane."
+      ],
+      "answer": "Both the vertical and the forward speed are greater for the heavier aeroplane."
+    },
+    {
+      "question": "With a downward sloping runway:",
+      "choices": [
+        "VR will increase.",
+        "VR will decrease.",
+        "V1 will increase.",
+        "V1 will decrease."
+      ],
+      "answer": "V1 will decrease."
+    },
+    {
+      "question": "What is the effect on EAS, CAS and TAS for an aeroplane which climbs with a constant Mach speed below the tropopause?",
+      "choices": [
+        "EAS, CAS and TAS decrease.",
+        "EAS decreases and CAS and TAS increase.",
+        "EAS, CAS and TAS increase.",
+        "EAS increases and CAS and TAS decrease."
+      ],
+      "answer": "EAS, CAS and TAS decrease."
+    },
+    {
+      "question": "Which factors affect the level off altitude in a drift down procedure?",
+      "choices": [
+        "Fuel remaining, distance to destination.",
+        "Temperature and Weight.",
+        "Temperature, Speed and Weight.",
+        "Power, Weight, Fuel Remaining."
+      ],
+      "answer": "Temperature, Speed and Weight."
+    },
+    {
+      "question": "In relation to flight performance what does the term Cost Index define?",
+      "choices": [
+        "A number denoting the cost per nautical mile.",
+        "A number denoting the ratio of the costs of crew and maintenance to the cost of the fuel.",
+        "A number denoting the ratio of the cost of fuel to speed.",
+        "A number denoting the ratio of direct operating costs to speed."
+      ],
+      "answer": "A number denoting the ratio of the costs of crew and maintenance to the cost of the fuel."
+    },
+    {
+      "question": "Regarding the net take-off flight path of a class A aircraft certified under CS25, below __________ ft there must be no change in thrust or configuration, except gear retraction and automatic propeller feathering.",
+      "choices": [
+        "500",
+        "1000",
+        "35",
+        "400"
+      ],
+      "answer": "400"
+    },
+    {
+      "question": "If V2 is increased what happens to CLTOM and the climb angle?",
+      "choices": [
+        "CLTOM decreases and climb angle increases.",
+        "Both decrease.",
+        "CLTOM increases and climb angle decreases.",
+        "Both increase."
+      ],
+      "answer": "Both increase."
+    },
+    {
+      "question": "VR is the speed:",
+      "choices": [
+        "By which the aircraft's nose wheel must have lifted off the ground.",
+        "At which the PF applies pressure on the control column to raise the nose wheel off the ground.",
+        "By which the aircraft's main wheels must be about to lift off the ground.",
+        "By which the aircraft must have rotated."
+      ],
+      "answer": "At which the PF applies pressure on the control column to raise the nose wheel off the ground."
+    },
+    {
+      "question": "The 'maximum tyre speed' limits:",
+      "choices": [
+        "V1 in kt ground speed.",
+        "VR, or VMU if this is lower than VR.",
+        "V1 in kt TAS.",
+        "VLOF in terms of ground speed."
+      ],
+      "answer": "VLOF in terms of ground speed."
+    },
+    {
+      "question": "When compared to a clean configuration, how does flap setting usually affect the Runway Length limited Take-Off Mass and the Climb limited Take-Off Mass? The Runway Length limited Take-Off Mass:",
+      "choices": [
+        "decreases, and the Climb limited Take-off Mass increases.",
+        "increases, and the Climb limited Take-Off Mass increases.",
+        "increases, and the Climb Limited Take-off Mass decreases.",
+        "decreases, and the Climb limited Take-off Mass decreases."
+      ],
+      "answer": "increases, and the Climb Limited Take-off Mass decreases."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.7. Given: TOM: 60 000 kg, PA: 6000 ft, OAT: -10°C, Slope: 2% down, Tailwind: 5 kt, PMC: OFF. VMBE is:",
+      "choices": [
+        "139 kt",
+        "149 kt",
+        "154 kt",
+        "170 kt"
+      ],
+      "answer": "149 kt"
+    },
+    {
+      "question": "Reference CAP 698 Figure 4.31. The flight crew of an MRJT plan to touchdown with the braking configuration: Autobrake 2, Normal Reverse #2 Detent. However, on touchdown, the thrust reverser fail light illuminates and the Commander cancels the reverse thrust and selects Autobrake 3 instead, to gain some extra braking. From the runway the aeroplane has to taxi 1.5 miles to the assigned terminal gate. Given the following performance data, how much energy has been absorbed per brake unit, and what is the minimum brake cooling time after this landing? Estimated landing mass: 100 000 lb, VREF: 123 kt, Corrections to VREF: (VREF - 3kt), Corrections to VREF for wind component: minus 50% of a headwind or plus 150% for a tailwind, Headwind component: 4 kt, Pressure Altitude: 5000ft, OAT:-10°C, graphAdd one million foot pounds for each taxi mile to obtain total brake energy.",
+      "choices": [
+        "Approximately 14.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of 44 minutes.",
+        "Approximately 18.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of 62 minutes.",
+        "Approximately 9.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of at least of 16 minutes.",
+        "Approximately 15.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of at least of 52 minutes."
+      ],
+      "answer": "Approximately 15.5 million foot-pounds of energy has been absorbed per brake, with an advised cooling time of at least of 52 minutes."
+    },
+    {
+      "question": "Complete the following statement regarding the take-off performance of an aeroplane in Performance Class A. Following an engine failure before __________ and allowing for a pilot reaction time of __________ a correctly loaded aircraft must be capable of decelerating to a stop within the__________.",
+      "choices": [
+        "V1; 2 seconds; Take-Off distance available (TODA)",
+        "V2; 3 seconds; Take-Off distance available (TODA)",
+        "V1; 1 second; Accelerate-Stop distance available (ASDA)",
+        "V1; 2 seconds; Accelerate-Stop distance available (ASDA)"
+      ],
+      "answer": "V1; 2 seconds; Accelerate-Stop distance available (ASDA)"
+    },  
+    {
+      "question": "What is the climb requirement in the 3rd take off segment?",
+      "choices": [
+        "1500 ft per minute.",
+        "200 ft per minute.",
+        "There is no climb requirement.",
+        "400 ft per minute."
+      ],
+      "answer": "There is no climb requirement."
+    },
+    {
+      "question": "Normally, for a twin engined aircraft, V2MIN may not be less than __________ x VMCA, and __________ x VSR.",
+      "choices": [
+        "1.13; 1.13.",
+        "1.1; 1.13.",
+        "1.1; 1.1.",
+        "1.13; 1.1."
+      ],
+      "answer": "1.1; 1.13."
+    },
+    {
+      "question": "The increased V2 procedure (improved climb technique) improves a climb limited take-off mass by increasing V1, VR and V2. Using this procedure __________ weights exceeding Vtyres.",
+      "choices": [
+        "does not permit",
+        "permits"
+      ],
+      "answer": "does not permit"
+    },
+    {
+      "question": "For a turboprop-powered aeroplane, a 2200 m long runway at the destination and the aerodrome runway is expected to be 'wet'. The 'dry runway' landing distance should not exceed how many metres?",
+      "choices": [
+        "1200 m",
+        "1250 m",
+        "1397 m",
+        "1339 m"
+      ],
+      "answer": "1339 m"
+    },
+    {
+      "question": "On a transatlantic flight, the captain asks the First Officer why a final step climb from FL340 to FL380 ten minutes before top of descent might not be an efficient use of the fuel. Select a possible explanation:",
+      "choices": [
+        "A climb to FL380 might consume more fuel than would be saved by being at the higher altitude for a short period.",
+        "There might be stronger tailwinds at FL380.",
+        "The headwind present at FL340 might be more favourable than the still air conditions at FL380.",
+        "Even in still air, cruising at the higher optimum level would decrease the specific range."
+      ],
+      "answer": "A climb to FL380 might consume more fuel than would be saved by being at the higher altitude for a short period."
+    },
+    {
+      "question": "In the OPS regulations, a runway is considered damp when:",
+      "choices": [
+        "its surface is not dry, and when surface moisture does not give it a shiny appearance.",
+        "surface moisture gives it a shiny appearance.",
+        "it is covered with a film of water of less than 1 mm.",
+        "it is covered with a film of water of less than 3 mm."
+      ],
+      "answer": "its surface is not dry, and when surface moisture does not give it a shiny appearance."
+    },
+    {
+      "question": "Reference CAP 698 Figure 4.31. The pilot of an MRJT aeroplane after recognising a generator failure during the take-off roll decides to reject the take-off and taxi off the runway to hold on a taxiway. Resetting the generator after 10 minutes, it is found to function properly and the flight can resume. Given the following information, what is the minimum cooling time before the next take-off, assuming that the taxi distance is negligible? Take-off mass: 57 500 kg. Speed when fault occurred: 90 kt. Speed when rejection commenced: 100 kt. Retardation: Maximum braking and reverse thrust. Wind: light and variable. Elevation: 1400 ft. QNH: 1013.25 hPa. OAT: −10°C.",
+      "choices": [
+        "It is recommended to wait for approximately 35 minutes having used maximum braking and reverse thrust.",
+        "It is recommended to wait for approximately 50 minutes if some credit is given for using reverse thrust.",
+        "Only ground cooling is recommended, which means that a new take-off may be commenced now that the fault is no longer present.",
+        "It is recommended to wait for approximately 40 minutes after using maximum manual braking."
+      ],
+      "answer": "It is recommended to wait for approximately 50 minutes if some credit is given for using reverse thrust."
+    },
+    {
+      "question": "Compared with a balanced field with no stopway or clearway, the use of a stopway in the take-off calculations allows an:",
+      "choices": [
+        "decrease in the Take-off Mass, and decrease the V1.",
+        "increase in the Take-off Mass, and decrease the V1.",
+        "decrease in the Take-off Mass, and increase the V1.",
+        "increase in the Take-off Mass, and increase the V1."
+      ],
+      "answer": "increase in the Take-off Mass, and increase the V1."
+    },
+    {
+      "question": "For a 2-engined aircraft, the limiting mass for the approach climb is the maximum mass at which a gradient of __________ can be achieved.",
+      "choices": [
+        "2.5",
+        "2.1",
+        "2.4",
+        "2.7"
+      ],
+      "answer": "2.1"
+    },
+    {
+      "question": "You are about to take-off at Mykonos airport in Greece on a short runway 1905 m facing the sea in a large jet transport aircraft. For this take-off, you are not limited by the climb gradient, which of the following allowable take-off configurations is best to obtain the maximum runway length limited TOM? Configuration 1: 1 stage of slats and flaps. Configuration 2: 2 stages of slats and flaps. Configuration 3: 2 stages of slats and 3 stages of flaps.",
+      "choices": [
+        "Configuration 1 because it results in a lower take-off distance and higher climb gradient than using configuration 2 or 3.",
+        "Configuration 3 because it results in lower take-off speeds and higher runway limited mass than using configuration 1 or 2.",
+        "Configuration 2 because it results in lower take-off speeds and higher runway limited mass than using configuration 3.",
+        "Configuration 1 because it results in greater take-off speeds and lower take-off distance than using configuration 2 or 3."
+      ],
+      "answer": "Configuration 3 because it results in lower take-off speeds and higher runway limited mass than using configuration 1 or 2."
+    },
+    {
+      "question": "The use of reduced take-off thrust is permitted, only if:",
+      "choices": [
+        "The actual take-off mass is lower than the performance limited take-off mass.",
+        "The actual take-off mass including a margin is lower than the performance limited take-off mass.",
+        "The actual take-off mass including a margin is greater than the performance limited take-off mass.",
+        "The take-off distance available is lower than the take-off distance required."
+      ],
+      "answer": "The actual take-off mass is lower than the performance limited take-off mass."
+    },
+    {
+      "question": "The lowest CAS at which, when the critical engine is suddenly made inoperative, it is possible to maintain directional control and straight flight with an angle of bank of not more than 5°. This is a definition of:",
+      "choices": [
+        "V2",
+        "V2MIN",
+        "VMCG",
+        "VMC"
+      ],
+      "answer": "VMC"
+    },
+    {
+      "question": "What is the purpose of the crossover altitude, for an aircraft during the descent?",
+      "choices": [
+        "To not exceed VMO.",
+        "To not exceed VNE.",
+        "To not exceed MMO.",
+        "To not exceed VLO."
+      ],
+      "answer": "To not exceed VMO."
+    },
+    {
+      "question": "A balanced field is contaminated with compacted snow, what effect will it have on the TODA and ASDR?",
+      "choices": [
+        "The TODA and ASDR will increase.",
+        "The TODR and ASDR will increase.",
+        "The TODA will decrease and the ASDR will increase.",
+        "The TODA stays the same and the ASDR increases."
+      ],
+      "answer": "The TODA stays the same and the ASDR increases."
+    },
+    {
+     "question": "On take-off from an unbalanced field you have an available range of V1s. If a higher V1 is selected from the range then:",
+      "choices": [
+        "Both TOD and ASD will decrease.",
+        "The ASDR will decrease.",
+        "The all engine take-off distance will be unaffected.",
+        "Both TOD and ASD will increase."
+      ],
+      "answer": "The all engine take-off distance will be unaffected."
+    },
+    {
+      "question": "With reference to CAP 698 Figure 4.29. Determine the landing climb limit for the MRJT given: OAT: ISA +30°C; PA: 4000 ft; A/C: AUTO; Flaps: 40°; Icing: no icing below +8°C during flight",
+      "choices": [
+        "58 100 kg",
+        "61 100 kg",
+        "53 000 kg",
+        "59 500 kg"
+      ],
+      "answer": "53 000 kg"
+    },
+    {
+      "question": "During the drift-down following an engine failure, the vertical interval by which a Class A aeroplane must avoid all obstacles in the drift-down path is:",
+      "choices": [
+        "1500 ft",
+        "1000 ft",
+        "2000 ft",
+        "35 ft"
+      ],
+      "answer": "2000 ft"
+    },
+    {
+      "question": "The important speeds during take-off, in ascending order, are:",
+      "choices": [
+        "VEF < VR < V1 < VLOF",
+        "V1 < V2 < VR < VLOF",
+        "V1 < VEF < VR < VLOF < V2",
+        "VEF < V1 ≤ VR < VLOF < V2"
+      ],
+      "answer": "VEF < V1 ≤ VR < VLOF < V2"
+    },
+    {
+      "question": "For a piston-engine, at what altitude will it have the best endurance?",
+      "choices": [
+        "at service ceiling",
+        "about 15 000 ft",
+        "about Mean Sea Level",
+        "at 15 000 ft and more"
+      ],
+      "answer": "about Mean Sea Level"
+    },
+    {
+      "question": "For an aeroplane in Performance Class B the net take-off flight path begins at a height of __________ and ends at a height of __________.",
+      "choices": [
+        "35 ft; 1500 ft",
+        "35 ft; 1000 ft",
+        "50 ft; 1000 ft",
+        "50 ft; 1500 ft"
+      ],
+      "answer": "50 ft; 1500 ft"
+    },
+    {
+      "question": "At the planning stage for a Class B performance aircraft, what minimum climb gradient do you use?",
+      "choices": [
+        "500 ft min climb speed with all engines operating.",
+        "500 ft min climb speed with one engine out.",
+        "300 ft min climb speed with one engine out.",
+        "300 ft min climb speed with all engines operating."
+      ],
+      "answer": "300 ft min climb speed with all engines operating."
+    },
+    {
+      "question": "The pilot of an aircraft has calculated a 4000 m service ceiling, based on the forecast general conditions for the flight and a take-off mass of 3250 kg. If the take-off mass is 3000 kg, the service ceiling will be:",
+      "choices": [
+        "less than 4000 m.",
+        "higher than 4000 m.",
+        "unchanged, equal to 4000 m.",
+        "only a new performance analysis will determine if the service ceiling is higher or lower than 4000 m."
+      ],
+      "answer": "higher than 4000 m."
+    },
+    {
+      "question": "Which of the following is a Performance Class B aircraft?",
+      "choices": [
+        "More than 9 passenger seats and a MTOM of more than 5700 kg propeller driven aircraft and all multi-engine jet aircraft.",
+        "Propeller driven aircraft, with a MOPSC less than 9 passenger seats and with a MTOM of 5700 kg.",
+        "More than 9 passenger seats and a MTOM of more than 5700 kg.",
+        "Propeller driven aircraft, with a MOPSC equal to or less than 9 passenger seats and with a MTOM of 5700 kg or less."
+      ],
+      "answer": "Propeller driven aircraft, with a MOPSC equal to or less than 9 passenger seats and with a MTOM of 5700 kg or less."
+    },
+    {
+      "question": "An aircraft is climbing at a maximum climb angle with constant speed and thrust. Consider for theoretical purposes that the weight of the aircraft suddenly decreases but the flight otherwise continues as normal. For the pilot to maintain the same speed, all factors remaining the same, the angle of climb must be:",
+      "choices": [
+        "Reduced, to increase the backward component of weight in order to exceed the excess thrust.",
+        "Reduced, to reduce the backward component of weight in order to match the excess thrust.",
+        "Increased, to increase the backward component of weight in order to match the excess thrust.",
+        "Increased, to reduce the backward component of weight in order to be less than the excess thrust."
+      ],
+      "answer": "Increased, to increase the backward component of weight in order to match the excess thrust."
+    },
+    {
+      "question": "Study the diagram then identify the correct answer:",
+      "choices": [
+        "B is 0.76 VMD",
+        "A is VMD",
+        "B is VMP",
+        "A is VMP"
+      ],
+      "answer": "A is VMP"
+    },
+    {
+      "question": "Having all other conditions the same, taking off from an upward-sloping runway compared to a zero slope runway will result in:",
+      "choices": [
+        "an increased take-off distance, and an increased stopping distance in case of an aborted take-off.",
+        "a decreased take-off distance, and an increased stopping distance in case of an aborted take-off.",
+        "a decreased take-off distance, and a decreased stopping distance in case of an aborted take-off.",
+        "an increased take-off distance, and a decreased stopping distance in case of an aborted take-off."
+      ],
+      "answer": "an increased take-off distance, and a decreased stopping distance in case of an aborted take-off."
+    },
+    {
+      "question": "The Density Altitude:",
+      "choices": [
+        "is used to determine the aeroplane performance.",
+        "is equal to the pressure altitude.",
+        "is used to establish minimum clearance of 2000 feet over mountains.",
+        "is used to calculate the FL above the Transition Altitude."
+      ],
+      "answer": "is used to determine the aeroplane performance."
+    },
+    {
+      "question": "A take-off performance is calculated with the use of given conditions. If subsequently, the OAT drops, the aircraft's climb performance will (1) ___ because the excess thrust will be (2) ___ .",
+      "choices": [
+        "(1) deteriorate; (2) reduced.",
+        "(1) improve; (2) increased.",
+        "(1) improve; (2) reduced.",
+        "(1) deteriorate; (2) increased."
+      ],
+      "answer": "(1) improve; (2) increased."
+    },
+    {
+      "question": "A jet aeroplane has three configurations available for take-off. T/01: 1 stage of slats and flaps. T/02: 2 stages of slats and flaps. T/03: 3 stages of slats and 3 stages of flaps. The runway is NOT limiting but the given departure requires a climb gradient of 6.8% to 2000 ft. Which T/0 configuration will be most appropriate to achieve the best climb gradient?",
+      "choices": [
+        "T/03 because it results in greater climb speeds and greater rate of climb than when using T/01.",
+        "T/01 because it results in lower climb speeds, giving a higher angle of climb than when using T/02.",
+        "T/01 because it results in greater climb speeds and greater rate of climb than when using T/02.",
+        "T/02 because it results in lower climb speeds and greater rate of climb than when using T/03."
+      ],
+      "answer": "T/01 because it results in greater climb speeds and greater rate of climb than when using T/02."
+    },
+    {
+      "question": "In the take-off climb segment, a MEP aircraft has a gross gradient of 13% with all engines operating and a gross gradient of 5.2% with one engine inoperative. Which net gradients must be used for the calculation of obstacle clearance if the cloud base is at 600 ft?",
+      "choices": [
+        "13% below the cloud base and 5.2% above.",
+        "10% below the cloud base and 5.2% above.",
+        "13% below the cloud base and 4% above.",
+        "10% below the cloud base and 4% above."
+      ],
+      "answer": "10% below the cloud base and 5.2% above."
+    },
+    {
+      "question": "Study this diagram. The crosswind component is approximately:",
+      "choices": [
+        "13 kt.",
+        "25 kt.",
+        "9 kt.",
+        "20 kt."
+      ],
+      "answer": "20 kt."
     },
     {
       "question": "With reference to CAP 698 Figure 3.10. Given the following information, calculate the barrier speed for a multi-engine piston airplane. Pressure altitude: 4000 ft Outside air temp: 10\u00b0C Aircraft mass: 3450 lb",
@@ -37015,7 +37882,7 @@
       "choices": [
         "The distance between the point of touch down on the runway and the point on the runway where the aeroplane has come to a complete stop.",
         "The length of the runway from threshold to threshold.",
-        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point...",
+        "The distance between the point on the surface of the aerodrome at which an aeroplane can begin its take-off run to the nearest point, in the direction of take-off, at which the surface of the aerodrome is incapable of bearing the weight of the aeroplane.",
         "The runway plus the clearway."
       ],
       "answer": "The length of the runway from threshold to threshold."
@@ -37138,15 +38005,6 @@
      ],
      "answer": "Remains constant."
     },  
-    {
-      "question": "If your aeroplane can achieve a positive net gradient with one engine inoperative, then your minimum obstacle clearance is __________ ft within 5 nm of your intended track (provided you have sufficient navigation accuracy).",
-      "choices": [
-        "2000",
-        "150",
-        "1000"
-     ],
-     "answer": "2000"
-    },      
     {
       "question": "Assume a take-off with a class A aeroplane on a wet runway. Which of the following values shows the corresponding screen height of the take-off distance?",
       "choices": [
@@ -37608,14 +38466,14 @@
       "answer": "70"
     },
     {
-      "question": "If your aeroplane can\u2019t climb with one engine inoperative, then your minimum obstacle clearance is __________ ft within 5 nm of your intended track (provided you have sufficient navigation accuracy).",
+      "question": "If your aeroplane can’t climb with one engine inoperative, then your minimum obstacle clearance is __________ ft within 5 nm of your intended track (provided you have sufficient navigation accuracy).",
       "choices": [
         "1000",
         "150",
         "2000",
         "2500"
       ],
-      "answer": "1000"
+      "answer": "2000"
     },
     {
       "question": "VR is __________ by air density.",
@@ -37785,7 +38643,7 @@
         "150",
         "500"
       ],
-      "answer": "2000"
+      "answer": "1000"
     },
     {
       "question": "A __________ runway is a runway in which the surface is covered with water, or equivalent, but less than that of a contaminated runway.",
@@ -38198,7 +39056,7 @@
     {
       "question": "Refer to CAP 698 figure 4.28. Determine the runway length limiting landing mass at an aerodrome with a pressure altitude of 2000 ft, with 7250 ft runway length available, wind calm, runway wet and flaps 40\u00b0, anti-skid operative.",
       "choices": [
-        "53 600 kg.",
+        "53 000 kg",
         "63 600 kg.",
         "61 500 kg.",
         "67 000 kg."
@@ -38378,12 +39236,12 @@
     {
       "question": "The reduction to be applied to the gross gradient (take-off climb) to obtain the net gradient for a twin-engined Class A aeroplane is:",
       "choices": [
-        "0.009",
-        "0.01",
-        "0.007",
-        "0.008"
+        "0.9%",
+        "1.0%",
+        "0.7%",
+        "0.8%"
       ],
-      "answer": "0.008"
+      "answer": "0.8%"
     },
     {
       "question": "In accordance to EASA CS-25 which of the following listed speeds are used for determination of V2 MIN?",
