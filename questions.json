@@ -20399,6 +20399,632 @@
       "answer": "rigidity"
     }
   ],
+  "INS ST1": [
+    {
+      "question": "The temperature that determines the local speed of sound?",
+      "choices": [
+        "SAT",
+        "OAT",
+        "TAT",
+        "RAT"
+      ],
+      "answer": "SAT"
+    },
+    {
+      "question": "The input data of an ADC (Air Data Computer) is: 1. OAT. 2. TAT. 3. Static pressure. 4. Total pressure. The combination of the correct statements is:",
+      "choices": [
+        "1, 2, 4.",
+        "2, 3, 4.",
+        "1, 3, 4.",
+        "1, 2, 3, 4."
+      ],
+      "answer": "2, 3, 4."
+    },
+    {
+      "question": "Select the correct effect on Machmeter indications for the problem given below: Static leak in an unpressurised aircraft.",
+      "choices": [
+        "Under-read - may be large.",
+        "Small over-read.",
+        "Freezes.",
+        "Small under-read."
+      ],
+      "answer": "Small over-read."
+    },
+    {
+      "question": "Remote-reading temperature probes usually measure __________. This is useful because it determines the relationship between IAS and TAS. This temperature is displayed on the flight deck and used by the ADC.",
+      "choices": [
+        "SAT",
+        "OAT",
+        "TAT",
+        "EGT"
+      ],
+      "answer": "TAT"
+    },
+    {
+      "question": "The temperature that determines relationship between TAS and IAS?",
+      "choices": [
+        "OAT",
+        "TAT",
+        "SAT",
+        "EGT"
+      ],
+      "answer": "TAT"
+    },
+    {
+      "question": "What can be said regarding a small aircraft's Angle of Attack (AoA) sensor?",
+      "choices": [
+        "It is a small radar dish on top of the cockpit.",
+        "It is a small vane on the leading edge of the wing.",
+        "It is located on the tall of the aircraft.",
+        "It is located on the side of the fuselage."
+      ],
+      "answer": "It is a small vane on the leading edge of the wing."
+    },
+    {
+      "question": "How is a null-seeking AoA device protected from icing?",
+      "choices": [
+        "Pneumatic heat.",
+        "Electric heating.",
+        "Chemically.",
+        "No protection at all."
+      ],
+      "answer": "Electric heating."
+    },
+    {
+      "question": "Adjusting QFE to sea level using ISA conditions gives __________.",
+      "choices": [
+        "QFE",
+        "QFF",
+        "Ambient",
+        "QNH"
+      ],
+      "answer": "QNH"
+    },
+    {
+      "question": "If TAS is 480 kt and OAT is -43\u00b0C, what is the Mach number?",
+      "choices": [
+        "0.72.",
+        "0.81.",
+        "1.23.",
+        "0.69."
+      ],
+      "answer": "0.81."
+    },
+    {
+      "question": "Vane detectors are pivoted well __________ of their centre of pressure.",
+      "choices": [
+        "aft",
+        "forward",
+        "above",
+        "below"
+      ],
+      "answer": "forward"
+    },
+    {
+      "question": "Has a stack of aneroid capsules connected by levers and gears to multiple pointer hands.",
+      "choices": [
+        "Simple Altimeter",
+        "Servo-assisted Altimeter",
+        "Sensitive Altimeter",
+        "Encoding Altimeter"
+      ],
+      "answer": "Sensitive Altimeter"
+    },
+    {
+      "question": "Has a basic accelerometer to overcome lag.",
+      "choices": [
+        "Inertial VSI",
+        "Instantaneous VSI.",
+        "VSI.",
+        "Mechanical VSI"
+      ],
+      "answer": "Instantaneous VSI."
+    },
+    {
+      "question": "Inertia causes the piston to move when the __________ changes.",
+      "choices": [
+        "aircraft's height",
+        "aircraft's pitch rate",
+        "aircraft's speed",
+        "aircraft's roll rate"
+      ],
+      "answer": "aircraft's pitch rate"
+    },
+    {
+      "question": "Which of the following statements about null-seeking probes is correct? Null seeking probes:",
+      "choices": [
+        "Use a servo motor to rotate the probe until there is no differential pressure between the slots.",
+        "Use a servo motor to rotate the probe until there is a differential pressure is sensed between the slots.",
+        "Are sensitive to the difference in pressure sensed in slots either side of the fixed probe.",
+        "Are usually mounted on the leading edge of the wing."
+      ],
+      "answer": "Use a servo motor to rotate the probe until there is no differential pressure between the slots."
+    },
+    {
+      "question": "The relationship between pressure units is: 1 Bar =__________ hPa.",
+      "choices": [
+        "10",
+        "100",
+        "1000",
+        "10 000"
+      ],
+      "answer": "1000"
+    },
+    {
+      "question": "N1 or EPR passed from the FMS is the target.",
+      "choices": [
+        "Retard/Idle",
+        "Thrust",
+        "Speed",
+        "%MCT%TOGA"
+      ],
+      "answer": "Thrust"
+    },
+    {
+      "question": "Remote-reading temperature probes are used on CAT aircraft. To reduce position error, they are usually mounted on the fuselage where the airflow is __________.",
+      "choices": [
+        "stationary",
+        "smooth",
+        "turbulent",
+        "reversed"
+      ],
+      "answer": "smooth"
+    },
+    {
+      "question": "Routes where the FANS-1/A concept is used:",
+      "choices": [
+        "Are used during high traffic times only.",
+        "Are designated for FANS with sequence number.",
+        "Are controlled by global ICAO ATC units.",
+        "Require specific RNP capabilities."
+      ],
+      "answer": "Require specific RNP capabilities."
+    },
+    {
+      "question": "In the northern hemisphere, an aircraft takesoff on a runway with an alignment of 045\u00b0 . During the take-off run, the compass indicates:",
+      "choices": [
+        "A value below 045\u00b0.",
+        "A value above 045\u00b0.",
+        "225\u00b0.",
+        "045\u00b0."
+      ],
+      "answer": "A value below 045\u00b0."
+    },
+    {
+      "question": "The purpose of a yaw damper is to counteract the __________ aerodynamic __________ known as dutch-roll.",
+      "choices": [
+        "cyclical; accelerations",
+        "vertical; stagnations",
+        "linear; stagnations",
+        "cyclical; oscillations"
+      ],
+      "answer": "cyclical; oscillations"
+    },
+    {
+      "question": "What angle of bank should you adopt on the attitude indicator for a standard rate (rate 1) turn while flying at an TAS of 130 kts?",
+      "choices": [
+        "15\u00b0",
+        "20\u00b0",
+        "23\u00b0",
+        "18\u00b0"
+      ],
+      "answer": "20\u00b0"
+    },
+    {
+      "question": "An aeroplane is in a steady climb. The autothrottle maintains a constant Mach number. If the total temperature remains constant, the calibrated airspeed:",
+      "choices": [
+        "Remains constant.",
+        "Decreases if the static temperature is lower than the standard temperature, increases if higher.",
+        "Decreases.",
+        "Increases."
+      ],
+      "answer": "Decreases."
+    },
+    {
+      "question": "Without any external action, the axis of a free gyroscope is fixed with reference to:",
+      "choices": [
+        "Space.",
+        "The aircraft.",
+        "The apparent vertical.",
+        "The Earth."
+      ],
+      "answer": "Space."
+    },
+    {
+      "question": "A stable platform inertial navigation system uses:",
+      "choices": [
+        "A single platform with 2 accelerometers.",
+        "2 separate platforms with 2 gyroscopes.",
+        "2 separate platforms with 2 accelerometers.",
+        "A single platform with two gyroscopes."
+      ],
+      "answer": "A single platform with 2 accelerometers."
+    },
+    {
+      "question": "Identify which FEP functions are exclusive to FBW aircraft. Overspeed Protection.",
+      "choices": [
+        "Fly-By-Wire Only",
+        "All Systems",
+        "None",
+        "Conventional Only"
+      ],
+      "answer": "All Systems"
+    },
+    {
+      "question": "Identify which FEP functions are exclusive to FBW aircraft. Stall Protection.",
+      "choices": [
+        "Fly-By-Wire Only",
+        "All Systems",
+        "Conventional Only",
+        "None"
+      ],
+      "answer": "All Systems"
+    },
+    {
+      "question": "The AFDS will automatically disengage from the LNAV mode if:",
+      "choices": [
+        "The pre-programmed route is altered.",
+        "LVL CHG mode is selected.",
+        "A new desired altitude is selected.",
+        "HDG SEL is selected."
+      ],
+      "answer": "HDG SEL is selected."
+    },
+    {
+      "question": "The enhanced GPWS terrain display uses the following colours:",
+      "choices": [
+        "Green, Amber, Red, Blue.",
+        "Green, Amber, Magenta, Blue.",
+        "Green, Amber, Red, White.",
+        "Cyan, Amber, Red, Blue."
+      ],
+      "answer": "Green, Amber, Red, Blue."
+    },
+    {
+      "question": "A mechanical fuel flowmeter uses:",
+      "choices": [
+        "A hydraulic driver turning a drum with magnetic pick-offs.",
+        "A synchronous motor driving an impeller against a spring.",
+        "A spring-loaded vane.",
+        "An impeller with magnetic inserts."
+      ],
+      "answer": "A spring-loaded vane."
+    },
+    {
+      "question": "A millivoltmeter measuring the electromotive force between the hot junction and the cold junction of a thermocouple can be directly graduated in temperature values provided that the temperature of the:",
+      "choices": [
+        "Hot junction is maintained at 15\u00b0C.",
+        "Hot junction is maintained constant.",
+        "Cold junction is maintained at 15\u00b0C.",
+        "Cold junction is maintained constant."
+      ],
+      "answer": "Cold junction is maintained constant."
+    }
+  ],
+  "INS ST2": [
+    {
+      "question": "Considering vertical modes of the flight guidance system. What is the appropriate description of the following two vertical modes?\nVertical speed (V/S)\nFlight-Path Angle (FPA)",
+      "choices": [
+        "V/S will maintain a rate of climb or descent as set by the pilot while FPA will maintain a flight-path angle as coded in the FMS.",
+        "V/S will maintain a selected airspeed during the climb or descent and FPA will maintain a selected geometric flight-path angle during climb or descent.",
+        "Both modes will make the aeroplane maintain a selected vertical speed, which varies with the airspeed to maintain a constant flight-path angle.",
+        "Both modes will make the aeroplane follow a trajectory where V/S uses feet per minute as reference and FPA uses an angle."
+      ],
+      "answer": "Both modes will make the aeroplane follow a trajectory where V/S uses feet per minute as reference and FPA uses an angle."
+    },
+    {
+      "question": "A typical EFIS installation consists of:",
+      "choices": [
+        "1 PFD DU and 1 ND DU per pilot, with EICAS DUs in the centre. They are not interchangeable but each can show all data.",
+        "1 DU for each pilot and 2 central DUs which share information.",
+        "3 identical DUs per pilot, with the inner one of each being able to share information or transfer data.",
+        "2 identical DUs per pilot, with 2 more in the centre for other information. Data may be transferred from one display to another if a DU fails."
+      ],
+      "answer": "2 identical DUs per pilot, with 2 more in the centre for other information. Data may be transferred from one display to another if a DU fails."
+    },
+    {
+      "question": "Directional gyros are principally exploited for its property of __________.",
+      "choices": [
+        "precession",
+        "rigidity",
+        "procession",
+        "gimballing"
+      ],
+      "answer": "rigidity"
+    },
+    {
+      "question": "A rapidly spinning gyro tends to maintain its orientation in inertial space. This property of gyroscopes is called __________.",
+      "choices": [
+        "induction",
+        "rigidity",
+        "precession",
+        "gimballing"
+      ],
+      "answer": "rigidity"
+    },
+    {
+      "question": "The principle of a laser gyro is based on:",
+      "choices": [
+        "Frequency difference between 2 laser beams rotating in opposite direction.",
+        "A gyroscope associated with a laser compensating for apparent wander due to the rotation of the earth.",
+        "A gyroscope associated with a laser compensating for gimballing errors.",
+        "2 rotating cavities provided with mirrors."
+      ],
+      "answer": "Frequency difference between 2 laser beams rotating in opposite direction."
+    },
+    {
+      "question": "The Yaw Damper system: 1. Counters any wrong pilot action on the rudder pedals. 2. Counters Dutch roll. 3. Is active only when autopilot is engaged. The combination of all the correct statements is:",
+      "choices": [
+        "1, 2.",
+        "2",
+        "2, 3.",
+        "1, 2, 3."
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "Compared with a conventional gyro, a laser gyro:",
+      "choices": [
+        "Has a fairly long starting cycle.",
+        "Has a longer life cycle.",
+        "Consumes a lot of power.",
+        "Is influenced by temperature."
+      ],
+      "answer": "Has a longer life cycle."
+    }
+  ],
+  "INS ST3": [
+    {
+      "question": "When TAWS is fitted it must be connected to a:",
+      "choices": [
+        "4-dimensional FMS.",
+        "2-dimensional terrain model.",
+        "3-dimensional position sensor.",
+        "1-dimensional VSI."
+      ],
+      "answer": "4-dimensional FMS."
+    },
+    {
+      "question": "TCAS generates a TA or RA according to:",
+      "choices": [
+        "Speed",
+        "Distance",
+        "Time",
+        "Acceleration"
+      ],
+      "answer": "Time"
+    },
+    {
+      "question": "An aircraft is flying a true track of 360\u00b0 from 5\u00b0 south to 5\u00b0 north. What is the average apparent wander rate?",
+      "choices": [
+        "0\u00b0 per hour.",
+        "Depends upon ground speed.",
+        "- 5\u00b0 per hour.",
+        "+ 5\u00b0 per hour."
+      ],
+      "answer": "0\u00b0 per hour."
+    },
+    {
+      "question": "Compared with a conventional gyro, a laser gyro:",
+      "choices": [
+        "Has a fairly long starting cycle.",
+        "Has a longer life cycle.",
+        "Consumes a lot of power.",
+        "Is influenced by temperature."
+      ],
+      "answer": "Has a longer life cycle."
+    },
+    {
+      "question": "At the magnetic equator, when accelerating after take-off on heading West, a direct reading compass:",
+      "choices": [
+        "Under reads the heading.",
+        "Indicates the correct heading.",
+        "Overreads the heading.",
+        "Indicates a turn to the South."
+      ],
+      "answer": "Indicates the correct heading."
+    },
+    {
+      "question": "Which one of the following statements is true with regard to the operation of a Mach trim system:",
+      "choices": [
+        "It only operates above a pre-determined Mach number.",
+        "It operates over the full aeroplane speed range.",
+        "It only operates when the autopilot is engaged.",
+        "It operates to counteract the larger than normal forward movements of the wing centre of pressure at high subsonic airspeeds."
+      ],
+      "answer": "It only operates above a pre-determined Mach number."
+    },
+    {
+      "question": "An aeroplane is in a steady climb. The autothrottle maintains a constant Mach number. If the total temperature remains constant, the calibrated airspeed:",
+      "choices": [
+        "Remains constant.",
+        "Decreases if the static temperature is lower than the standard temperature, increases if higher.",
+        "Decreases.",
+        "Increases."
+      ],
+      "answer": "Decreases."
+    },
+    {
+      "question": "During the initial alignment of an inertial navigation system (INS) the equipment:",
+      "choices": [
+        "Will accept a 10\u00b0 error in initial latitude and initial longitude.",
+        "Will not accept a 10\u00b0 error in initial latitude but will accept a 10\u00b0 error in initial longitude.",
+        "Will accept a 10\u00b0 error in initial latitude but will not accept a 10\u00b0 error in initial longitude.",
+        "Will not accept a 10\u00b0 error in initial latitude or initial longitude."
+      ],
+      "answer": "Will not accept a 10\u00b0 error in initial latitude but will accept a 10\u00b0 error in initial longitude."
+    },
+    {
+      "question": "The Yaw Damper system is designed to increase the damping ratio of:",
+      "choices": [
+        "pitch oscillation.",
+        "Dutch roll.",
+        "phugoid roll.",
+        "aileron roll."
+      ],
+      "answer": "Dutch roll."
+    },
+    {
+     "question": "The __________ page shows the aircraft variant, engine type and rating and the period of validity of the navigation database.",
+     "choices": [
+        "Route",
+        "Performance",
+        "Position",
+        "IDENT"
+     ],
+     "answer": "IDENT"
+    },
+    {
+      "question": "A mechanical fuel flowmeter uses:",
+      "choices": [
+        "A hydraulic driver turning a drum with magnetic pick-offs.",
+        "A synchronous motor driving an impeller against a spring.",
+        "A spring-loaded vane.",
+        "An impeller with magnetic inserts."
+      ],
+      "answer": "A spring-loaded vane."
+    },
+    {
+      "question": "The flight data recorder must automatically stop data recording when the:",
+      "choices": [
+        "Aircraft clears the runway.",
+        "Landing gear is extended and locked.",
+        "Aircraft cannot any longer move by its own power.",
+        "Main gear shock strut compresses when touching the runway."
+      ],
+      "answer": "Aircraft cannot any longer move by its own power."
+    },
+    {
+      "question": "Mode 'Localizer ARM' active on Flight Director means:",
+      "choices": [
+        "Coupling has occurred and system provides control data to capture the centreline.",
+        "Localizer is armed and coupling will occur when flag warning disappears.",
+        "System is armed for localizer approach and coupling will occur upon capturing centre line.",
+        "Localizer approach not authorized."
+      ],
+      "answer": "System is armed for localizer approach and coupling will occur upon capturing centre line."
+    },
+    {
+      "question": "The rotational speed of an air-driven gyro is normally:",
+      "choices": [
+        "24 000 RPM.",
+        "50 RPM.",
+        "400-800 RPM.",
+        "9000-12 000 RPM."
+      ],
+      "answer": "9000-12 000 RPM."
+    },
+    {
+      "question": "A millivoltmeter measuring the electromotive force between the hot junction and the cold junction of a thermocouple can be directly graduated in temperature values provided that the temperature of the:",
+      "choices": [
+        "Hot junction is maintained at 15\u00b0C.",
+        "Hot junction is maintained constant.",
+        "Cold junction is maintained at 15\u00b0C.",
+        "Cold junction is maintained constant."
+      ],
+      "answer": "Cold junction is maintained constant."
+    },
+    {
+      "question": "Plan mode is oriented __________. Heading information is not displayed. The currently selected waypoint (on the CDU) is displayed at the centre of the screen.",
+      "choices": [
+        "North down",
+        "North up",
+        "Track up",
+        "Track down"
+      ],
+      "answer": "North up"
+    },
+    {
+      "question": "In the northern hemisphere, an aircraft takesoff on a runway with an alignment of 045\u00b0 . During the take-off run, the compass indicates:",
+      "choices": [
+        "A value below 045\u00b0.",
+        "A value above 045\u00b0.",
+        "225\u00b0.",
+        "045\u00b0."
+      ],
+      "answer": "A value below 045\u00b0."
+    },
+    {
+      "question": "During a final approach, the flight director is engaged in the G/S mode (tracking the ILS Glide Slope). If the horizontal command bar is deviating upward, it means that:",
+      "choices": [
+        "The aircraft is below the glide slope.",
+        "The pitch angle must be reduced.",
+        "The aircraft is above the glide slope.",
+        "The pitch angle must be increased."
+      ],
+      "answer": "The pitch angle must be increased."
+    },
+    {
+      "question": "Routes where the FANS-1/A concept is used:",
+      "choices": [
+        "Are used during high traffic times only.",
+        "Are designated for FANS with sequence number.",
+        "Are controlled by global ICAO ATC units.",
+        "Require specific RNP capabilities."
+      ],
+      "answer": "Require specific RNP capabilities."
+    },
+    {
+      "question": "A stable platform inertial navigation system uses:",
+      "choices": [
+        "A single platform with 2 accelerometers.",
+        "2 separate platforms with 2 gyroscopes.",
+        "2 separate platforms with 2 accelerometers.",
+        "A single platform with two gyroscopes."
+      ],
+      "answer": "A single platform with 2 accelerometers."
+    },
+    {
+      "question": "Flight warning systems provide alerts, appropriate for the severity and the flight phase, to the flight crew using:",
+      "choices": [
+        "Aural, tactile, and/or temperature alerts.",
+        "Visual and/or aural alerts.",
+        "Visual and/or motion-cueing alerts.",
+        "Visual, aural, and/or sensorial illusion alerts."
+      ],
+      "answer": "Visual and/or aural alerts."
+    },
+    {
+      "question": "In case of impending stall, the flight warning system (FWS) generates:",
+      "choices": [
+        "An urgency message.",
+        "An advisory message.",
+        "A warning message.",
+        "A caution message."
+      ],
+      "answer": "A warning message."
+    },
+    {
+      "question": "The enhanced GPWS terrain display uses the following colours:",
+      "choices": [
+        "Green, Amber, Red, Blue.",
+        "Green, Amber, Magenta, Blue.",
+        "Green, Amber, Red, White.",
+        "Cyan, Amber, Red, Blue."
+      ],
+      "answer": "Green, Amber, Red, Blue."
+    },
+    {
+      "question": "An aeroplane is descending from FL390 to ground level at maximum speed. For this descent what are the speed limits?",
+      "choices": [
+        "Initially MMO, then VMO below a given flight level.",
+        "Initially VMO, then MMO below a given flight level.",
+        "VMO only during all the descent.",
+        "MMO only during all the descent."
+      ],
+      "answer": "Initially MMO, then VMO below a given flight level."
+    },
+    {
+      "question": "Among the following functions of an autopilot, those related to the aeroplane stabilization are: 1. Pitch attitude holding. 2. Indicated airspeed or Mach number holding. 3. Horizontal wing holding. 4. Displayed heading or inertial track holding. 5. VOR axis tracking. The combination of the correct statements is:",
+      "choices": [
+        "1, 2, 4.",
+        "1, 3, 4, 5.",
+        "1, 3.",
+        "1, 3, 4."
+      ],
+      "answer": "1, 3."
+    }
+  ],
   "INS": [
     {
       "question": "Complete the following conversion to the nearest whole degree: -40\u00b0F converts to __________\u00b0C and __________K",
@@ -20409,6 +21035,774 @@
         "-50; 203"
       ],
       "answer": "-40; 233"
+    },
+    {
+      "question": "To warn the flight crew, an overspeed warning system can use:\n1. An aural warning.\n2. A stick shaker connected to the control column.\n3. A vibration device connected to the auto-throttle.\nThe combination of the correct statements is:",
+      "choices": [
+        "1, 2, 3.",
+        "1, 2.",
+        "2",
+        "1"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "The Flight Warning System:",
+      "choices": [
+        "Holds the built-in test equipment to examine the various aircraft systems.",
+        "Automatically performs corrective actions in case of level 1, 2, and 3 alerts.",
+        "Receives, categorises, and gives status messages from aircraft systems.",
+        "Gives evasive manoeuvres to avoid collisions with terrain and/or aircraft."
+      ],
+      "answer": "Receives, categorises, and gives status messages from aircraft systems."
+    },
+    {
+      "question": "'Proximate' traffic is:",
+      "choices": [
+        "Less than 4 nm and 2000 ft from the aircraft.",
+        "More than 6 nm and 2000 ft from the aircraft.",
+        "Between 4 nm and 6 nm from the aircraft.",
+        "Less than 6 nm and 1200 ft from the aircraft."
+      ],
+      "answer": "Less than 6 nm and 1200 ft from the aircraft."
+    },
+    {
+      "question": "Identify if the following statements about TCAS II systems are true or false: 'Increase Descent' RAs are inhibited above 1450 ft above the ground.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "question": "Match the description to the correct TCAS output: May be preventative or corrective.",
+      "choices": [
+        "Other Traffic",
+        "Traffic Advisory",
+        "Proximate Traffic",
+        "Resolution Advisory"
+      ],
+      "answer": "Resolution Advisory"
+    },
+    {
+      "question": "The flight warning system (FWS) generates a warning message if:",
+      "choices": [
+        "Crew awareness is required and subsequent crew action may be required.",
+        "Immediate crew awareness is required and subsequent crew action will be required.",
+        "Immediate recognition and corrective or compensatory action by the crew is required.",
+        "Immediate crew awareness is required and corrective or compensatory action by the crew may be required."
+      ],
+      "answer": "Immediate recognition and corrective or compensatory action by the crew is required."
+    },
+    {
+      "question": "The flight guidance system has different modes. Considering the autopilot/flight director, which of the following describes one feature of the go-around mode? When selected, the go-around mode engages and the aeroplane climbs:",
+      "choices": [
+        "when it is approaching the missed approach point or minimum descent altitude for the approach.",
+        "whether it is below or above the selected missed approach altitude at the point of Initiation.",
+        "only if the selected missed approach altitude is above the aeroplane at the point of initiation.",
+        "only if the aeroplane is below the selected missed approach altitude and following an ILS."
+      ],
+      "answer": "whether it is below or above the selected missed approach altitude at the point of Initiation."
+    },
+    {
+      "question": "The flight director computer continuously:",
+      "choices": [
+        "Compares the computed attitude with the EGPWS signals.",
+        "Compares the computed attitude with the ACAS signals.",
+        "Compares the current attitude with the computed attitude.",
+        "Computes the required attitude for the autopilot synchronisation."
+      ],
+      "answer": "Compares the current attitude with the computed attitude."
+    },
+    {
+      "question": "The autotrim function in a non-fly by wire aircraft:",
+      "choices": [
+        "Ensures no snatch on disengagement or engagement of the AP, and keeps the elevators in a neutral position relevant to the horizontal stabiliser.",
+        "Ensures no snatch on disengagement of the AP, and keeps the elevators in a neutral position relevant to the horizontal stabiliser.",
+        "Ensures no snatch on engagement of the AP.",
+        "Ensures no snatch on disengagement of the AP, and trims the elevators in the same direction relevant to the horizontal stabiliser."
+      ],
+      "answer": "Ensures no snatch on disengagement of the AP, and keeps the elevators in a neutral position relevant to the horizontal stabiliser."
+    },
+    {
+      "question": "When engaged, go-around mode maintains the aircraft's __________. It controls speed by adjusting __________.",
+      "choices": [
+        "track; thrust",
+        "heading; pitch",
+        "track; pitch",
+        "heading; thrust"
+      ],
+      "answer": "track; pitch"
+    },
+    {
+      "question": "Autopilot control laws:",
+      "choices": [
+        "Are laid out in CS25 Sect 4.3.3 and specify the size and design of control surfaces used on large aircraft.",
+        "Ensure that pitch modes always have priority over roll modes when the flaps are UP.",
+        "Ensure that autopilot outputs are appropriate for the aircraft's speed and configuration.",
+        "Ensure that the pilot's control inputs always have priority over autopilot control inputs."
+      ],
+      "answer": "Ensure that autopilot outputs are appropriate for the aircraft's speed and configuration."
+    },
+    {
+      "question": "Considering vertical modes of the flight guidance system. What is the appropriate description of the following two vertical modes?\nVertical speed (V/S)\nFlight-Path Angle (FPA)",
+      "choices": [
+        "V/S will maintain a rate of climb or descent as set by the pilot while FPA will maintain a flight-path angle as coded in the FMS.",
+        "V/S will maintain a selected airspeed during the climb or descent and FPA will maintain a selected geometric flight-path angle during climb or descent.",
+        "Both modes will make the aeroplane maintain a selected vertical speed, which varies with the airspeed to maintain a constant flight-path angle.",
+        "Both modes will make the aeroplane follow a trajectory where V/S uses feet per minute as reference and FPA uses an angle."
+      ],
+      "answer": "Both modes will make the aeroplane follow a trajectory where V/S uses feet per minute as reference and FPA uses an angle."
+    },
+    {
+      "question": "Is this statements about the trim system true or false? Manual trimming overrides auto-trim. This may cause the AP to disengage.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "More than one AP can be engaged:",
+      "choices": [
+        "Only on an ILS, FLS or LPV approach.",
+        "Not below 1500 ft on departure or below 1000 ft on approach.",
+        "Only when APP mode is engaged and the radio altitude is less than 1000 ft.",
+        "After the APP button has been pressed to arm or engage LOC and G/S modes - this facilitates fail-operational autoland."
+      ],
+      "answer": "After the APP button has been pressed to arm or engage LOC and G/S modes - this facilitates fail-operational autoland."
+    },
+    {
+      "question": "A flight Director (FD) indicates a roll to the right. The pilot manually steers in the direction of the command. During the roll, the FD Indication:",
+      "choices": [
+        "keeps indicating and will indicate a left turn 10° before the required heading is reached. initially indicates a right roll and adjusts to indicate a left turn of 10° before the required heading is reached.",
+        "adjust the roll command when approaching the required heading.",
+        "keeps indicating a right roll without a change until the required heading is reached.",
+        "disappears as soon as a bank angle of at least 15° is reached."
+      ],
+      "answer": "adjust the roll command when approaching the required heading."
+    },
+    {
+      "question": "The Flight Mode Annunciator:",
+      "choices": [
+        "Indicates the proper operation of the Yaw Damper system.",
+        "Is the only reliable source of information about which Autopilot and Flight Director functions are in use.",
+        "Instructs the Flight Director system to perform the required control movements.",
+        "Instructs the Autopilot system to perform the required control movements."
+      ],
+      "answer": "Is the only reliable source of information about which Autopilot and Flight Director functions are in use."
+    },
+    {
+      "question": "Is this statements about the trim system true or false? Trim indicators show the position of trim tabs and/or the horizontal stabiliser.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "Select the AP mode phase relating to this statement: The aircraft maintains the set parameter until a new parameter is set.",
+      "choices": [
+        "Initial Phase",
+        "Capture Phase",
+        "Holding Phase"
+      ],
+      "answer": "Holding Phase"
+    },
+    {
+      "question": "When does the stall protection system activate?",
+      "choices": [
+        "When exceeding the critical angle of attack, irrespective of whether the crew is taking the corrective actions.",
+        "Before exceeding the critical angle of attack, irrespective of whether the crew is taking the corrective action.",
+        "When exceeding the critical angle of attack, if the crew is not taking the corrective actions.",
+        "Before exceeding the critical angle of attack, if the crew is not taking the corrective actions."
+      ],
+      "answer": "Before exceeding the critical angle of attack, irrespective of whether the crew is taking the corrective action."
+    },  
+    {
+      "question": "Match the description to the correct TCAS output: Displayed as a solid diamond.",
+      "choices": [
+        "Resolution Advisory",
+        "Traffic Advisory",
+        "Other Traffic",
+        "Proximate Traffic"
+      ],
+      "answer": "Proximate Traffic"
+    },
+    {
+      "question": "Identify if the following statements about ACAS II system architecture are true or false: Flap and gear position do not affect TAs or RAs.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },  
+    {
+      "question": "Flight warning systems provide alerts, appropriate for the severity and the flight phase, to the flight crew using:",
+      "choices": [
+        "Aural, tactile, and/or temperature alerts.",
+        "Visual and/or aural alerts.",
+        "Visual and/or motion-cueing alerts.",
+        "Visual, aural, and/or sensorial illusion alerts."
+      ],
+      "answer": "Visual and/or aural alerts."
+    },
+    {
+      "question": "TCAS generates a TA or RA according to:",
+      "choices": [
+        "Speed",
+        "Distance",
+        "Time",
+        "Acceleration"
+      ],
+      "answer": "Time"
+    },
+    {
+      "question": "Which of the following are accurate comparisons of TAWS with GPWS:",
+      "choices": [
+        "TAWS and GPWS are identical and synonymous.",
+        "TAWS has all the GPWS modes and also has advanced terrain warnings.",
+        "TAWS has advanced terrain modes, whereas GPWS only has a terrain awareness display.",
+        "TAWS refers to GPWS which also has GNSS position and altitude information to refine Mode 1 and Mode 4."
+      ],
+      "answer": "TAWS has all the GPWS modes and also has advanced terrain warnings."
+    },
+    {
+      "question": "A GPWS is able to alert the crew of excessive sink rate (rate of descent) while below a certain height above terrain. Where does the GPWS derive the sink rate from?",
+      "choices": [
+        "The rate of change of GPS altitude.",
+        "The air data computer rate of descent.",
+        "The rate of change of radar altitude.",
+        "The IRS vertical speed."
+      ],
+      "answer": "The air data computer rate of descent."
+    },
+    {
+      "question": "Select the Mode associated with this description of conventional GPWS: Can be inhibited by the crew.",
+      "choices": [
+        "5",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": "5"
+    },
+    {
+      "question": "Select the Mode associated with this description of conventional GPWS: Terrain clearance insufficient when not in the landing configuration.",
+      "choices": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "4"
+    },
+    {
+      "question": "TA symbols are:",
+      "choices": [
+        "Solid amber (EVSI) or yellow (ND) circles.",
+        "White filled diamonds.",
+        "Yellow circles or diamonds.",
+        "Red squares."
+      ],
+      "answer": "Solid amber (EVSI) or yellow (ND) circles."
+    },
+    {
+      "question": "Identify if the following statements about ACAS II system architecture are true or false: The direction of intruders is found using direction-finding antennae.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "Vertical speed:",
+      "choices": [
+        "Is shown as a needle against a logarithmic scale, with TCAS commands shown as a red 'avoid' and green 'fly to' areas on the scale.",
+        "Is normally minimized, but is restored to a linear analogue scale when TCAS commands (red avoid areas) are active.",
+        "Is shown as a needle against a linear scale.",
+        "Is displayed only when TCAS RA commands are active, and are a pseudo-ironic digital ensemble."
+      ],
+      "answer": "Is shown as a needle against a logarithmic scale, with TCAS commands shown as a red 'avoid' and green 'fly to' areas on the scale."
+    },  
+    {
+      "question": "For compatibility between the different components of a flight warning system, the priority from the highest to the lowest is:",
+      "choices": [
+        "Stall, Windshear, GPWS, TCAS.",
+        "Stall, TCAS, GPWS, Windshear.",
+        "TCAS, Stall, Windshear, GPWS.",
+        "GPWS, Stall, TCAS, Windshear."
+      ],
+      "answer": "Stall, Windshear, GPWS, TCAS."
+    },
+    {
+      "question": "The autopilot is engaged with no modes selected. What is the autopilot providing?",
+      "choices": [
+        "Altitude hold.",
+        "LNAV and VNAV.",
+        "Wing levelling.",
+        "Attitude hold with auto-trim."
+      ],
+      "answer": "Attitude hold with auto-trim."
+    },
+    {
+      "question": "Altitude alert systems warn of:",
+      "choices": [
+        "Departure from the altitude set in the MCP, provided that no vertical mode is armed or engaged.",
+        "The approach to, or departure from, the altitude set on the MCP.",
+        "The approach to the altitude set in the FMC.",
+        "Departure from the altitude set in the MCP, provided that no AP is engaged."
+      ],
+      "answer": "The approach to, or departure from, the altitude set on the MCP."
+    },
+    {
+      "question": "Failure of aircraft systems, or incorrect data can lead to:",
+      "choices": [
+        "AP disengagement with warning, or incorrect AP operation. Prompt and appropriate intervention is essential.",
+        "AP parameter reset or mode change becoming impossible. AP disconnection using the MCP/FCU switches is necessary.",
+        "AP disengagement becoming impossible without using the AP power supply circuit breaker (CB).",
+        "Automatic reversion to LNAV/NVAV modes."
+      ],
+      "answer": "AP disengagement with warning, or incorrect AP operation. Prompt and appropriate intervention is essential."
+    },
+    {
+      "question": "Flight director (FD) indications: Select the correct position of the command bar in each statement: Turning right with 25 degrees of bank at the correct rate of turn.",
+      "choices": [
+        "Down",
+        "Central",
+        "Up",
+        "Right"
+      ],
+        "answer": "Central"
+    },
+    {
+      "question": "When an aircraft, operating in the VOR coupled mode, approaches the cone of confusion over a VOR station, the roll channel of the autopilot:",
+      "choices": [
+        "Is damped by a trim input signal from the lateral trim system.",
+        "Temporarily maintains a heading.",
+        "Is temporarily disconnected.",
+        "Remains always coupled to the selected VOR radial."
+      ],
+      "answer": "Temporarily maintains a heading."
+    },
+    {
+      "question": "Select the correct AP/FD mode state for this statement: Modes enter this state automatically if certain criteria are met.",
+      "choices": [
+        "Armed",
+        "Engaged"
+      ],
+      "answer": "Engaged"
+    },
+    {
+      "question": "Flight director (FD) indications: Select the correct position of the command bar in each statement: Maintaining 500 fpm climb with 700 fpm set in MCP VS window.",
+      "choices": [
+        "Central",
+        "Up",
+        "Down",
+        "Right"
+      ],
+      "answer": "Up"
+    },
+    {
+      "question": "When being engaged, and without selecting a particular mode, an automatic pilot enables:",
+      "choices": [
+        "All aeroplane piloting and guidance functions except maintaining radio-navigation course lines.",
+        "A constant speed on track, wings horizontal.",
+        "Aeroplane piloting and guidance functions.",
+        "Aeroplane stabilisation with attitude hold or maintaining vertical speed and possibly automatic trim."
+      ],
+      "answer": "Aeroplane stabilisation with attitude hold or maintaining vertical speed and possibly automatic trim."
+    },
+    {
+      "question": "Work-sharing when in manual and automatic flight... Select the correct mode of flight for each statement: Both pilots monitor AP function using the FD.",
+      "choices": [
+        "Both",
+        "Manual",
+        "Automatic"
+      ],
+      "answer": "Automatic"
+    },
+    {
+      "question": "Work-sharing when in manual and automatic flight... Select the correct mode of flight for each statement: Both pilots check the modes on their respective FMAs",
+      "choices": [
+        "Automatic",
+        "Manual",
+        "Both"
+      ],
+      "answer": "Both"
+    },
+    {
+      "question": "Consider the automatic landing or autoland of an aeroplane. Which of the following items usually has/have a more restrictive limitation compared to a normal, manual landing?\n1. Headwind / crosswind.\n2. Pressure altitude.\n3. Runway contamination.\nSelect an answer with all the correct statements.",
+      "choices": [
+        "1.",
+        "3.",
+        "1, 2.",
+        "1, 2, 3."
+      ],
+     "answer": "1, 2, 3."
+    },
+    {
+      "question": "Is this statements about the trim system true or false? Automatic pitch trim (auto-trim) senses the loads in the elevator control circuit and adjusts to remove this load.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "Is this statement about the trim system true or false? Trimming relieves the loads on the control system.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "The aircraft performance database:",
+      "choices": [
+        "Is used to determine the best alternate aerodrome in case of weather diversion.",
+        "Contains crew-entered performance calculations",
+        "Can be edited by the crew.",
+        "Is used to determine optimum cruise flight level."
+      ],
+      "answer": "Is used to determine optimum cruise flight level."
+    },
+    {
+      "question": "CPDLC is:",
+      "choices": [
+        "A text message system between pilots and ATC, using free-format messages.",
+        "A text message system between pilots and ATC used in emergency only.",
+        "A text message system between pilots and ATC, using pre-formatted Request, Response, Report and clearance messages.",
+        "A text message system between pilots and ATC, using pre-formatted Requirement, Resolution and Report messages."
+      ],
+      "answer": "A text message system between pilots and ATC, using pre-formatted Request, Response, Report and clearance messages."
+    },
+    {
+      "question": "The __________ page shows the aircraft's current position for IRS alignment and FMS position.",
+      "choices": [
+        "Performance",
+        "Route",
+        "IDENT",
+        "Position"
+      ],
+      "answer": "Position"
+    },
+    {
+      "question": "Select the characteristics of the communication links that are used in aircraft: Range affected by ionospheric conditions:",
+      "choices": [
+        "VHF",
+        "VHF & SATCOM",
+        "HF",
+        "SATCOM"
+      ],
+      "answer": "HF"
+    },
+    {
+      "question": "Which of the following are CNS/ATM applications used by FANS 1/A equipment?",
+      "choices": [
+        "AFN, ADS and CPDLC using the ATN network.",
+        "ADS and CPDLC only.",
+        "ACARS, AFN, ADS and CPDLC.",
+        "AFN, ADS and CPDLC using the ACARS network."
+      ],
+      "answer": "AFN, ADS and CPDLC using the ACARS network."
+    },
+    {
+      "question": "Match the descriptions and to one of the given components: Provides interface for input and output of data in the flight deck.",
+      "choices": [
+        "DCDU",
+        "ATSU",
+        "CDU/MCDU",
+        "Printer"
+      ],
+      "answer": "CDU/MCDU"
+    },
+    {
+      "question": "Match the descriptions and to one of the given components: Used where integration is impractical, and provides data input/output.",
+      "choices": [
+        "ATSU",
+        "Printer",
+        "DCDU",
+        "CDU/MCDU"
+      ],
+      "answer": "DCDU"
+    },
+    {
+      "question": "Which of the following is NOT true?",
+      "choices": [
+        "Incorrect performance data could lead to a failure to reach an assigned altitude by the required point.",
+        "Incorrect data is almost always of no consequence because of multiple system redundancy and cross-comparison.",
+        "Garbage in/garbage out - the FMS can only make correct calculations and predictions if given accurate data.",
+        "Incorrect waypoint entry would lead to a failure to follow the cleared route."
+      ],
+      "answer": "Incorrect data is almost always of no consequence because of multiple system redundancy and cross-comparison."
+    },
+    {
+      "question": "Inertial systems require no external input except __________ to determine aircraft attitude and navigational data.",
+      "choices": [
+        "heading",
+        "direction",
+        "height",
+        "TAS"
+      ],
+      "answer": "TAS"
+    },
+    {
+      "question": "Select the characteristics of the communication links that are used in aircraft: High transmission rate:",
+      "choices": [
+        "HF",
+        "VHF",
+        "SATCOM",
+        "VHF & SATCOM"
+      ],
+      "answer": "VHF & SATCOM"
+    },
+    {
+      "question": "Identify if the following statements about TCAS II systems are true or false: The intended vertical separation given by an RA is 300 ft to 600 ft (700 ft above FL420) depending on the sensitivity level (SL).",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "Which of the following will trigger a take-off warning alert?",
+      "choices": [
+        "Parking brake on.",
+        "Low tyre pressure.",
+        "Anti-skid system fault.",
+        "Landing gear NOT down."
+      ],
+      "answer": "Parking brake on."
+    },    
+    {
+      "question": "Choose the option which correctly describes the difference between TAWS, HTAWS and GPWS:",
+      "choices": [
+        "TAWS and HTAWS use a radio altimeter and a 3D database and GPWS uses a radio altimeter.",
+        "TAWS, HTAWS and GPWS are the same system but the names are different depending on the manufacturer.",
+        "One is for aeroplanes and the other one is for helicopters.",
+        "TAWS and HTAWS use a pressure altimeter and a 2D database and GPWS uses a radio altimeter."
+      ],
+      "answer": "TAWS and HTAWS use a radio altimeter and a 3D database and GPWS uses a radio altimeter."
+    },
+    {
+      "question": "Match the fuel gauge type to the descriptions given: A system used on many large aircraft which measures the different permittivity of air and fuel.",
+      "choices": [
+        "Ultrasound gauge",
+        "Capacitance gauge",
+        "Float gauge"
+      ],
+      "answer": "Capacitance gauge"
+    },
+    {
+      "question": "The criteria used to trigger an alarm (TA or RA) are:",
+      "choices": [
+        "The time to closest point of approach (CPA) and TAU.",
+        "The magnitude of closest point of approach (TAU) and the difference of altitude.",
+        "SAU and radio altitude.",
+        "The time to closest point of approach (TAU) and the difference of altitude."
+      ],
+      "answer": "The time to closest point of approach (TAU) and the difference of altitude."
+    },
+    {
+      "question": "Identify if the following statements about TCAS II systems are true or false: The time limit to CPA depends on the aircraft's altitude and the system's sensitivity level (SL). The value to trigger an RA is between 15 and 35 seconds.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "According to CS 25, a CVR (Cockpit Voice Recorder) must record:\n1. Communications transmitted from or received in the aeroplane by radio.\n2. Communications of flight-crew members on the flight deck via the area microphone.\n3. Communications of flight-crew members on the flight deck using the aeroplane's interphone system.\n4. Audio signals identifying navigation or approach aids introduced into a headset or speaker.\nThe combination of the correct statements is:",
+      "choices": [
+        "1, 3.",
+        "2, 4.",
+        "1, 2, 3, 4.",
+        "1, 2."
+      ],
+      "answer": "1, 2, 3, 4."
+    },
+    {
+      "question": "The computer of the autopilot system uses, among others, input signals from the:\n1. Attitude reference system.\n2. Mode annunciator panel.\n3. ADC.\n4. Mode control panel.\nThe combination of all the correct statements is:",
+      "choices": [
+        "1, 2, 3, 4.",
+        "1, 4.",
+        "1, 3, 4.",
+        "2, 3."
+      ],
+      "answer": "1, 3, 4."
+    },
+    {
+      "question": "The computer of the autopilot system uses, among others, input signals from the:\n1. ADC.\n2. Attitude reference system.\n3. ILS receiver.\n4. Mode control panel.\nThe combination of all of the correct statements is:",
+      "choices": [
+        "1, 2, 3.",
+        "1, 4.",
+        "2, 3, 4.",
+        "1, 2, 3, 4."
+      ],
+      "answer": "1, 2, 3, 4."
+    },
+    {
+      "question": "Depending on aircraft type, the following parameters cause a take-off configuration warning to activate: The brakes are excessively worn.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "question": "Depending on aircraft type, the following parameters cause a take-off configuration warning to activate: The park brake is set.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "Approaching top of descent, the destination aerodrome ATIS includes RVRs around 200 m, with Low Visibility Procedures (LVP) in force. The Commander's windscreen heat failed, with an annunciated alert, in the cruise. Does it affect the autoland?",
+      "choices": [
+        "NO, it is not part of the Autoland requirements.",
+        "YES, since visual contact is important during the last stage of landing.",
+        "The autoland capability should NOT be affected by the windscreen heating failure, therefore NO action is necessary.",
+        "YES, all aircraft systems are required to be serviceable for low visibility procedures."
+      ],
+      "answer": "YES, since visual contact is important during the last stage of landing."
+    },
+    {
+      "question": "An autothrust system reduces pilot workload and…",
+      "choices": [
+        "Maintains air speed under all changes of environmental conditions and autoflight modes.",
+        "Improves situational awareness.",
+        "Improves thrust stability in vertical speed mode, and airspeed stability in level change.",
+        "Either improves airspeed stability, or maintains predetermined thrust in changing environmental conditions."
+      ],
+      "answer": "Either improves airspeed stability, or maintains predetermined thrust in changing environmental conditions."
+    },
+    {
+      "question": "The correction of the control surface deflection made by the automatic pilot calculator in order to stabilize the longitudinal attitude will be all the more significant as the:\n1. Difference between the reference attitude and the instantaneous attitude is high.\n2. Rate of change of the difference between the reference attitude and the instantaneous attitude is high.\n3. Temperature is low.\n4. Pressure altitude is high.\nThe combination of all the correct statements is:",
+      "choices": [
+        "2, 3, 4.",
+        "1, 2.",
+        "1, 2, 3, 4.",
+        "1, 2, 3."
+      ],
+      "answer": "1, 2."
+    },
+    {
+      "question": "Upon capturing the localizer, the amber/yellow/blue localizer (LOC) light on an ADI:",
+      "choices": [
+        "Turns red.",
+        "Turns green.",
+        "Extinguishes without further Indications.",
+        "Blinks for 10 seconds before shutting off."
+      ],
+      "answer": "Turns green."
+    },
+    {
+      "question": "When an automatic landing is interrupted by a go-around:\n1. The auto throttle reacts immediately upon the pilot action on the TO/GA (Take-off/Go-Around) switch in order to recover the maximum thrust.\n2. The autopilot monitors the climb and the rotation of the airplane.\n3. The autopilot retracts the landing gear and reduces the flap deflection in order to reduce the drag.\n4. The pilot performs the climb and the rotation of the airplane.\n5. The pilot retracts the landing Gear.\nThe correct combination of actions is:",
+      "choices": [
+        "1, 2, 3.",
+        "1, 3, 4.",
+        "1, 2, 5",
+        "1, 4, 5."
+      ],
+      "answer": "1, 2, 5"
+    },
+    {
+      "question": "Single axis autopilot permits control in __________ only.",
+      "choices": [
+        "pitch",
+        "bank",
+        "yaw",
+        "roll"
+      ],
+      "answer": "roll"
+    },
+    {
+      "question": "Depending on aircraft type, the following parameters cause a take-off configuration warning to activate: Any aircraft door is unsecured.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "question": "__________ loop control systems have no feedback loop.",
+      "choices": [
+        "Closed",
+        "Engaged",
+        "Open",
+        "Centre"
+      ],
+      "answer": "Open"
+    },
+    {
+      "question": "Which of the following is true?",
+      "choices": [
+        "FMS shares a special bus with FADEC and autoflight systems which is separate from all other systems and protected from pilot data error.",
+        "FMS integrates with engine, fuel, autoflight and other systems, shares data with them, and provides outputs to many systems depending on its level of complexity.",
+        "FMS are stand-alone systems which are 'firewalled' to protect them from contamination from faulty data from other systems.",
+        "FMS outputs to many aircraft systems but is protected by data not being allowed in from the databusses."
+      ],
+      "answer": "FMS integrates with engine, fuel, autoflight and other systems, shares data with them, and provides outputs to many systems depending on its level of complexity."
+    },
+    {
+      "question": "Abnormal configurations affect the accuracy of FMC calculations during flight…",
+      "choices": [
+        "If the FMC is unable to correct the configuration.",
+        "Where the FMC cannot detect the failure, and the pilot cannot or does not enter the configuration change into the FMC.",
+        "Only while the FC re-initialises as it learns the new fuel/distance/time relationship.",
+        "Always resulting in inaccurate FMC calculations."
+      ],
+      "answer": "Where the FMC cannot detect the failure, and the pilot cannot or does not enter the configuration change into the FMC."
+    },
+    {
+      "question": "__________ is stand-alone, __________ is integrated with the FMS.",
+      "choices": [
+         "IRS; INS",
+         "INS; IRS"
+       ],
+       "answer": "INS; IRS"
+    },
+    {
+      "question": "Why is it important to verify the correct aircraft variant and engine rating are set in the FMS?",
+      "choices": [
+        "Incorrect data will lead to a runway excursion on take-off.",
+        "Unless the correct variant is set, speed and altitude calculations can't be made.",
+        "The performance database will not allow access to the FMC unless the correct data is set.",
+        "If the incorrect variant or engine rating is set, speeds, optimum cruise altitudes and thrust setting limits will be incorrect."
+      ],
+      "answer": "If the incorrect variant or engine rating is set, speeds, optimum cruise altitudes and thrust setting limits will be incorrect."
+    },   
+    {
+      "question": "Selected Mach number is indicated by the:",
+      "choices": [
+        "Speed bug on a corresponding IAS on the tape, with the Mach number shown on the MCP speed window.",
+        "Speed bug on a corresponding IAS on the speed tape, Mach Number displayed as a numerical indication outside the speed tape and as a selected value on the MCP window.",
+        "IAS values on the speed tape changing to Mach at the crossover altitude. The selected Mach number is in an enlarged font.",
+        "Speed bug on a corresponding IAS on the tape, with the Mach number shown as a numerical indication outside the tape."
+      ],
+      "answer": "Speed bug on a corresponding IAS on the speed tape, Mach Number displayed as a numerical indication outside the speed tape and as a selected value on the MCP window."
+    },
+    {
+      "question": "The terms 'uplink' and 'downlink':",
+      "choices": [
+        "Describe the highest transmitter. When the aircraft is on the ground, received messages are downlinks; when in the air, they are called uplinks. The opposite is true for messages sent.",
+        "Describe messages sent to and from an aircraft respectively.",
+        "Describe which equipment controls the link. Messages sent to an AOC are downlinks and messages sent to ATC are uplinks.",
+        "Are analogous to PC internet data. Data sent from the aircraft is an uplink and received data is a downlink."
+      ],
+      "answer": "Describe messages sent to and from an aircraft respectively."
+    },
+    {
+      "question": "During pre-flight check, serviceability of a direct reading standby compass indication can be compared preferably with: 1) runway direction during line-up. 2) main compass indication. 3) test VOR indication. 4) an ADF bearing. 5) an Airborne Weather Radar bearing. The combination regrouping all the correct statements is:",
+      "choices": [
+        "1, 2.",
+        "1, 4, 5",
+        "1, 2, 3, 4, 5",
+        "1, 2, 3"
+      ],
+      "answer": "1, 2."
     },
     {
       "question": "The measured temperature using an aircraft-mounted sensor that is not in direct sunlight?",
@@ -20441,7 +21835,7 @@
       "answer": "Over-read - may be large."
     },
     {
-      "question": "An air data computer (ADC): The combination of the correct statements is:",
+      "question": "An air data computer (ADC): The combination of the correct statements is: 1. Supplies the ground speed and the drift angle. 2. Determines the total temperature and the true altitude. 3. Receives the static pressure and the total pressure. 4. Supplies the TAS to the computer of the INS. 5. Determines the Mach number, the outside (static) air temperature.",
       "choices": [
         "2, 5.",
         "1, 2.",
@@ -21241,7 +22635,7 @@
       "answer": "14.7"
     },
     {
-      "question": "If the ADC fails, which of the following instruments related to the pitot-static instruments are affected?",
+      "question": "If the ADC fails, which of the following instruments related to the pitot-static instruments are affected? 1. Air Speed Indicator. 2. Vertical Speed Indicator. 3. Altimeter. 4. Attitude Indicator. The combination of all the correct statements is:",
       "choices": [
         "1 and 3.",
         "1, 2, 3 and 4 .",
@@ -21279,16 +22673,6 @@
         "Under-read - may be large."
       ],
       "answer": "Under-read - may be large."
-    },
-    {
-      "question": "An air data computer (ADC): 1. Supplies the ground speed... The combination of the correct statements is:",
-      "choices": [
-        "2, 3, 4.",
-        "1, 2.",
-        "3, 4, 5.",
-        "2, 5."
-      ],
-      "answer": "3, 4, 5."
     },
     {
       "question": "You leave airfield A with QNH 1010 hPa set. You arrive overhead airfield B, which has a QNH of 1020 hPa, without adjusting your altimeter. With an indicated altitude of 3000 ft, what is your true altitude, if there is no temperature error?",
@@ -21386,7 +22770,7 @@
         "(1) under-read; (2) respond slowly to",
         "(1) over-read; (2) Ignore"
       ],
-      "answer": "(1) over-read; (2) Ignore"
+      "answer": "(1) over-read; (2) respond slowly to"
     },
     {
       "question": "You are at a sea level airfield with an outside air temperature of -15\u00baC (ISA-30). You set the correct QNH of 1030 hPa. You have to pass over a mountain shortly after departure, and need a true altitude of at least 4000 ft for safe clearance. The indicated altitude you must be at before passing over the mountain is:",
@@ -22347,16 +23731,6 @@
         "A GPS."
       ],
       "answer": "A stopwatch."
-    },
-    {
-      "question": "During pre-flight check, serviceability of a direct reading standby compass indication can be compared preferably with:",
-      "choices": [
-        "1, 4 and 5",
-        "1, 2, 3, 4 and 5",
-        "1, 2 and 3",
-        "1 and 2"
-      ],
-      "answer": "1 and 2"
     },
     {
       "question": "The basic properties of a gyroscope are: 1. Rigidity in space. 2. Nutation. 3. Gyroscopic precession. 4. Gyroscopic drift. The combination of all the correct statements is:",
@@ -23825,16 +25199,6 @@
       "answer": "FMA"
     },
     {
-      "question": "The correction of the control surface deflection made by the automatic pilot calculator... The combination of all the correct statements is:",
-      "choices": [
-        "1, 2, 3.",
-        "1, 2.",
-        "1, 2, 3, 4.",
-        "2, 3, 4."
-      ],
-      "answer": "1, 2."
-    },
-    {
       "question": "If autoland downgrade occurs after alert height:",
       "choices": [
         "It will not be annunciated, but a further downgrade, preventing autoland, causes AP disconnection and requires an immediate go-around.",
@@ -23935,16 +25299,6 @@
       "answer": "Upper strip of the PFD (Primary Flight Display)."
     },
     {
-      "question": "The computer of the autopilot system uses, among others, input signals from the... The combination of all the correct statements is:",
-      "choices": [
-        "1, 2, 3, 4.",
-        "1, 4.",
-        "2, 3.",
-        "1, 3, 4."
-      ],
-      "answer": "1, 3, 4."
-    },
-    {
       "question": "The A/T controls air speed:",
       "choices": [
         "By varying engine thrust, except when in TOGA mode.",
@@ -24025,16 +25379,6 @@
       "answer": "True"
     },
     {
-      "question": "N1 or EPR passed from the FMS is the target.",
-      "choices": [
-        "Retard/Idle",
-        "Thrust",
-        "Speed",
-        "%MCT%TOGA"
-      ],
-      "answer": "Thrust"
-    },
-    {
       "question": "Mode has a box around it for a period of time.",
       "choices": [
         "Armed",
@@ -24103,16 +25447,6 @@
         "Is always improved by using autothrust."
       ],
       "answer": "Can be lowered if you don't carefully monitor your speed and thrust setting."
-    },
-    {
-      "question": "The flight envelope protection system prevents the aircraft from exceeding the limits of the following parameters... The combination that of all correct statements is:",
-      "choices": [
-        "1, 2, 3, 4, 5.",
-        "2, 3, 4, 5.",
-        "2, 3, 4.",
-        "2"
-      ],
-      "answer": "2, 3, 4."
     },
     {
       "question": "Is this a characteristics of a yaw damper or of other rudder control systems: High frequency.",
@@ -24245,7 +25579,7 @@
       "answer": "Both a visual and an aural warning."
     },
     {
-      "question": "The flight envelope protection system prevents the aircraft from exceeding the limits of the following parameters (among others):",
+      "question": "The flight envelope protection system prevents the aircraft from exceeding the limits of the following parameters (among others): 1. N1 2. Angle of attack 3. Speed 4. Pitch attitude 5. Flight level The combination that of all correct statements is:",
       "choices": [
         "2, 3, 4, 5.",
         "2",
@@ -24555,7 +25889,7 @@
       "answer": "Dutch roll."
     },
     {
-      "question": "Flight Envelope Protection systems of an aircraft with conventional flight controls (non fly-by-wire) can include:",
+      "question": "Flight Envelope Protection systems of an aircraft with conventional flight controls (non fly-by-wire) can include: 1. Stall protection. 2. Overbank protection. 3. Overspeed protection. 4. Overpitch protection.",
       "choices": [
         "1, 2, 3, 4.",
         "2, 3, 4.",
@@ -25332,7 +26666,7 @@
       "answer": "The automatic landing system will not be able to perform the flare phase."
     },
     {
-      "question": "Among the following functions of an autopilot, those related to the aeroplane stabilization are: 1. Pitch attitude holding...",
+      "question": "Among the following functions of an autopilot, those related to the aeroplane stabilization are: 1. Pitch attitude holding. 2. Indicated airspeed or Mach number holding. 3. Horizontal wing holding. 4. Displayed heading or inertial track holding. 5. VOR axis tracking. The combination of the correct statements is:",
       "choices": [
         "1, 2, 4.",
         "1, 3, 4, 5.",
@@ -25472,27 +26806,7 @@
       "answer": "Red 'PULL UP' or 'WIND SHEAR' on PFD, and/or red warning lights on the glareshield."
     },
     {
-      "question": "According to CS 25, a CVR (Cockpit Voice Recorder) must record... The combination of the correct statements is:",
-      "choices": [
-        "1, 2, 3, 4.",
-        "1, 3.",
-        "1, 2.",
-        "2, 4."
-      ],
-      "answer": "1, 2, 3, 4."
-    },
-    {
-      "question": "The indication of a fuel float gauge varies with... The combination of correct statements is:",
-      "choices": [
-        "4",
-        "1, 2, 4.",
-        "1, 2.",
-        "1, 2, 3, 4."
-      ],
-      "answer": "1, 2, 4."
-    },
-    {
-      "question": "At a high angle of attack, dependent on the type of airplane, the stall protection system can... The combination of the correct statements is:",
+      "question": "At a high angle of attack, dependent on the type of airplane, the stall protection system can 1. Inhibit pitch trim orders in the nose up direction. 2. Retract speed brakes. 3. Increase thrust. The combination of the correct statements is:",
       "choices": [
         "3",
         "1, 2, 3.",
@@ -25520,26 +26834,6 @@
         "Always on"
       ],
       "answer": "False"
-    },
-    {
-      "question": "You need 4000 kg of fuel for your flight. As you arrive at the aircraft, the refueller hands you a receipt for 2000 L of fuel showing s.g. 0.78. He says he used 4000 kg to set the aircraft's automatic refuelling system. Which of the following is an acceptable figure for the fuel remaining, after the previous flight, in the aircraft technical log?",
-      "choices": [
-        "1500 kg",
-        "3000 kg",
-        "2200 kg",
-        "2500 kg"
-      ],
-      "answer": "2500 kg"
-    },
-    {
-      "question": "Which of the following statements is/are correct as regards a synchroscope on a multi-engine aircraft? A synchroscope ls used to:",
-      "choices": [
-        "1 ls correct, 2 ls Incorrect.",
-        "Both 1 and 2 are correct.",
-        "Both 1 and 2 are Incorrect .",
-        "1 is incorrect, 2 is correct."
-      ],
-      "answer": "1 ls correct, 2 ls Incorrect."
     },
     {
       "question": "The types of tachometer found on aircraft include: Rotating __________ : A flexible shaft connects the engine and the instrument, and drives a drag cup by magnetism. They are found on smaller and older aircraft.",
@@ -25589,7 +26883,7 @@
         "Only for wind shear",
         "Only for GPWS"
       ],
-      "answer": "Trye"
+      "answer": "True"
     },
     {
       "question": "At high altitudes, aircraft performance is taken into account to inhibit 'climb' and 'increase climb' RAs.",
@@ -25600,16 +26894,6 @@
         "This is false"
       ],
       "answer": "True"
-    },
-    {
-      "question": "According to CS25, a CVR (Cockpit Voice Recorder) must record... The combination regrouping all the correct statements is:",
-      "choices": [
-        "1, 2, 3, 4.",
-        "1, 3.",
-        "2, 4.",
-        "1, 2."
-      ],
-      "answer": "1, 2, 3, 4."
     },
     {
       "question": "Terrain >2000 ft amsl is shown in red on the ND.",
@@ -25712,16 +26996,6 @@
       "answer": "pressure"
     },
     {
-      "question": "The disadvantages of a float type fuel gauge are: 1... 2... 3... 4... The combination of correct statements is:",
-      "choices": [
-        "1, 2, 3, 4.",
-        "1",
-        "2, 3, 4.",
-        "2, 3."
-      ],
-      "answer": "2, 3, 4."
-    },
-    {
       "question": "Select the Mode associated this description of conventional GPWS: Aural 'WIND SHEAR, WIND SHEAR' warning and a visual 'WIND SHEAR' on PFD.",
       "choices": [
         "6",
@@ -25754,12 +27028,12 @@
     {
       "question": "After a Radio Altimeter failure, which of the following systems are affected? 1. Autobrake system 2. EGPWS 3. Autothrottle 4. ISIS",
       "choices": [
-        "2025-02-03 00:00:00",
-        "2025-02-04 00:00:00",
-        "2025-03-04 00:00:00",
-        "2025-01-02 00:00:00"
+        "2, 4",
+        "1, 2",
+        "3, 4",
+        "2, 3"
       ],
-      "answer": "2025-02-03 00:00:00"
+      "answer": "2, 3"
     },
     {
       "question": "Fuel flow meters measure the volume or __________ of fuel per unit of time. They are normally measured in the __________ fuel line and represent the rate at which the engines are consuming fuel.",
@@ -25912,7 +27186,7 @@
       "answer": "The control unit."
     },
     {
-      "question": "Which of the following are main components of a CVR? 1... 2... 3... 4... 5... 6...",
+      "question": "Which of the following are main components of a CVR? 1. Two control units (start sequence, event mark setting). 2. An area microphone. 3. A control unit with the following controls auto/on, test and erase, and a headset jack. 4. Limited flight-deck controls such as erase and test switches. 5. Limited flight-deck controls but includes an event switch. 6. A shock-resistant tape recorder or digital storage associated with an underwater locating device beacon (ULB).",
       "choices": [
         "2, 3, 4, 6.",
         "1, 2, 4.",
@@ -26157,7 +27431,7 @@
         "an area microphone, a headset jack and an \"event\" button.",
         "an underwater locating device, an erase button, and a headset jack."
       ],
-      "answer": "a recording system, an \"event\u2022 button, and an underwater locating device."
+      "answer": "a recording system, an \"event\" button, and an underwater locating device."
     },
     {
       "question": "Select the Mode associated this description of conventional GPWS: Inhibited close to the ground to avoid nuisance warnings during landing.",
@@ -26190,7 +27464,7 @@
       "answer": "Resolution Advisory"
     },
     {
-      "question": "The indication of a fuel float gauge varies with...The combination of correct statements is:",
+      "question": "The indication of a fuel float gauge varies with: 1. Aircraft attitude. 2. Accelerations. 3. Atmospheric pressure. 4. Fuel temperature. The combination of correct statements is:",
       "choices": [
         "1, 2, 4.",
         "1, 2, 3, 4.",
